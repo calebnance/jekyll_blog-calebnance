@@ -1,0 +1,61 @@
+// post
+.post {
+  h1.post-title {
+    font-size: $h1;
+  }
+  .post-dates {
+    border-bottom: 1px solid $grey-color-light;
+    margin-bottom: $space1;
+    padding-bottom: $space-half;
+    text-align: right;
+  }
+  .post-dates span {
+    margin-right: $space1;
+  }
+  .post-dates span:last-child {
+    margin-right: 0;
+  }
+
+  // tags
+  .post-tag-heading {
+    border-bottom: 1px solid $grey-color-light;
+    padding-bottom: $space-half;
+  }
+  .tag-list {
+    list-style-type: none;
+    margin: 0 0 $space2 0;
+    padding: 0;
+    li.tag-list-item {
+      display: inline-block;
+      padding: 0 $space1 $space-half 0;
+    }
+  }
+}
+
+// disqus comments
+#disqus_thread {
+  margin-bottom: $space2;
+}
+
+// breadcrumb
+.breadcrumb {
+  margin-bottom: $space2;
+}
+
+// related posts
+.related {
+  h2.related-heading {
+    border-bottom: 1px solid $grey-color-light;
+    font-size: $h3;
+    padding-bottom: $space-half;
+  }
+  .related-posts {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    h3 {
+      font-size: $h5;
+      margin-top: 0;
+    }
+  }
+}

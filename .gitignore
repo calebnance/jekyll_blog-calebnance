@@ -1,0 +1,7 @@
+# directories
+_site
+
+# files
+.sass-cache
+.jekyll-metadata
+.DS_Store

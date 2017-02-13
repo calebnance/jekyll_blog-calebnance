@@ -1,0 +1,38 @@
+# Welcome to Jekyll!
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: javascript, php, and all things code explained by Caleb Nance
+
+description: description needed
+
+# the subpath of your site, e.g. /blog
+baseurl: ""
+
+# the base hostname & protocol for your site, e.g. http://example.com
+url: "http://blog.calebnance.com"
+
+permalink: /:categories/:title.html
+
+google_analytics: UA-23590872-1
+
+disqus:
+  shortname: blogcalebnancecom
+
+twitter_username: calebnance
+github_username: calebnance
+
+sass:
+  sass_dir: _scss
+  style: :compressed
+
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+exclude:
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-xs-12 col-md-9">
+    <article class="post">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <div class="post-dates">
+        <span class="post-date"><strong>Posted:</strong> {{ page.date | date_to_string }}</span>
+        {% if page.updated %}
+        <span class="post-updated"><strong>Updated:</strong> {{ page.updated | date_to_string }}</span>
+        {% endif %}
+      </div>
+
+      {{ content }}
+
+      {% if page.tags %}
+      <h3 class="post-tag-heading">Post tags:</h3>
+      <ul class="tag-list">
+        {% for tag in page.tags %}
+        <li class="tag-list-item">
+          <a class="tag-list-item-link" href="/tag/{{ tag }}">{{ tag }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+    </article>
+
+    {% if site.disqus.shortname %}
+      {% include disqus-comments.html %}
+    {% endif %}
+
+    <ol class="breadcrumb">
+      <li>
+        <a href="/">Home</a>
+      </li>
+      {% for category in page.categories %}
+      <li>
+        <a href="/{{ category }}">{{ category }}</a>
+      </li>
+      {% endfor %}
+      <li class="active">{{ page.title }}</li>
+    </ol>
+
+  </div>
+  <div class="col-xs-12 col-md-3">
+    <aside class="related">
+      <h2 class="related-heading">Related Posts</h2>
+      <ul class="related-posts">
+        {% for post in site.related_posts limit:3 %}
+          <li>
+            <h3>
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </h3>
+          </li>
+        {% endfor %}
+      </ul>
+    </aside>
+  </div>
+</div>
