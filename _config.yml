@@ -26,10 +26,17 @@ sass:
   sass_dir: _scss
   style: :compressed
 
+# gem install kramdown rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
+
 exclude:
   - Gemfile
   - Gemfile.lock

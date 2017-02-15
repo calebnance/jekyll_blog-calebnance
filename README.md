@@ -1,3 +1,7 @@
+$ jekyll build
+
+$ jekyll serve --incremental
+
 DEV SERVE ::
 $ bundle exec jekyll serve --incremental
 

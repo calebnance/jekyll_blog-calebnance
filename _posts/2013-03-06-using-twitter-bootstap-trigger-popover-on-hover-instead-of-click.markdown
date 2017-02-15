@@ -18,14 +18,16 @@ Today I just wanted to do a quick write up of how to trigger the **Popover on Ho
 Below are two ways this can be done:
 <br><br>
 `HTML:` inside the markup add the **data-trigger="hover"**
-{% highlight html %}
+{% highlight HTML %}
 <a id="popover" data-trigger="hover">Popover</a>
 {% endhighlight %}
 <br>
 
 `jQuery:` Add a **trigger: 'hover'**
-{% highlight javascript %}
-$('#popover').popover({
-  trigger: 'hover'
-});
+{% highlight JavaScript %}
+<script>
+  $('#popover').popover({
+    trigger: 'hover'
+  });
+</script>
 {% endhighlight %}
