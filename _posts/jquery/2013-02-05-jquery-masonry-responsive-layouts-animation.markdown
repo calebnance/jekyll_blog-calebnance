@@ -32,7 +32,7 @@ We are ready to code... The following is the simplest example to get this to wor
 {% highlight javascript %}
 <script src="/js/jquery-1.9.1.min.js"></script>
 <script src="/js/jquery.masonry.min.js"></script>
-<script>
+<script type="text/javascript">
   $(document).ready(function() {
     $('#container').masonry({
       itemSelector: '.box'
@@ -49,7 +49,7 @@ Now let's get into the cooler parts of this already impressive library. Let's sa
 By adding the following code, you will see the animation come to life.  
 
 {% highlight javascript %}
-<script>
+<script type="text/javascript">
   $('#container').masonry({
     itemSelector: '.box',
     isAnimated: true
@@ -61,7 +61,7 @@ By adding the following code, you will see the animation come to life.
 Here are even more options you can play around with. The transitions and how long it takes to animate! Linear easing just makes for a lot smoother transition in my opinion.  
 
 {% highlight javascript %}
-<script>
+<script type="text/javascript">
   $('#container').masonry({
     itemSelector: '.box',
     isAnimated: true,

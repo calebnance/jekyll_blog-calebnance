@@ -6,14 +6,6 @@ layout: default
   <div class="col-xs-12 col-md-9">
     <article class="post" itemscope itemtype="http://schema.org/TechArticle">
       <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-      <div class="post-dates">
-        <span class="post-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><strong>Posted:</strong> {{ page.date | date_to_string }}</span>
-        {% if page.updated %}
-        <span class="post-updated"><strong>Updated:</strong> {{ page.updated | date_to_string }}</span>
-        <meta content="{{ page.updated | date_to_xmlschema }}" itemprop="dateModified" />
-        {% endif %}
-      </div>
-
       {{ content }}
     </article>
 
@@ -35,6 +27,16 @@ layout: default
 
   </div>
   <div class="col-xs-12 col-md-3">
+
+    <aside class="post-details">
+      <div class="post-dates">
+        <span class="post-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><strong>Posted:</strong> {{ page.date | date_to_string }}</span>
+        {% if page.updated %}
+        <span class="post-updated"><strong>Updated:</strong> {{ page.updated | date_to_string }}</span>
+        <meta content="{{ page.updated | date_to_xmlschema }}" itemprop="dateModified" />
+        {% endif %}
+      </div>
+    </aside>
 
     <aside class="tags">
       {% if page.tags %}

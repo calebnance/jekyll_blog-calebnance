@@ -17,7 +17,7 @@ Today I want to show you how to get the current height and/or width of an elemen
 First I want to show you how easy it is to get the height and width of the element. The following code does just that.  
 
 {% highlight javascript %}
-<script>
+<script type="text/javascript">
   // get height
   var currentHeight = $('.element_class').height();
 
@@ -29,7 +29,7 @@ First I want to show you how easy it is to get the height and width of the eleme
 Now lets say you need to refresh your CSS positioning when the screen is being resize... this is how you check and update the value of that element everything the screen is resized, with the resize() function in jQuery.  
 
 {% highlight javascript %}
-<script>
+<script type="text/javascript">
   $(window).resize(function() {
     var currentWidth = $('.div_class img').width();
   });

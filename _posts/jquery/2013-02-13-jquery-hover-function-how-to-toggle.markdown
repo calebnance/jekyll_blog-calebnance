@@ -15,7 +15,7 @@ tags: howto javascript jquery
 This is a really easy way to have the **jQuery hover** function fire on mouse-in (hover over) and return to normal on mouse-out (no longer hovered over element). Here is the jQuery function:
 
 {% highlight JavaScript %}
-<script>
+<script type="text/javascript">
   $('.yourclass').hover(function(){
     alert('hover in');
   }, function(){

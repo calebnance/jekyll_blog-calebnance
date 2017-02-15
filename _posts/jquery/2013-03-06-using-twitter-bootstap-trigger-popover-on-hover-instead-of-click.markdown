@@ -25,7 +25,7 @@ Below are two ways this can be done:
 
 `jQuery:` Add a **trigger: 'hover'**
 {% highlight JavaScript %}
-<script>
+<script type="text/javascript">
   $('#popover').popover({
     trigger: 'hover'
   });

@@ -1,21 +1,10 @@
 // post
 .post {
   h1.post-title {
-    font-size: $h1;
-  }
-  .post-dates {
     border-bottom: 1px solid $grey-color-light;
-    margin-bottom: $space1;
-    padding-bottom: $space-half;
-    text-align: right;
+    font-size: $h1;
+    padding-bottom: $space1;
   }
-  .post-dates span {
-    margin-right: $space1;
-  }
-  .post-dates span:last-child {
-    margin-right: 0;
-  }
-
 }
 
 // disqus comments
@@ -42,9 +31,31 @@
   margin-bottom: $space2;
 }
 
+/************
+ * side bar *
+ ************/
+
+// post details
+.post-details {
+  margin-top: 38px;
+}
+.post-dates {
+  border-bottom: 1px solid $grey-color-light;
+  margin-bottom: $space1;
+  padding-bottom: $space-half;
+  text-align: right;
+}
+.post-dates span {
+  margin-right: $space1;
+}
+.post-dates span:last-child {
+  margin-right: 0;
+}
+
 // tags
 .post-tag-heading {
   border-bottom: 1px solid $grey-color-light;
+  margin-top: $space3;
   padding-bottom: $space-half;
 }
 .tag-list {
@@ -63,6 +74,7 @@
     border-bottom: 1px solid $grey-color-light;
     font-size: $h3;
     margin-bottom: $space-half;
+    margin-top: $space3;
     padding-bottom: $space-half;
   }
   .related-posts {

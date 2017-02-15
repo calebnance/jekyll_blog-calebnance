@@ -32,7 +32,7 @@ I explain it with an example of a very simple way of using it.
 
 `javascript:`
 {% highlight javascript %}
-<script>
+<script type="text/javascript">
  $("ul li:nth-child(2)").append("<span> - Ben Bridwell (vocals and guitar)</span>");
 
  $("ul li:nth-child(2)").append("<span> - Ben Bridwell (vocals and guitar)</span>")

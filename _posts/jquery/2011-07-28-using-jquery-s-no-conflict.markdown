@@ -17,7 +17,7 @@ There are several different reasons to use this practice in your code whenever w
 I tend to use this form of noConflict() 9 out of 10 times. It has never given me problems and whenever I do get some conflict in libraries I pop this code in and it works like a charm.
 
 {% highlight javascript %}
-<script>
+<script type="text/javascript">
   var cn_blog = jQuery.noConflict();
   cn_blog(document).ready(function() {
   	cn_blog("div p").hide();
