@@ -4,28 +4,17 @@ layout: default
 
 <div class="row">
   <div class="col-xs-12 col-md-9">
-    <article class="post">
-      <h1 class="post-title">{{ page.title }}</h1>
+    <article class="post" itemscope itemtype="http://schema.org/TechArticle">
+      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
       <div class="post-dates">
-        <span class="post-date"><strong>Posted:</strong> {{ page.date | date_to_string }}</span>
+        <span class="post-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><strong>Posted:</strong> {{ page.date | date_to_string }}</span>
         {% if page.updated %}
         <span class="post-updated"><strong>Updated:</strong> {{ page.updated | date_to_string }}</span>
+        <meta content="{{ page.updated | date_to_xmlschema }}" itemprop="dateModified" />
         {% endif %}
       </div>
 
       {{ content }}
-
-      {% if page.tags %}
-      <h3 class="post-tag-heading">Post tags:</h3>
-      <ul class="tag-list">
-        {% for tag in page.tags %}
-        <li class="tag-list-item">
-          <a class="tag-list-item-link" href="/tag/{{ tag }}">{{ tag }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-
     </article>
 
     {% if site.disqus.shortname %}
@@ -46,17 +35,30 @@ layout: default
 
   </div>
   <div class="col-xs-12 col-md-3">
+
+    <aside class="tags">
+      {% if page.tags %}
+      <h3 class="post-tag-heading">Post tags:</h3>
+      <ul class="tag-list">
+        {% for tag in page.tags %}
+        <li class="tag-list-item">
+          <a class="tag-list-item-link" href="/tag/{{ tag }}">{{ tag }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </aside>
+
     <aside class="related">
-      <h2 class="related-heading">Related Posts</h2>
+      <h3 class="related-heading">Related Posts</h3>
       <ul class="related-posts">
-        {% for post in site.related_posts limit:3 %}
-          <li>
-            <h3>
-              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            </h3>
-          </li>
+        {% for post in site.related_posts limit:10 %}
+        <li>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </li>
         {% endfor %}
       </ul>
     </aside>
+
   </div>
 </div>

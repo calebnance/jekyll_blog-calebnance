@@ -4,7 +4,7 @@ layout: post
 title: "How to add ajax to Bootstrap Typeahead From MySQL - Step by Step"
 
 date: 2013-08-10 08:50:33 -0500
-updated: 2016-02-12 18:45:13 -0500
+updated: 2017-02-12 18:45:13 -0500
 
 excerpt: Today I want to write about using Ajax to get the source data for Twitter Bootstrap's Typeahead
 
@@ -18,8 +18,6 @@ Today I want to write about using **Ajax to get the source data for Twitter Boot
 First I'll show you what the form will look like.. with the css/js includes that you need for this to work.
 
 **index.php**
-&#123;&#123;here&#125;&#125;
-
 {% highlight html %}
 <!DOCTYPE html>
 <html lang="en">
@@ -85,7 +83,7 @@ Now for the data.php page
     // Add validation and sanitization on $_POST['query'] here
 
     // Now set the WHERE clause with LIKE query
-    $query .= ' WHERE title LIKE "%'.$_POST['query'].'%"';
+    $query .= ' WHERE title LIKE "%' . $_POST['query'] . '%"';
   }
 
   $return = array();
