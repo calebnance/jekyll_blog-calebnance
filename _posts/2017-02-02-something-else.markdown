@@ -1,15 +1,10 @@
 ---
 layout: post
-
-title:  "Something else"
-
-date:   2017-02-06 18:24:33 -0500
-
+title: "Something else"
+date: 2017-02-02 18:24:33 -0500
 excerpt: this is something
-
 categories: joomla-1.5 code
 tags: php js
-
 <!-- redirect_from:
   - /post/123456789/my-amazing-post/ -->
 <!-- redirect_to:

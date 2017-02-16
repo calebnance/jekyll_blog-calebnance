@@ -1,16 +1,11 @@
 ---
 layout: post
-
 title: "Using jQuery's No Conflict"
-
 date: 2011-07-28 01:01:52 -0500
-
 excerpt: Why should I use no conflict with jquery
-
 comments: true
-
 categories: jquery
-tags: code howto jquery
+tags: jquery code howto
 ---
 There are several different reasons to use this practice in your code whenever working with jQuery. I write a lot of components and modules for Joomla! and when working with any CMS, you need to think of any possible way something could break. With the jQuery library, a custom js file or another library like Mootools could break it because of the common use of the `$` designated function starter. So to avoid this from happening jQuery has provided a function called noConflict(). There are many ways to go about using it, and you can find those different ways at [http://api.jquery.com/jQuery.noConflict/](http://api.jquery.com/jQuery.noConflict/).
 

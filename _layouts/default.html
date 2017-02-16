@@ -20,7 +20,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">javascript <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li {% if page.url contains "/javascript/" %}class="active"{% endif %}>
-                  <a href="/tag/javascript/">vanilla js {% if page.url contains "/javascript/" %}<span class="sr-only">(current)</span>{% endif %}</a>
+                  <a href="/tag/javascript/">javascript {% if page.url contains "/javascript/" %}<span class="sr-only">(current)</span>{% endif %}</a>
                 </li>
                 <li {% if page.url contains "/jquery/" %} class="active" {% endif %}>
                   <a href="/tag/jquery/">jquery {% if page.url contains "/jquery/" %}<span class="sr-only">(current)</span>{% endif %}</a>
@@ -30,9 +30,11 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">php <span class="caret"></span></a>
               <ul class="dropdown-menu">
+                <li {% if page.url contains "/php/" %}class="active"{% endif %}>
+                  <a href="/tag/php/">php</a>
+                </li>
                 <li><a href="#">laravel</a></li>
                 <li><a href="#">joomla</a></li>
-                <li><a href="#">Something else here</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="#">Separated link</a></li>
                 <li role="separator" class="divider"></li>

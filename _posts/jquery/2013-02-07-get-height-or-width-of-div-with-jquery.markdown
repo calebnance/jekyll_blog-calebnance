@@ -1,16 +1,11 @@
 ---
 layout: post
-
 title: "Get Height or Width of Div With jQuery"
-
 date: 2013-02-07 10:47:32 -0500
-
 excerpt: How to get the current height and/or width of an element using jQuery
-
 comments: true
-
 categories: jquery
-tags: help code howto javascript jquery
+tags: javascript jquery code howto
 ---
 Today I want to show you how to get the current height and/or width of an element with jQuery and also how to constantly check the **height and width of an element** as the page is being resized!  
 

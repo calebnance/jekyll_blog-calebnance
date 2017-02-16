@@ -1,16 +1,11 @@
 ---
 layout: post
-
 title: "Very Easy Accordion With jQuery From Scratch"
-
 date: 2013-01-27 17:07:22 -0500
-
 excerpt: Super simple accordion using jquery
-
 comments: true
-
 categories: jquery
-tags: easy help html howto javascript jquery
+tags: javascript jquery html howto
 ---
 This is an accordion I wrote for a site a while back. I turn to this code every time I need a quick and easy accordion for a site.  
 

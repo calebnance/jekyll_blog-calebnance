@@ -1,17 +1,12 @@
 ---
 layout: post
-
 title: "Using Twitter Bootstrap - Trigger Popover On Hover Instead Of Click"
-
 date: 2013-03-06 23:52:50 -0500
 updated: 2013-11-23 07:09:24 -0500
-
 excerpt: How to trigger the popover on hover in bootstrap framework with javascript
-
 comments: true
-
 categories: jquery
-tags: bootstrap help howto javascript jquery
+tags: javascript jquery bootstrap howto
 ---
 Today I just wanted to do a quick write up of how to trigger the **Popover on Hover** for Twitter Bootstrap.
 

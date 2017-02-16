@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2017-02-05 18:24:33 -0500
+title: "Welcome to Jekyll!"
+date: 2017-02-05 18:24:33 -0500
 excerpt: true
 categories: joomla-1.5 code
 tags: php joomla
