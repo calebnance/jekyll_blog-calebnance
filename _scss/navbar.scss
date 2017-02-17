@@ -2,3 +2,16 @@
   border-radius: 0;
   margin-bottom: $space1;
 }
+.navbar-default {
+  background-color: #24292e;
+  .navbar-header {
+    background-color: rgba(255, 255, 255, 0.125);
+  }
+  .navbar-nav > li > a {
+    color: rgba(255, 255, 255, 0.75);
+    &:hover,
+    &:focus {
+      color: #fff;
+    }
+  }
+}
