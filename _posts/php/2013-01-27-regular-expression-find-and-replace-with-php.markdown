@@ -7,38 +7,44 @@ comments: true
 categories: php
 tags: php regex code howto
 ---
-Today I wanted to show you a good one line to find and replace characters not wanted in a string or filename within PHP.  
+Today, I wanted to show you a good one line to find and replace characters not wanted in a string or filename within PHP.  
 
 The below regular expression only accepts numbers and letters. It will replace the spaces and periods in this example string replace.  
 
 {% highlight php %}
-$string = ' this is all..';
-$new_string = preg_replace('/[^A-Za-z0-9]/', '_', $string);
+<?php
+  $string = ' this is all..';
+  $new_string = preg_replace('/[^A-Za-z0-9]/', '_', $string);
 
-echo $new_string;
+  echo $new_string;
 
-// which outputs: _this_is_all__
+  // which outputs: _this_is_all__
+?>
 {% endhighlight %}
 
 To take it a bit further, look at the next few lines. I started to see if there were characters not wanted in the string that were side by side, we would get the replace characters next to each other. To remedy this, we can have the **str_replace** function that looks for double and triple replace characters beside one another, and replace it with the single replace character (lines 1 & 2).  
 
 {% highlight PHP %}
-$new_string = str_replace('__', '_', $new_string);
-$new_string = str_replace('___', '_', $new_string);
+<?php
+  $new_string = str_replace('__', '_', $new_string);
+  $new_string = str_replace('___', '_', $new_string);
 
-echo $new_string;
+  echo $new_string;
 
-// which outputs: _this_is_all_
+  // which outputs: _this_is_all_
+?>
 {% endhighlight %}
 
 Then we need to trim the replace character from the beginning and end of string with this line.  
 
 {% highlight php %}
-$new_string = trim($new_string, '_');
+<?php
+  $new_string = trim($new_string, '_');
 
-echo $new_string;
+  echo $new_string;
 
-// which outputs: this_is_all
+  // which outputs: this_is_all
+?>
 {% endhighlight %}
 
 That will do it! Hope this helped.  
