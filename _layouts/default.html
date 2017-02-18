@@ -33,13 +33,27 @@
                 <li {% if page.url contains "/php/" %}class="active"{% endif %}>
                   <a href="/tag/php/">php</a>
                 </li>
-                <li><a href="#">laravel</a></li>
-                <li><a href="#">joomla</a></li>
+                <li {% if page.url contains "/laravel/" %}class="active"{% endif %}>
+                  <a href="/tag/laravel/">laravel</a>
+                </li>
+                <li>
+                  <a href="#">joomla</a>
+                </li>
                 <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
+                <li>
+                  <a href="#">Separated link</a>
+                </li>
                 <li role="separator" class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
+                <li>
+                  <a href="#">One more separated link</a>
+                </li>
               </ul>
+            </li>
+            <li {% if page.url contains "/css/" %}class="active"{% endif %}>
+              <a href="/tag/css/">css</a>
+            </li>
+            <li {% if page.url contains "/html/" %}class="active"{% endif %}>
+              <a href="/tag/html/">html</a>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">

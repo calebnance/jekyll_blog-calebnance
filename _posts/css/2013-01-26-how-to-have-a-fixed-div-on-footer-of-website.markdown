@@ -4,7 +4,7 @@ title: "How To Have A Fixed Div On Footer Of Website"
 date: 2013-01-26 23:56:19 -0500
 excerpt: Fixed footer div on website with css
 comments: true
-categories: html
+categories: css
 tags: html css howto
 ---
 I recently added Bootstrap to my blog. I placed two ads on the blog, one for desktop and one for mobile. Whenever the mobile view was active, I wanted the ad to just stick to the bottom, so I added the following to the div around the mobile ad, into my css.  

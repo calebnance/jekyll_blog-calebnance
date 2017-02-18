@@ -1,0 +1,17 @@
+.home {
+  .post-block {
+    .post-data {
+      float: right;
+    }
+    h2 {
+      font-size: $h4;
+    }
+  }
+
+  .rss-subscribe {
+    border-bottom: 1px solid $grey-color-light;
+    border-top: 1px solid $grey-color-light;
+    margin: $space1 0;
+    padding: $space1 0;
+  }
+}

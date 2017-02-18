@@ -4,7 +4,7 @@ title: "Using Twitter Bootstrap - Adding More Custom Icons - How To"
 date: 2013-01-27 21:26:39 -0500
 excerpt: Adding more custom icons to glyphicons bootstrap twitter
 comments: true
-categories: html
+categories: css
 tags: bootstrap html css howto
 ---
 Lets say you like the icons used for Twitter Bootstrap but you bought the Glyphicons Pro Version (which I have and highly recommend it, he sends you each new version that comes out for free!) or have an icon that you want to be able to add to your content, then this is how you would go about adding more icons to your Twitter Bootstrap framework!  
