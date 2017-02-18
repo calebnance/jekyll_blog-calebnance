@@ -5,3 +5,12 @@ body {
   font-size: $base-font-size;
   line-height: $base-line-height;
 }
+
+a {
+  color: $blue-color;
+}
+
+a:hover,
+a:focus {
+  color: $blue-color-dark;
+}
