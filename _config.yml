@@ -5,9 +5,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: javascript, php, and all things code explained by Caleb Nance
+title: "Blog | Caleb Nance | Web Development"
 
-description: description needed
+description: javascript, php, and all things code explained by Caleb Nance
 
 # the subpath of your site, e.g. /blog
 baseurl: ""

@@ -1,4 +1,8 @@
 .home {
+  h1.page-heading {
+    border-bottom: 1px solid $grey-color-light;
+    padding-bottom: $space1;
+  }
   .post-block {
     .post-data {
       float: right;
