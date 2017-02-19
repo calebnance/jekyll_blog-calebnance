@@ -1,0 +1,8 @@
+---
+layout:  post
+title:   "Joomla Redirect"
+date:    2011-01-01 18:25:33 -0500
+excerpt: redirect to all joomla posts' new home
+redirect_to:
+  - /tag/joomla/
+---

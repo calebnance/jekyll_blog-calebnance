@@ -1,0 +1,8 @@
+---
+layout:  post
+title:   "Laravel Redirect"
+date:    2011-01-01 16:16:23 -0500
+excerpt: redirect to all Laravel posts' new home
+redirect_to:
+  - /tag/laravel/
+---

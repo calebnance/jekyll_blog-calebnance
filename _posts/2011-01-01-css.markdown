@@ -1,0 +1,8 @@
+---
+layout:  post
+title:   "CSS Redirect"
+date:    2011-01-01 19:16:23 -0500
+excerpt: redirect to all CSS posts' new home
+redirect_to:
+  - /tag/css/
+---

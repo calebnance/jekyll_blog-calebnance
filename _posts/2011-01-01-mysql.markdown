@@ -1,0 +1,8 @@
+---
+layout:  post
+title:   "MySQL Redirect"
+date:    2011-01-01 08:22:13 -0500
+excerpt: redirect to all MySQL posts' new home
+redirect_to:
+  - /tag/mysql/
+---

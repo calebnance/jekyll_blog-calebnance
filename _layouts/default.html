@@ -49,11 +49,14 @@
                 </li>
               </ul>
             </li>
+            <li {% if page.url contains "/html/" %}class="active"{% endif %}>
+              <a href="/tag/html/">html</a>
+            </li>
             <li {% if page.url contains "/css/" %}class="active"{% endif %}>
               <a href="/tag/css/">css</a>
             </li>
-            <li {% if page.url contains "/html/" %}class="active"{% endif %}>
-              <a href="/tag/html/">html</a>
+            <li {% if page.url contains "/mysql/" %}class="active"{% endif %}>
+              <a href="/tag/mysql/">mysql</a>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">

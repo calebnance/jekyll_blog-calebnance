@@ -1,0 +1,8 @@
+---
+layout:  post
+title:   "HTML Redirect"
+date:    2011-01-01 10:12:13 -0500
+excerpt: redirect to all HTML posts' new home
+redirect_to:
+  - /tag/html/
+---
