@@ -28,7 +28,17 @@
 .breadcrumb {
   border-radius: 0;
   margin-bottom: $space2;
+  li {
+    display: block;
+  }
+  /* sm */
+  @media (min-width: $sm) {
+    li {
+      display: inline-block;
+    }
+  }
 }
+
 
 /************
  * side bar *
