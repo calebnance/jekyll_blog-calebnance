@@ -1,8 +1,9 @@
 # blog.calebnance.com
 
-Originally my blog was a Joomla 1.5 website, I've recently converted it to [Jekyll](https://github.com/jekyll). I took into account almost all pages, and redirected or re-created the original url for posts/categories with ease. I have been so impressed with Jekyll and have wanted to share my findings here, and I'll probably write some blog posts about them as well.  
+Originally my blog was a Joomla 1.5 website, I've recently converted it to [Jekyll](https://github.com/jekyll). I took into account almost all pages; I was able to redirect or re-create the original urls for posts/categories with ease. I am so impressed with Jekyll and wanted to share my findings here. I'll probably write some blog posts about them as well.  
 
 ### Plugins & Gems
+---------------------------
 Below are the plugins and gems I've used to accomplish the things I needed to:  
 - [jekyll-feed](https://github.com/jekyll/jekyll-feed)  
 - [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)  
@@ -10,6 +11,7 @@ Below are the plugins and gems I've used to accomplish the things I needed to:
 - [octopress-minify-html](https://github.com/octopress/minify-html)  
 
 #### Serve & Build Commands
+---------------------------
 **Serve Locally**  
 `$ jekyll serve --incremental`  
 `$ bundle exec jekyll serve --incremental`  
