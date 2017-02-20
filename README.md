@@ -2,15 +2,14 @@
 
 Originally my blog was a Joomla 1.5 website, I've recently converted it to [Jekyll](https://github.com/jekyll). I took into account almost all pages; I was able to redirect or re-create the original urls for posts/categories with ease. I am so impressed with Jekyll and wanted to share my findings here. I'll probably write some blog posts about them as well.  
 
-### Plugins & Gems
 ---------------------------
+### Plugins & Gems
 Below are the plugins and gems I've used to accomplish the things I needed to:  
 - [jekyll-feed](https://github.com/jekyll/jekyll-feed)  
 - [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)  
 - [jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from)  
 - [octopress-minify-html](https://github.com/octopress/minify-html)  
 
-#### Serve & Build Commands
 ---------------------------
 **Serve Locally**  
 `$ jekyll serve --incremental`  
