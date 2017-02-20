@@ -3,6 +3,12 @@
 ---
 @charset "utf-8";
 
+// break points
+$xs: 768px;
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+
 // base font variables
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $base-font-size:   14px;
@@ -30,11 +36,27 @@ $grey-color-lighter: lighten($grey-color, 35%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // heading sizes
-$h1: 32px;
-$h2: 26px;
-$h3: 22px;
-$h4: 20px;
-$h5: 18px;
+$h1-xs: 20px;
+$h1-sm: 26px;
+$h1-md: 30px;
+$h1-lg: 32px;
+
+$h2-xs: 18px;
+$h2-sm: 20px;
+$h2-md: 24px;
+$h2-lg: 24px;
+
+$h3-xs: 16px;
+$h3-sm: 18px;
+$h3-md: 22px;
+$h3-lg: 22px;
+
+$h4-xs: 16px;
+$h4-sm: 18px;
+$h4-md: 20px;
+$h4-lg: 22px;
+
+$h5: 20px;
 $h6: 16px;
 
 // base spacing variables
@@ -45,5 +67,20 @@ $space4: $space1 * 4;
 
 $space-half: $space1 / 2;
 $space-quarter: $space1 / 4;
+
+/* sm */
+@media (min-width: $sm) {
+
+}
+
+/* md */
+@media (min-width: $md) {
+
+}
+
+/* lg */
+@media (min-width: $lg) {
+
+}
 
 @import "master"

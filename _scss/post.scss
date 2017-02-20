@@ -2,7 +2,6 @@
 .post {
   h1.post-title {
     border-bottom: 1px solid $grey-color-light;
-    font-size: $h1;
     padding-bottom: $space1;
   }
 }
@@ -53,12 +52,13 @@
 }
 
 // tags
-.post-tag-heading {
+h3.post-tag-heading {
   border-bottom: 1px solid $grey-color-light;
   margin-top: $space3;
   padding-bottom: $space-half;
 }
-.tag-list {
+
+ul.tag-list {
   list-style-type: none;
   margin: 0 0 $space3 0;
   padding: 0;
@@ -72,7 +72,6 @@
 .related {
   h3.related-heading {
     border-bottom: 1px solid $grey-color-light;
-    font-size: $h3;
     margin-bottom: $space-half;
     margin-top: $space3;
     padding-bottom: $space-half;

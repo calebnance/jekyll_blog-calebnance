@@ -15,3 +15,68 @@ a:hover,
 a:focus {
   color: $blue-color-dark;
 }
+
+.container ul {
+  padding-left: $space2;
+}
+
+h1 {
+  font-size: $h1-xs;
+}
+h2 {
+  font-size: $h2-xs;
+}
+h3 {
+  font-size: $h3-xs;
+}
+h4 {
+  font-size: $h4-xs;
+}
+
+/* sm */
+@media (min-width: $sm) {
+  h1 {
+    font-size: $h1-sm;
+  }
+  h2 {
+    font-size: $h2-sm;
+  }
+  h3 {
+    font-size: $h3-sm;
+  }
+  h4 {
+    font-size: $h4-sm;
+  }
+}
+
+/* md */
+@media (min-width: $md) {
+  h1 {
+    font-size: $h1-md;
+  }
+  h2 {
+    font-size: $h2-md;
+  }
+  h3 {
+    font-size: $h3-md;
+  }
+  h4 {
+    font-size: $h4-md;
+  }
+}
+
+/* lg */
+@media (min-width: $lg) {
+  h1 {
+    font-size: $h1-lg;
+  }
+  h2 {
+    font-size: $h2-lg;
+  }
+  h3 {
+    font-size: $h3-lg;
+  }
+  h4 {
+    font-size: $h4-lg;
+  }
+}
