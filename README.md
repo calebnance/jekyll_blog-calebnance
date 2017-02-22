@@ -11,6 +11,9 @@ Below are the plugins and gems I've used to accomplish the things I needed to:
 - [octopress-minify-html](https://github.com/octopress/minify-html)  
 
 ---------------------------
+**Bundle**  
+`$ bundle install`  
+
 **Serve Locally**  
 `$ jekyll serve --incremental`  
 `$ bundle exec jekyll serve --incremental`  
