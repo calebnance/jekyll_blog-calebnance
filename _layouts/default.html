@@ -62,6 +62,9 @@
                   <a href="https://github.com/calebnance">Github</a>
                 </li>
                 <li>
+                  <a href="https://calebnance.com">Personal Website</a>
+                </li>
+                <li>
                   <a href="https://stackoverflow.com/users/1308719/caleb-nance">Stackoverflow</a>
                 </li>
                 <li>
@@ -84,6 +87,23 @@
     <div class="container">
       {% include footer.html %}
     </div>
+
+    <script>
+			// service worker
+			if('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('/service-worker.js', { scope: '/' })
+					.then(function(registration) {
+						// service worker registered
+						// console.log('Service Worker Registered');
+					}
+				);
+
+				navigator.serviceWorker.ready.then(function(registration) {
+					// service worker ready
+					// console.log('Service Worker Ready');
+				});
+			}
+    </script>
 
     <script src="{{ "/assets/js/jquery-3.1.1.min.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>

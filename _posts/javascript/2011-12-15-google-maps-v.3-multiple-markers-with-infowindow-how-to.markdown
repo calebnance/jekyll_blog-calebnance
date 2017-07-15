@@ -62,7 +62,7 @@ Today I want to show you how to set **multiple markers** in **Google Maps v.3** 
               position: latlngset
             });
 
-            var content = '<div class="map-content"><h3>' + name + '</h3>' + address + '<br />' + city + ', ' + state + ' ' + zip + '<br /><a href="http://maps.google.com/?daddr=' + address + ' ' + city + ', ' + state + ' ' + zip + '" target="_blank">Get Directions</a></div>';
+            var content = '<div class="map-content"><h3>' + name + '</h3>' + address + '<br />' + city + ', ' + state + ' ' + zip + '<br /><a href="http://maps.google.com/?daddr=' + address + ' ' + city + ', ' + state + ' ' + zip + '" target="_blank" rel="noopener">Get Directions</a></div>';
             var infowindow = new google.maps.InfoWindow();
             infowindow.setContent(content);
             google.maps.event.addListener(marker,'click', infoCallback(infowindow, marker));

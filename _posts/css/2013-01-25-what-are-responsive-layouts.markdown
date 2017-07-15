@@ -25,7 +25,7 @@ I love one of the slogans that Twitter Bootstrap uses, "By nerds, for nerds".. I
 <br>
 
 #### What Are Other Responsive Layout Frameworks?
-<a href="https://getbootstrap.com/2.3.2/" target="_blank">Twitter Bootstrap</a>  
-<a href="http://foundation.zurb.com/" target="_blank">Foundation 3</a>  
-<a href="http://www.responsivegridsystem.com/" target="_blank">Responsive Grid System</a>  
-<a href="http://www.gumbyframework.com/" target="_blank">Gumby Framework</a>
+<a href="https://getbootstrap.com/2.3.2/" target="_blank" rel="noopener">Twitter Bootstrap</a>  
+<a href="http://foundation.zurb.com/" target="_blank" rel="noopener">Foundation 3</a>  
+<a href="http://www.responsivegridsystem.com/" target="_blank" rel="noopener">Responsive Grid System</a>  
+<a href="http://www.gumbyframework.com/" target="_blank" rel="noopener">Gumby Framework</a>

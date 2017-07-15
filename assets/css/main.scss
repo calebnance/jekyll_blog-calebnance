@@ -11,10 +11,10 @@ $lg: 1200px;
 
 // base font variables
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$base-font-size:   14px;
+$base-font-size: 14px;
 $base-font-weight: 400;
 $base-line-height: 1.5;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size: $base-font-size * 0.875;
 
 // nav bar colors
 $nav-black: #24292e;
@@ -22,18 +22,18 @@ $nav-grey: rgba(255, 255, 255, 0.125);
 $nav-white: rgba(255, 255, 255, 0.75);
 
 // base color variables
-$tx-color:         #333;
-$tx-white:         #fff;
-$bg-color:         #fdfdfd;
+$tx-color: #333;
+$tx-white: #fff;
+$bg-color: #fdfdfd;
 
-$blue-color:       #337ab7;
+$blue-color: #275d8b;
 $blue-color-light: lighten($blue-color, 25%);
-$blue-color-dark:  darken($blue-color, 25%);
+$blue-color-dark: darken($blue-color, 25%);
 
-$grey-color:       #828282;
+$grey-color: #828282;
 $grey-color-light: lighten($grey-color, 25%);
 $grey-color-lighter: lighten($grey-color, 35%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark: darken($grey-color, 25%);
 
 // heading sizes
 $h1-xs: 20px;
@@ -68,19 +68,19 @@ $space4: $space1 * 4;
 $space-half: $space1 / 2;
 $space-quarter: $space1 / 4;
 
-/* sm */
-@media (min-width: $sm) {
-
-}
-
-/* md */
-@media (min-width: $md) {
-
-}
-
-/* lg */
-@media (min-width: $lg) {
-
-}
+// /* sm */
+// @media (min-width: $sm) {
+//
+// }
+//
+// /* md */
+// @media (min-width: $md) {
+//
+// }
+//
+// /* lg */
+// @media (min-width: $lg) {
+//
+// }
 
 @import "master"

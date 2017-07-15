@@ -7,6 +7,15 @@
 .navbar-default {
   background-color: $nav-black;
 
+  .navbar-brand {
+    color: $tx-white;
+
+    &:hover {
+      color: $tx-white;
+      text-decoration: underline;
+    }
+  }
+
   .navbar-nav > li > a {
     color: $nav-white;
     &:hover,
