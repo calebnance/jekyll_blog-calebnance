@@ -23,6 +23,12 @@ Below are the plugins and gems I've used to accomplish the things I needed to:
 **Build for Production**  
 `$ JEKYLL_ENV=production bundle exec jekyll build`  
 
+### [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) Score
+- Progressive Web App: **91/100**
+- Performance: **91/100**
+- Accessibility: **100/100**
+- Best Practices: **92/100**
+
 ### TODO
 - Pagination?  
 - Cover more indexed urls (found more)  

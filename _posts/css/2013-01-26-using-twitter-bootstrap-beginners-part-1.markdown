@@ -7,9 +7,9 @@ comments: true
 categories: css
 tags: css bootstrap jquery html howto code
 ---
-Here is a beginners tutorial on how to use Twitter Bootstrap on your site. First: <a href="https://getbootstrap.com/2.3.2/" class="btn btn-default" target="_blank">Download Bootstrap</a>  
+Here is a beginners tutorial on how to use Twitter Bootstrap on your site. First: <a href="https://getbootstrap.com/2.3.2/" class="btn btn-default" target="_blank" rel="noopener">Download Bootstrap</a>  
 
-Then we need to get the latest version of jQuery: <a href="https://jquery.com/download/" class="btn btn-default" target="_blank">Download jQuery</a>  
+Then we need to get the latest version of jQuery: <a href="https://jquery.com/download/" class="btn btn-default" target="_blank" rel="noopener">Download jQuery</a>  
 
 #### Twitter Bootstrap Turorial: 101  
 
