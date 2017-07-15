@@ -137,8 +137,14 @@ Option 2: **Google Lighthouse**
   <img class="img" src="/assets/img/progressive-web-app/google-lighthouse-screenshot.png" alt="google lighthouse screenshot">
 </div>
 
+#### Score: before I made the changes above
 <div class="img-wrapper">
-  <img class="img" src="/assets/img/progressive-web-app/google-lighthouse-report_before.png" alt="google lighthouse screenshot">
+  <img class="img" src="/assets/img/progressive-web-app/google-lighthouse-report_before.png" alt="google lighthouse screenshot before">
+</div>
+
+#### Score: after I made the changes above
+<div class="img-wrapper">
+  <img class="img" src="/assets/img/progressive-web-app/google-lighthouse-report_after.png" alt="google lighthouse screenshot after">
 </div>
 
 ## Roadblocks
