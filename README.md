@@ -29,6 +29,15 @@ Below are the plugins and gems I've used to accomplish the things I needed to:
 - Accessibility: **100/100**
 - Best Practices: **92/100**
 
-### TODO
-- Pagination?  
-- Cover more indexed urls (found more)  
+### View Code To See Examples Of:
+- Templating with Jekyll
+    - Mulitple layout usage
+    - Layouts & Includes broken out
+    - Post layout type
+    - Flat tutorial layout type
+- Post tags
+- Post Category(ies)
+- Post Disqus Comment implementation
+- Google Analytics
+- Related posts
+- Posted and Updated date support
