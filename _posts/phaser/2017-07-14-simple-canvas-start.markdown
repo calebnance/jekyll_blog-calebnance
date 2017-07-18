@@ -8,4 +8,6 @@ categories: phaser
 tags: phaser tutorial code howto javascript
 ---
 
-Hello World
+Welcome to my first Phaser tutorial and the road to a very large RPG game. I will be documenting my process, what works, what doesn't and everything in between as I try to create this game.  
+
+First off, let's start by getting a game canvas "map" displayed on your page.
