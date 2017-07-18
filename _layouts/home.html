@@ -6,6 +6,7 @@ layout: default
   {{ content }}
   {% for post in site.posts %}
     {% unless post.redirect_to %}
+    {% unless post.nofeature %}
     <div class="post-block">
       <div class="post-data">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> |
@@ -15,6 +16,7 @@ layout: default
         <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       </h2>
     </div>
+    {% endunless %}
     {% endunless %}
   {% endfor %}
 
