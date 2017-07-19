@@ -55,9 +55,11 @@ layout: default
       <h3 class="related-heading">Related Posts</h3>
       <ul class="related-posts">
         {% for post in site.related_posts limit:10 %}
-        <li>
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </li>
+          {% unless post.nofeature %}
+          <li>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </li>
+          {% endunless %}
         {% endfor %}
       </ul>
     </aside>
