@@ -75,10 +75,11 @@ window.onload = function() {
 };
 {% endhighlight %}
 
-Now let's talk about the above js, there is a lot there and a lot that we aren't really using yet, but thought I would go ahead and add the barebones set up. We will be getting into all of it in the up coming tutorials.
+Now let's talk about the above js. There is a lot there and a lot that we aren't really using yet, but I thought I would go ahead and add the barebones setup. We will be getting into all of it in the up coming tutorials.  
 
-First, if you run this file, what it should produce on screen is a 200px by 200px grey (#787878) canvas block. If you don't see that, open your dev console and make sure everything is connected properly. Here is this tutorial demoed live: <a href="{{ "/tutorial/phaser/simple-canvas-start.html" | relative_url }}" target="_blank" rel="nofollow">Demo Simple Canvas Start</a>
+First, if you run this file, what it should produce on screen is a 200px by 200px grey (#787878) canvas block. If you don't see that, open your dev console and make sure everything is connected properly. Here is this tutorial demoed live: <a href="{{ "/tutorial/phaser/simple-canvas-start.html" | relative_url }}" target="_blank" rel="nofollow">Demo Simple Canvas Start</a>  
 
+Below is a part of the above js file, this is where we are initiating the game object and setting some parameters. The first 200, is the width of the canvas block (in px), the second is the height. Then we tell it to be a Canvas with `Phaser.CANVAS`, then we throw an id on it (start-1), and this tells phaser to pop this withing our div in our html markup: `<div id="start-1"></div>`, acting as a container for our entire game canvas!
 {% highlight javascript %}
 var game = new Phaser.Game(200, 200, Phaser.CANVAS, 'start-1', config);
 {% endhighlight %}
