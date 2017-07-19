@@ -8,7 +8,7 @@ categories: phaser
 tags: phaser tutorial code howto javascript
 ---
 
-Welcome to my first Phaser tutorial and the road to a very large RPG game. I will be documenting my process here. With what works, what doesn't and everything in between as I try to create this game.  
+Welcome to my first Phaser tutorial and the road to a very large RPG game. I will be documenting my process here, writing about what works, what doesn't and everything in between... as I try to create this game.  
 
 First off, let's start by getting a game canvas "map" displayed on your page. Below you will see the contents of a simple `html` file.
 
@@ -79,7 +79,10 @@ Now let's talk about the above js. There is a lot there and a lot that we aren't
 
 First, if you run this file, what it should produce on screen is a 200px by 200px grey (#787878) canvas block. If you don't see that, open your dev console and make sure everything is connected properly. Here is this tutorial demoed live: <a href="{{ "/tutorial/phaser/simple-canvas-start.html" | relative_url }}" target="_blank" rel="nofollow">Demo Simple Canvas Start</a>  
 
-Below is a part of the above js file, this is where we are initiating the game object and setting some parameters. The first 200, is the width of the canvas block (in px), the second is the height. Then we tell it to be a Canvas with `Phaser.CANVAS`, then we throw an id on it (start-1), and this tells phaser to pop this withing our div in our html markup: `<div id="start-1"></div>`, acting as a container for our entire game canvas!
 {% highlight javascript %}
 var game = new Phaser.Game(200, 200, Phaser.CANVAS, 'start-1', config);
 {% endhighlight %}
+
+Here is a portion of the above js file, this is where we are initiating the <a href="https://phaser.io/docs/2.6.2/Phaser.Game.html" target="_blank" rel="nofollow">game constructor</a> and setting some parameters. The first argument, 200, is the width of the canvas block (in px), the second is the height. Then we tell it to render as Canvas with `Phaser.CANVAS`, then we throw an id on it (start-1), and this tells phaser to inject our game canvas within our div in our html markup: `<div id="start-1"></div>`, acting as a container for our entire game canvas! Next we have the config object which is for state, we will dive more deeply into this in the coming blog posts.
+
+Hopefully all is well! Everything else in the js file should be self explanatory. Next tutorial is tilemapping.
