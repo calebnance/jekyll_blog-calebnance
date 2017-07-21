@@ -5,12 +5,12 @@ self.addEventListener('install', e => {
 
       return cache.addAll([
         '/',
-        '/index.html?v=' + v,
+        '/index.html',
         '/assets/css/bootstrap.min.css',
-        '/assets/css/main.css?v=' + v,
+        '/assets/css/main.css',
         '/assets/js/jquery-3.1.1.min.js',
         '/assets/js/bootstrap.min.js',
-        '/assets/js/scripts.min.js?v=' + v
+        '/assets/js/scripts.min.js'
       ])
       .then(() => self.skipWaiting());
     })

@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Tilemap - RPG Tutorial 2"
+date: 2017-07-19 23:55:28 -0500
+excerpt: Phaser tilemap, creating a RPG Tutorial 2
+comments: true
+categories: phaser
+tags: phaser tutorial code howto javascript
+---
