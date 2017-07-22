@@ -1,6 +1,6 @@
 ---
 layout: phaser-2.6.2_tutorial
-title: "Simple Canvas Start"
+title: "Simple Canvas Start | RPG Tutorial 1"
 date: 2017-07-14 23:49:18 -0500
 excerpt: A very basic tutorial on how to start developing on the Phaser game engine..
 categories: tutorial phaser
