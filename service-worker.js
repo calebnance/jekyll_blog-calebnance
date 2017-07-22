@@ -1,4 +1,3 @@
-var v = '1';
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open('cn_blog').then(cache => {
