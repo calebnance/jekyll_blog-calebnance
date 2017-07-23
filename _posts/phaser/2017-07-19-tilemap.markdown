@@ -10,4 +10,4 @@ tags: phaser tutorial code howto javascript
 
 Today I wanted to talk about how to tilemap within Phaser. First, I wanted to share this really cool tool that is helpful when creating a tilemap <a href="http://www.mapeditor.org" target="_blank" rel="noopener">Tiled</a>, head on over and download the application or wait until you've read this entire post.  
 
-A tilemap is a grid map generated from (usually) reusable element blocks. The sharing of these blocks to paint the map/grid is a very efficient way to save on resource size. 
+A tilemap is a grid map generated from (usually) reusable element blocks. The sharing of these blocks to paint the map/grid is a very efficient way to save on resource size. Below is an example of the tileset that I downloaded for use with these tutorial examples.
