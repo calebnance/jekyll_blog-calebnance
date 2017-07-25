@@ -16,3 +16,8 @@ A tilemap is a grid map generated from (usually) reusable element blocks. The sh
 [tileset image example]
 [app ui setup]
 [app usage gif]
+
+{% highlight javascript %}
+// load tilemap
+game.load.tilemap('tilemap-2', 'assets/tilemaps/2-tilemap-tutorial.json', null, Phaser.Tilemap.TILED_JSON);
+{% endhighlight %}
