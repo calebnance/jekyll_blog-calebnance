@@ -10,12 +10,27 @@ tags: phaser tutorial code howto javascript
 
 Today I wanted to talk about how to tilemap within Phaser. First, I wanted to share this really cool tool that is helpful when creating a tilemap <a href="http://www.mapeditor.org" target="_blank" rel="noopener">Tiled</a>, head on over and download the application or wait until you've read this entire post.  
 
-A tilemap is a grid map generated from (usually) reusable element blocks. The sharing of these blocks to paint the map/grid is a very efficient way to save on resource size. Below is an example of the tileset that I downloaded for use with these tutorial examples.
+<div class="img-wrapper">
+  <img class="img" src="/assets/img/phaser/tilemap/tiled-mac-application.png" alt="tiled mac app">
+</div>
 
-[app image]
-[tileset image example]
-[app ui setup]
-[app usage gif]
+A tilemap is a grid map generated from (usually) reusable element blocks. The sharing of these blocks to paint the map/grid is a very efficient way to save on resource size. Below is an example of the tileset that I downloaded for use with these tutorial examples. Everything is 32px by 32px blocks.
+
+<div class="img-wrapper">
+  <img class="img" src="/assets/img/phaser/tilemap/tileset-blocks-1.png" alt="tileset blocks">
+</div>
+
+Now let's take a look at the actual tilemap creator. Here are the settings I created for this tutorial, when creating a new map with the Tiled Application.
+
+<div class="img-wrapper">
+  <img class="img" src="/assets/img/phaser/tilemap/tiled-new-map-example.png" alt="tiled app settings">
+</div>
+
+Import the tileset shown above and you will be able to create tilemaps as easy as shown below! This a such a great and FREE tool!
+
+<div class="gif-wrapping">
+  <img class="gif" src="/assets/img/progressive-web-app/tiled-tutorial-example.gif" alt="tiled tutorial example gif">
+</div>
 
 {% highlight javascript %}
 // load tilemap
