@@ -131,10 +131,15 @@ var layer;
 {% endhighlight %}
 
 ### Did it work?
-If everything worked... you should see a painted map that you created! <a href="{{ "/tutorial/phaser/tilemap.html" | relative_url }}" target="_blank" rel="noopener">View the demo here</a>.
+If everything worked... you should see a painted map that you created!
+
+### Demo the thing..
+Here is this tutorial's demo: <a href="{{ "/tutorial/phaser/tilemap.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
 
 ### What's Next?
 Wow.. that is great, but you can't see the entire map?! Why?!!1 Well, that is because we have a canvas that is only 400px by 400px and the tilemap is 800px by 800px (25 tiles each tile is 32px, like we set up in the new map image above), our next tutorial will show you how to move the map with our keyboard arrows! Yay!
 
 ### Download Source Files
-If you would like the source files for this tutorial, <a href="/assets/downloads/phaser/tilemap-tutorial_blog.calebnance.com.zip" download>download them here</a>! Please keep in mind, you must run these files within a local server environment, such as <a href="https://www.mamp.info" target="_blank" rel="noopener">MAMP</a> (because of cross origin requests).
+If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/tilemap-tutorial_blog.calebnance.com.zip" class="btn btn-default" download>Download source files</a>
+
+Please keep in mind, you must run these files within a local server environment, such as <a href="https://www.mamp.info" target="_blank" rel="noopener">MAMP</a> (because of cross origin requests) or I just noticed you can open it up in Firefox.. will not work in Chrome unless within a local server environment... the more you know -_-

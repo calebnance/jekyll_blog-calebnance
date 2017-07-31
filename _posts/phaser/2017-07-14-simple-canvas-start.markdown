@@ -86,7 +86,7 @@ Now let's talk about the above js. There is a lot there and a lot that we aren't
 
 First, if you run this file, what it should produce on screen is a 200px by 200px grey (#787878) canvas block. If you don't see that, open your dev console and make sure everything is connected properly.  
 
-Here is this tutorial demoed live: <a href="{{ "/tutorial/phaser/simple-canvas-start.html" | relative_url }}" target="_blank" rel="nofollow">Demo Simple Canvas Start</a>  
+Here is this tutorial demoed live: <a href="{{ "/tutorial/phaser/simple-canvas-start.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
 
 {% highlight javascript %}
 var game = new Phaser.Game(200, 200, Phaser.CANVAS, 'tutorial-1', config);
@@ -94,4 +94,6 @@ var game = new Phaser.Game(200, 200, Phaser.CANVAS, 'tutorial-1', config);
 
 Here is a portion of the above js file, this is where we are initiating the <a href="https://phaser.io/docs/2.6.2/Phaser.Game.html" target="_blank" rel="nofollow">game constructor</a> and setting some parameters. The first argument, 200, is the width of the canvas block (in px), the second is the height. Then we tell it to render as Canvas with `Phaser.CANVAS`, then we throw an id on it (tutorial-1), and this tells phaser to inject our game canvas within our div in our html markup: `<div id="tutorial-1"></div>`, acting as a container for our entire game canvas! Next we have the config object which is for state, we will dive more deeply into this in the coming blog posts.
 
-Hopefully all is well! Everything else in the js file should be self explanatory. Next tutorial is tilemapping.
+<br>
+
+Hopefully all is well! Everything else in the js file should be self explanatory. <a href="{{ "/phaser/tilemap.html" | relative_url }}">The next tutorial in this series is tilemapping</a>.
