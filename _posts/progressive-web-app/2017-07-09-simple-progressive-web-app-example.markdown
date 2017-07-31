@@ -2,6 +2,7 @@
 layout: post
 title: "Simple Progressive Web App Example"
 date: 2017-07-08 17:49:18 -0500
+updated: 2017-07-29 20:10:20 -0500
 excerpt: How to add support for a Progressive Web App
 comments: true
 categories: progressive-web-app
@@ -35,6 +36,8 @@ Below you will want to add this somewhere before your html's `</body>` tag.
 
 Now that we have the call to the `service-worker.js` file, we need to create that file and place it in the **root** of our project/app. The contents of a simple service worker are below.  
 
+<div class="highlight-wrapper">
+<div class="highlight-file-label"><strong>file:</strong> service-worker.js</div>
 {% highlight javascript %}
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -70,6 +73,7 @@ self.addEventListener('fetch', event => {
   );
 });
 {% endhighlight %}
+</div>
 
 Great! Now was have a service worker ready and stuff, but we're not finished yet. We need a good ole' manifest file for app reference and config/settings. To reference said `manifest.json` file, we need to add a meta tag within our html's `<head>` section. Pop this anywhere within the head tag (with the path changed to wherever your manifest file is located):
 
@@ -78,6 +82,9 @@ Great! Now was have a service worker ready and stuff, but we're not finished yet
 {% endhighlight %}
 
 Now here is a very barebones `manifest.json` file:
+
+<div class="highlight-wrapper">
+<div class="highlight-file-label"><strong>file:</strong> manifest.json</div>
 {% highlight json %}
 {
   "name": "cn_blog",
@@ -103,6 +110,7 @@ Now here is a very barebones `manifest.json` file:
   ]
 }
 {% endhighlight %}
+</div>
 
 Do all of these above things right, reload the page and you should be good to go!  
 

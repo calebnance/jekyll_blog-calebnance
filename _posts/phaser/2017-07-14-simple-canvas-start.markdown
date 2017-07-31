@@ -2,16 +2,19 @@
 layout: post
 title: "Simple Canvas Start - RPG Tutorial 1"
 date: 2017-07-14 22:49:18 -0500
+updated: 2017-07-29 20:10:20 -0500
 excerpt: Phaser Simple Canvas Start, creating a RPG Tutorial 1
 comments: true
 categories: phaser
 tags: phaser tutorial code howto javascript
 ---
 
-Welcome to my first Phaser tutorial and the road to a very large RPG game. I will be documenting my process here, writing about what works, what doesn't and everything in between... as I try to create this game.  
+Welcome to my first <a href="https://phaser.io/" target="_blank" rel="noopener">Phaser</a> tutorial and the road to a very large RPG game. I will be documenting my process here, writing about what works, what doesn't and everything in between... as I try to create this game.  
 
 First off, let's start by getting a game canvas "map" displayed on your page. Below you will see the contents of a simple `html` file.
 
+<div class="highlight-wrapper">
+<div class="highlight-file-label"><strong>file:</strong> index.html</div>
 {% highlight html %}
 <!doctype html>
 <html>
@@ -31,9 +34,12 @@ First off, let's start by getting a game canvas "map" displayed on your page. Be
   </body>
 </html>
 {% endhighlight %}
+</div>
 
 Now let's create the referenced `main.js` file from above:  
 
+<div class="highlight-wrapper">
+<div class="highlight-file-label"><strong>file:</strong> main.js</div>
 {% highlight javascript %}
 window.onload = function() {
   // config
@@ -74,6 +80,7 @@ window.onload = function() {
   }
 };
 {% endhighlight %}
+</div>
 
 Now let's talk about the above js. There is a lot there and a lot that we aren't really using yet, but I thought I would go ahead and add the barebones setup. We will be getting into all of it in the up coming tutorials.  
 
