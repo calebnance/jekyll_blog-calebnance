@@ -4,6 +4,10 @@
   border-radius: 4px;
   height: auto;
   margin-bottom: 32px;
-  max-width: 640px;
-  padding: 15px;
+  max-width: 100%;
+  padding: 5px;
+
+  @media (min-width: $sm) {
+    padding: 15px;
+  }
 }
