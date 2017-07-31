@@ -9,7 +9,7 @@ window.onload = function() {
   };
 
   // create game
-  var game = new Phaser.Game(200, 200, Phaser.CANVAS, 'start-1', config);
+  var game = new Phaser.Game(200, 200, Phaser.CANVAS, 'tutorial-1', config);
 
   // preload() happens here
   function preload() {
