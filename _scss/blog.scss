@@ -16,6 +16,13 @@ a:focus {
   color: $blue-color-dark;
 }
 
+p,
+ul,
+ol,
+pre {
+  margin-bottom: $space2;
+}
+
 .container ul {
   padding-left: $space2;
 }
