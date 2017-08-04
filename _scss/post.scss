@@ -12,6 +12,30 @@
 
   a {
     text-decoration: underline;
+
+    &.btn {
+      text-decoration: none;
+    }
+  }
+}
+
+// highlight wrapper
+.highlight-wrapper {
+  position: relative;
+
+  .highlight-file-label {
+    background-color: $blue-color;
+    border-bottom-left-radius: $space-half;
+    border-top-right-radius: $space-half;
+    color: $tx-white;
+    padding: $space1;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  pre {
+    padding-top: 36px;
   }
 }
 

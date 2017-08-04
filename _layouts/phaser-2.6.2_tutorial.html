@@ -1,0 +1,18 @@
+---
+layout: phaser-2.6.2
+---
+
+<article class="post" itemscope itemtype="http://schema.org/TechArticle">
+  <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+  <p class="note">Open your dev console to see logs, and follow along with the code from the blog post.</p>
+
+  {% if page.phaser-id %}
+  <div id="{{ page.phaser-id }}"></div>
+  {% endif %}
+
+  {{ content }}
+</article>
+
+{% if page.phaser-script %}
+<script src="/assets/js/tutorial/phaser/{{ page.phaser-script }}"></script>
+{% endif %}

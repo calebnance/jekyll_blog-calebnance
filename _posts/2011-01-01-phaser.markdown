@@ -1,0 +1,8 @@
+---
+layout:  post
+title:   "phaser Redirect"
+date:    2011-01-01 19:14:23 -0500
+excerpt: redirect to all phaser posts' new home
+redirect_to:
+  - /tag/phaser/
+---

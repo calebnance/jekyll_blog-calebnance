@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // break points
-$xs: 768px;
+$xs: 320px;
 $sm: 768px;
 $md: 992px;
 $lg: 1200px;
@@ -34,6 +34,9 @@ $grey-color: #828282;
 $grey-color-light: lighten($grey-color, 25%);
 $grey-color-lighter: lighten($grey-color, 35%);
 $grey-color-dark: darken($grey-color, 25%);
+
+$grey-color-2: #f5f5f5;
+$grey-color-3: #ccc;
 
 // heading sizes
 $h1-xs: 20px;

@@ -20,17 +20,11 @@ self.addEventListener('activate',  event => {
   event.waitUntil(self.clients.claim());
 });
 
-self.addEventListener('fetch', event => {
+self.addEventListener('fetch', function(event) {
   event.respondWith(
-    caches.match(
-      event.request, {
-        ignoreSearch : true
-      }
-    ).then(response => {
+    fetch(event.request).catch(function() {
 
-      return response || fetch(event.request);
-    }).catch(function(error) {
-      console.log('Fetch failed; returning offline page instead.', error);
+      return caches.match(event.request);
     })
   );
 });
