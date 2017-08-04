@@ -10,8 +10,6 @@ tags: phaser tutorial code howto javascript
 
 Wow, you actually tuned in, I am impressed! As promised, I said we would set our sprite to take into account our canvas boundaries, so here is how we do it!
 
-<br>
-
 Pop the following code within our `create()` function:
 
 {% highlight javascript %}
@@ -22,8 +20,6 @@ sprite.body.collideWorldBounds = true;
 {% endhighlight %}
 
 That's really it, super simple. We set our game physics on our sprite (SS Goku) and then tell the sprite to respect our canvas map boundaries and bounce off.. (ARCADE setting).
-
-<br>
 
 So next, we will talk about updating our sprite's image depending on which direction it is moving (* looks left, looks right *) whoa.
 
