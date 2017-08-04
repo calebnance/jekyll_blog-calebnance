@@ -36,12 +36,12 @@ if (game.input.keyboard.isDown(Phaser.Keyboard.LEFT)) {
 }
 {% endhighlight %}
 
-So if you are following a long, our first if statment for the `Left` arrow went from:  
+So if you are following along; our first `if` statement for the left arrow movement went from:  
 `game.camera.x -= movementRate;` to `sprite.x -= movementRate;`
 
 Boom! That is all she wrote, we now have a sprite that moves around the painted canvas and our camera follows it!
 
-*But wait?! our sprite goes off the canvas... where he go??** Tune in next time, kids.. or just go to my next blog post for setting boundaries.. whatever.
+*But wait?! our sprite goes off the canvas... where he go??* Tune in next time, kids.. or just <a href="{{ "/phaser/tilemap-canvas-boundaries.html" | relative_url }}">go to my next blog post</a> for setting boundaries.. whatever.
 
 ### Demo the thing..
 <a href="{{ "/tutorial/phaser/sprite-move.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
