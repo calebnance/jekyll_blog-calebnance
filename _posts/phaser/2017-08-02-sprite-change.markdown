@@ -63,7 +63,7 @@ if (game.input.keyboard.isDown(Phaser.Keyboard.LEFT)) {
 
 What did you notice that changed?! Yep, the `sprite.animations.frame` references. This is mapping the new frame depending on which direction we are going! Perfect, now we have a character that faces the direction it is moving, done.
 
-Up next.. a sprite debugging helper.
+Up next.. <a href="{{ "/phaser/sprite-visual-debug.html" | relative_url }}">a sprite debugging helper</a>.
 
 ### Demo the thing..
 <a href="{{ "/tutorial/phaser/sprite-change.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
