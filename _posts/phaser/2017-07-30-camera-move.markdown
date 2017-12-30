@@ -48,7 +48,7 @@ Our first line is the movement rate of a single arrow click, controlling the lit
 
 Our next if/else statement is handling which direction the camera should go depending on what key was pressed. Notice the built in functions Phaser provides, this makes things very easy to tap into but also very easy to understand what is going on!
 
-That's it for this tutorial!
+That's it for this tutorial! Check out my next tutorial, <a href="{{ "/phaser/adding-a-sprite.html" | relative_url }}">Adding a Sprite</a>.
 
 ### Demo the thing..
 <a href="{{ "/tutorial/phaser/camera-move.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
