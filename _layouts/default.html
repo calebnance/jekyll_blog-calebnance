@@ -19,6 +19,9 @@
             <li class="dropdown" class="active">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">javascript <span class="caret"></span></a>
               <ul class="dropdown-menu">
+                <li {% if page.url contains "/react-native/" %}class="active"{% endif %}>
+                  <a href="/tag/react-native/">react native {% if page.url contains "/react-native/" %}<span class="sr-only">(current)</span>{% endif %}</a>
+                </li>
                 <li {% if page.url contains "/javascript/" %}class="active"{% endif %}>
                   <a href="/tag/javascript/">javascript {% if page.url contains "/javascript/" %}<span class="sr-only">(current)</span>{% endif %}</a>
                 </li>
@@ -91,6 +94,13 @@
     <script>
 			// service worker
 			if('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for(let registration of registrations) {
+            registration.unregister()
+            console.log('Service Worker Unregistered');
+          }
+        })
+        /*
 				navigator.serviceWorker.register('/service-worker.js', { scope: '/' })
 					.then(function(registration) {
 						// service worker registered
@@ -102,6 +112,7 @@
 					// service worker ready
 					// console.log('Service Worker Ready');
 				});
+        */
 			}
     </script>
 
