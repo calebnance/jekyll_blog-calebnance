@@ -15,26 +15,26 @@ In the beginning, I went over to Facebook's React Native [Getting Started](https
 
 Boom, I was cooking, running everything from the terminal, QR code being generated, running the native app on a my phone, life was good. Then I learned about the [Expo XDE](https://expo.io/tools#xde).. GUIs for the winnnn.. I still use SourceTree or Github Desktop to make all of my git commits... I am okay with that, whatever, judge me... one less thing to remember is how I look at it. So now the game has changed, it's literally clicks to get your project up and running!  
 
-So this segues nicely into one of my first findings, upgrading my Expo SDK 22.0 to Expo SDK 25.0. I tried to follow the ever so nice documentation section [Upgrading Expo](https://docs.expo.io/versions/latest/guides/upgrading-expo.html) (no sarcasm, seriously documentation for expo and tutorials, toolkit, everything else.. are great), but something wasn't sticking, so I created a new app with XDE using the latest SDK 25.0 build, and started to port my project over onto that base.. and it just worked. I kept getting weird dependency errors, versioning errors and so on, but the XDE GUI was on point ended up being the best way to go for my upgrade needs.
+So this segues nicely into one of my first findings, upgrading my Expo SDK 22.0 to Expo SDK 25.0. I tried to follow the ever so nice documentation section [Upgrading Expo](https://docs.expo.io/versions/latest/guides/upgrading-expo.html) (no sarcasm, seriously documentation for expo and tutorials, toolkit, everything else.. are great), but something wasn't sticking, so I created a new app with XDE using the latest SDK 25.0 build, and started to port my project over onto that base.. and it just worked. I kept getting weird dependency errors, versioning errors and so on, but the XDE GUI is on point ended up being the best way to go for my upgrade needs (<a href="{{ "/react-native/getting-started-with-react-native-expo-sdk-25.html" | relative_url }}">I wrote more about those errors here</a>).
 
 Also, I want to mention why I even wanted to upgrade to the latest, besides the obvious..
 
 ## Expo SDK Breakdown
 
 ### 22.0
-* Didn't support a lot of newer react/react-native versions, along with react-navigation
-* Errors on iPhone X (portrait, landscape locking didn't really work..)
-* Old Splash screen
+* Didn't support a lot of newer react/react-native versions, along with react-navigation errors
+* Didn't support iPhone X (errors with portrait, landscape locking didn't really work.. among other things)
+* Old Splash screen api
 
 ### 25.0
-* [What Ships with SDK 25.0](https://blog.expo.io/expo-sdk-v25-0-0-is-now-available-714d10a8c3f7)
+* Expo's Blog Post for the Release: [What Ships with SDK 25.0](https://blog.expo.io/expo-sdk-v25-0-0-is-now-available-714d10a8c3f7)
     * Added support for React 16, which includes: `componentDidCatch()`
     * This also allows for this: [Error Boundaries](https://reactjs.org/docs/error-boundaries.html)
 * Fixes all of the issues above
 * Allows for quicker builds
-* Machine performance has noticeably improved (my macbook pro wanted to take off a few times)
+* Machine performance has noticeably improved (my macbook pro wanted to take flight a few times)
 * Tablet support is an option
 
-So as you see above, a lot of cool things that came with 25.0, but the coolest was the support for React 16 and their introduction of `componentDidCatch()` along with the ability to then use **Error Boundaries**, making debugging of your react/react-native app, that much easier.  
+So as you see above, there were a lot of cool things that came with 25.0, but the coolest was the support for React 16 and their introduction of `componentDidCatch()` along with the ability to then use **Error Boundaries**, making debugging of your react/react-native app (along with debugging when writing tests!), that much easier.  
 
 I hope this helped, I really just wanted to get some thoughts down. I hope to continue this trend as I learn more about this cool native app thingy.  
