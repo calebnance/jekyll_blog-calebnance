@@ -21,7 +21,7 @@ Boom, let the project download/build and the next screen you should see is this:
   <img class="img" src="/assets/img/react-native/xde-my-first-app-running-screen.png" alt="xde my first app running screen" title="xde my first app running screen">
 </div>
 
-XDE really does handle a lot of the building errors, dependencies and stuff you don't want to mess with so well, and gives you very helpful messages when it can't fix it it's self.
+XDE does a great job of handling a lot of the building errors, dependencies and stuff you don't want to mess with, and gives you very helpful messages when it can't fix it on it's own.
 
 Some of those issues and learnings that I have came across when I upgrading from Expo's SDK 22.0 to SDK 25.0 were as follows:
 * iOS Simulator's Expo Client was out of date. This is a little more involved to handle manually, but XDE provides great notification messages and warms you when the client is out of date with the SDK version. So take note of that, I love running in the console, but this GUI really has proven itself to me.
