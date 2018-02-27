@@ -1,13 +1,28 @@
+.img-wrapper {
+  text-align: center;
+}
+
 .img {
   background-color: $grey-color-2;
   border: 1px solid $grey-color-3;
   border-radius: 4px;
+  box-shadow: $drop-shadow;
   height: auto;
   margin-bottom: 32px;
   max-width: 100%;
-  padding: 5px;
+  padding: 4px;
 
   @media (min-width: $sm) {
-    padding: 15px;
+    padding: 8px;
+
+    &.img-mw220 {
+      max-width: 220px;
+    }
+  }
+
+  @media (min-width: $md) {
+    &.img-mw420 {
+      max-width: 420px;
+    }
   }
 }
