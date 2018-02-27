@@ -38,4 +38,4 @@ These next screenshots below are showing the app project options available with 
 
 No coding today, just an overview, but... **your homework is**: find and use the XDE share button to view the running app's QR code and get that blank app running on your physical iPhone or Android device... go!
 
-Go to my next blog post.. <a href="{{ "/react-native/react-native-folder-structure.html" | relative_url }}">React Native 
+Go to my next blog post.. <a href="{{ "/react-native/react-native-folder-structure.html" | relative_url }}">React Native Project Folder Structure</a>
