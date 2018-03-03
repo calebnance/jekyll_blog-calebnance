@@ -29,6 +29,9 @@ Below are the plugins and gems I've used:
 - [octopress-minify-html](https://github.com/octopress/minify-html)  
 
 ### Jekyll Commands
+**Install Bundler and Jekyll Gems**
+`$ gem install jekyll bundler`
+
 **Bundle**  
 `$ bundle install`  
 
