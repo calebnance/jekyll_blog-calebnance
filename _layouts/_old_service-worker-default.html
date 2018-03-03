@@ -91,14 +91,35 @@
       {% include footer.html %}
     </div>
 
-    {% if jekyll.environment == 'production' %}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script>$(document).ready(function(){$(".show-comments").on("click",function(){var a="blogcalebnancecom";$.ajax({type:"GET",url:"https://"+a+".disqus.com/embed.js",dataType:"script",cache:!0}),$(this).fadeOut()})});</script>
-    {% else %}
+    <script>
+			// service worker
+			if('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for(let registration of registrations) {
+            registration.unregister()
+            console.log('Service Worker Unregistered');
+          }
+        })
+        /*
+				navigator.serviceWorker.register('/service-worker.js', { scope: '/' })
+					.then(function(registration) {
+						// service worker registered
+						// console.log('Service Worker Registered');
+					}
+				);
+
+				navigator.serviceWorker.ready.then(function(registration) {
+					// service worker ready
+					// console.log('Service Worker Ready');
+				});
+        https://s3.amazonaws.com/calebnance/blog/
+        */
+			}
+    </script>
+
     <script src="{{ "/assets/js/jquery-3.1.1.min.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
-    <script src="{{ "/assets/js/scripts.min.js" | relative_url }}"></script>
-    {% endif %}
+    <!-- <script src="{{ "/assets/js/scripts.min.js" | relative_url }}"></script> -->
+    <script>$(document).ready(function(){$(".show-comments").on("click",function(){var a="blogcalebnancecom";$.ajax({type:"GET",url:"https://"+a+".disqus.com/embed.js",dataType:"script",cache:!0}),$(this).fadeOut()})});</script>
   </body>
 </html>

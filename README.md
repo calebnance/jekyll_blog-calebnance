@@ -9,6 +9,7 @@ Originally my blog was a Joomla 1.5 website, I've recently converted it to [Jeky
 - Best Practices: **92/100**
 
 ### View Code This Code To See Examples Of:
+- Environment handling builds
 - Templating with Jekyll
     - Mulitple layout usage
     - Layouts & Includes broken out
@@ -29,6 +30,9 @@ Below are the plugins and gems I've used:
 - [octopress-minify-html](https://github.com/octopress/minify-html)  
 
 ### Jekyll Commands
+**Install Bundler and Jekyll Gems**
+`$ gem install jekyll bundler`
+
 **Bundle**  
 `$ bundle install`  
 
