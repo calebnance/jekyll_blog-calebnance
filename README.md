@@ -11,7 +11,7 @@ Originally my blog was a Joomla 1.5 website, I've recently converted it to [Jeky
 ### View Code This Code To See Examples Of:
 - Environment handling builds
 - Templating with Jekyll
-    - Mulitple layout usage
+    - Multiple layout usage
     - Layouts & Includes broken out
     - Post layout type
     - Flat tutorial layout type
