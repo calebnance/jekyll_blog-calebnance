@@ -2,6 +2,7 @@
 layout: post
 title: "Tilemap - RPG Tutorial 2"
 date: 2017-07-19 23:55:28 -0500
+updated: 2018-04-22 21:10:20 -0500
 excerpt: Phaser how to tilemap easily, creating a RPG Tutorial 2
 comments: true
 categories: phaser
@@ -28,8 +29,10 @@ Now let's take a look at the actual tilemap creator. Here are the settings I cre
 
 Import the tileset shown above and you will be able to create tilemaps as easy as shown below! This tool really is great.. and free!
 
-<div class="gif-wrapping">
-  <img class="gif" src="/assets/img/phaser/tilemap/tiled-tutorial-example.gif" alt="tiled tutorial example gif">
+<div class="video-wrapper">
+  <video class="video" autoplay loop muted playsinline>
+    <source src="/assets/videos/phaser/tilemap/tiled-tutorial-example.mp4" type="video/mp4">
+  </video>
 </div>
 
 And a little more tweaking and bam, it's a basic map.
