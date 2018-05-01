@@ -2,12 +2,19 @@
 <html lang="en">
   {% include head_search.html %}
   <body>
-    <div id="search-container">
+
+    {% include navbar.html %}
+
+    <div class="container" id="search-container">
       <input type="text" id="search-input" placeholder="search...">
       <ul id="results-container"></ul>
     </div>
 
-    <script src="{{ "/assets/js/search.min.js" | relative_url }}" type="text/javascript" async></script>
+    <div class="container">
+      {% include footer.html %}
+    </div>
+
+    <script src="{{ "/assets/js/search.min.js" | relative_url }}" type="text/javascript"></script>
     <script>
       SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
