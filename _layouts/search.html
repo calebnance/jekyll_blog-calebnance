@@ -5,8 +5,12 @@
 
     {% include navbar.html %}
 
-    <div class="container" id="search-container">
-      <input type="text" id="search-input" placeholder="search...">
+    <div class="container container-search">
+      <h1 class="page-heading">Search another tech blog..</h1>
+      <div class="form-group">
+        <input type="text" class="form-control" id="search-input" placeholder="start to typing...">
+      </div>
+
       <ul id="results-container"></ul>
     </div>
 
@@ -19,7 +23,8 @@
       SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '/search.json'
+        json: '/search.json',
+        noResultsText("i haven't gotten there yet.. check that keyword later")
       });
     </script>
   </body>
