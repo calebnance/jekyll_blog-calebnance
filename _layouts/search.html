@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
+  {% include head_search.html %}
   <body>
 
     {% include navbar.html %}
 
-    <div class="container">
-      {{ content }}
+    <div class="container container-search">
+      <h1 class="page-heading">Search another tech blog..</h1>
+      <div class="form-group">
+        <input type="text" class="form-control" id="search-input" placeholder="start to typing...">
+      </div>
+
+      <ul id="results-container"></ul>
     </div>
 
     <div class="container">
@@ -22,6 +27,14 @@
     <script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/scripts.min.js" | relative_url }}"></script>
     {% endif %}
-    <script id="dsq-count-scr" src="//blogcalebnancecom.disqus.com/count.js" async></script>
+
+    <script src="{{ "/assets/js/search.min.js" | relative_url }}" type="text/javascript"></script>
+    <script>
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json'
+      });
+    </script>
   </body>
 </html>
