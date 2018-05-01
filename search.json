@@ -3,6 +3,7 @@
 [
   {% for post in site.posts %}
     {% unless post.redirect_to %}
+    {% unless post.nosearch %}
     {
 
       "title"    : "{{ post.title | strip_html | escape }}",
@@ -12,6 +13,7 @@
       "date"     : "{{ post.date }}"
 
     } {% unless forloop.last %},{% endunless %}
+    {% endunless %}
     {% endunless %}
   {% endfor %}
 ]

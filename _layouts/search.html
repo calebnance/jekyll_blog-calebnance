@@ -1,13 +1,19 @@
-<div id="search-container">
-  <input type="text" id="search-input" placeholder="search...">
-  <ul id="results-container"></ul>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  {% include head_search.html %}
+  <body>
+    <div id="search-container">
+      <input type="text" id="search-input" placeholder="search...">
+      <ul id="results-container"></ul>
+    </div>
 
-<script src="{{ "/assets/js/search.min.js" | relative_url }}" type="text/javascript"></script>
-<script>
-  SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '/search.json'
-  });
-</script>
+    <script src="{{ "/assets/js/search.min.js" | relative_url }}" type="text/javascript" async></script>
+    <script>
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json'
+      });
+    </script>
+  </body>
+</html>

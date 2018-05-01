@@ -1,0 +1,16 @@
+<head>
+
+  {% include head_top.html %}
+
+  <title>Search {{ site.title }}</title>
+
+  <meta name="description" content="search blog.calebnance.com">
+  <meta name="author" content="Caleb Nance" />
+  <meta property="article:author" content="Caleb Nance" />
+  <meta name="robots" content="index, follow" />
+
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+
+</head>
