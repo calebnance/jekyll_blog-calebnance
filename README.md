@@ -34,6 +34,13 @@ Below are the plugins and gems I've used:
 ### Syntax Highlighter
 - [Rouge](https://github.com/jneen/rouge)
 
+### Requirements
+* Brew
+  * [Install Brew](https://brew.sh/)
+  * `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+* Ruby
+  * `$ brew install ruby`
+
 ### Jekyll Commands
 **Install Bundler and Jekyll Gems**
 `$ gem install jekyll bundler`
