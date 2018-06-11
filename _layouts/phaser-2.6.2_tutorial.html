@@ -7,12 +7,26 @@ layout: phaser-2.6.2
   <p class="note">Open your dev console to see logs, and follow along with the code from the blog post.</p>
 
   {% if page.phaser-id %}
-  <div id="{{ page.phaser-id }}"></div>
+    <div class="container-game" id="{{ page.phaser-id }}"></div>
+
+    {% if page.phaser-id == 'tutorial-10' %}
+      <div class="container-video">
+        <video id="video" width="320" height="240" preload autoplay loop muted></video>
+        <canvas id="canvas" width="320" height="240"></canvas>
+        <div class="movement-state">can't move</div>
+      </div>
+    {% endif %}
   {% endif %}
 
   {{ content }}
 </article>
 
 {% if page.phaser-script %}
-<script src="/assets/js/tutorial/phaser/{{ page.phaser-script }}"></script>
+  {% if page.phaser-id == 'tutorial-10' %}
+    <!-- face tracking js :: https://trackingjs.com -->
+    <script src="/assets/js/tracking-min.js"></script>
+    <script src="/assets/js/face-min.js"></script>
+  {% endif %}
+
+  <script src="/assets/js/tutorial/phaser/{{ page.phaser-script }}"></script>
 {% endif %}

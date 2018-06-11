@@ -54,6 +54,7 @@ Below are the plugins and gems I've used:
 
 **Build Locally**  
 `$ jekyll build`  
+`$ bundle exec jekyll build`  
 
 **Build for Production**  
 `$ JEKYLL_ENV=production bundle exec jekyll build`  
