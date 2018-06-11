@@ -20,7 +20,7 @@ First off, download [trackingjs](https://trackingjs.com/) if you haven't already
   </video>
 </div>
 
-Below is the code you'll need to add to the previous tutorial to have a simple `allowMovement` state (looking or not looking) toggle accessible within our simple game.
+Below is the code you'll need to add to <a href="{{ "/phaser/sprite-touch-move.html" | relative_url }}">the previous tutorial</a> to allow for a simple `allowMovement` state (looking or not looking) toggle accessible within our simple game.
 
 {% highlight javascript %}
 // add this with our global variables
@@ -46,7 +46,7 @@ tracker.on('track', function(event) {
 });
 {% endhighlight %}
 
-Now with that simple state toggle happening, we can add support for it at the vert start of our `update()` function, as shown below:
+Now with that simple state toggle happening, we can add support for it at the start of our `update()` function, as shown below:
 
 {% highlight javascript %}
 // is the user not looking at the screen?
@@ -96,7 +96,7 @@ event.data.forEach(function(rect) {
 </div>
 
 
-That's about it for this tutorial, take a look at the live demo below and you can also download this tutorials files.. have fun!
+That's about it for this tutorial, take a look at the live demo below and you can also download all of the files for tutorial.. have fun!
 
 ### Demo the thing..
 <a href="{{ "/tutorial/phaser/sprite-move-face-tracking.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
