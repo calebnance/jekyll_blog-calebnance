@@ -10,7 +10,7 @@ tags: phaser tutorial code howto javascript
 
 This post was inspired by [this tweet from @chordbug](https://twitter.com/chordbug/status/1005701513719754752), I loved it and wanted to add it to this tutorial series.
 
-**TLDR;** Below I will show you how to track your users face and only allow them to move goku (with arrow keys or canvas touch) only when they are looking at the screen, using [trackingjs](https://trackingjs.com/).
+**TLDR;** Below I will show you how to track your users face and allow them to move goku (with arrow keys or canvas touch) only when they are looking at their screen, using [trackingjs](https://trackingjs.com/).
 
 First off, download [trackingjs](https://trackingjs.com/) if you haven't already and include them into your project. We are only using **tracking-min.js** and **face-min.js** right now.
 
