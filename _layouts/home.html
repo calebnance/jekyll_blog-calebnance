@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="home">
-  <h1 class="page-heading">Welcome to another tech blog..</h1>
+  <h1 class="page-heading">Welcome to another tech blog...</h1>
   {{ content }}
   {% for post in site.posts %}
     {% unless post.redirect_to %}
@@ -10,10 +10,11 @@ layout: default
     <div class="post-block">
       <div class="post-data">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> |
-        <span class="post-cat"><a href="/tag/{{ post.categories }}/">{{ post.categories }}</a></span>
+        <span class="post-cat"><a href="/tag/{{ post.categories }}/">{{ post.categories }}</a></span> |
+        <span class="post-comments"><a href="{{ post.url | absolute_url }}#disqus_thread">0 Comments</a></span>
       </div>
       <h2>
-        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        <a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a>
       </h2>
     </div>
     {% endunless %}

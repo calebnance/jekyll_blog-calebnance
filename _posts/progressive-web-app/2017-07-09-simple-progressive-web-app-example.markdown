@@ -2,7 +2,7 @@
 layout: post
 title: "Simple Progressive Web App Example"
 date: 2017-07-08 17:49:18 -0500
-updated: 2017-07-29 20:10:20 -0500
+updated: 2018-04-22 21:10:20 -0500
 excerpt: How to add support for a Progressive Web App
 comments: true
 categories: progressive-web-app
@@ -126,8 +126,10 @@ Option 1: **Dev Console**
 * Here is where the service worker will be registered (if it is).
 * You can also update/sync/un-register the service worker too (helpful for debugging).
 
-<div class="gif-wrapping ineedagirlfriend">
-  <img class="gif" src="/assets/img/progressive-web-app/console-application.gif" alt="console application gif">
+<div class="video-wrapper">
+  <video class="video" autoplay loop muted playsinline>
+    <source src="/assets/videos/progressive-web-app/console-application.mp4" type="video/mp4">
+  </video>
 </div>
 
 Option 2: **Google Lighthouse**
@@ -146,11 +148,13 @@ Option 2: **Google Lighthouse**
 </div>
 
 #### Score: before I made the changes above
+* * *
 <div class="img-wrapper">
   <img class="img" src="/assets/img/progressive-web-app/google-lighthouse-report_before.png" alt="google lighthouse screenshot before">
 </div>
 
 #### Score: after I made the changes above
+* * *
 <div class="img-wrapper">
   <img class="img" src="/assets/img/progressive-web-app/google-lighthouse-report_after.png" alt="google lighthouse screenshot after">
 </div>

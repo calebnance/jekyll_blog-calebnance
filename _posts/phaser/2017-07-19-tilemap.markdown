@@ -2,6 +2,7 @@
 layout: post
 title: "Tilemap - RPG Tutorial 2"
 date: 2017-07-19 23:55:28 -0500
+updated: 2018-04-22 21:10:20 -0500
 excerpt: Phaser how to tilemap easily, creating a RPG Tutorial 2
 comments: true
 categories: phaser
@@ -28,8 +29,10 @@ Now let's take a look at the actual tilemap creator. Here are the settings I cre
 
 Import the tileset shown above and you will be able to create tilemaps as easy as shown below! This tool really is great.. and free!
 
-<div class="gif-wrapping">
-  <img class="gif" src="/assets/img/phaser/tilemap/tiled-tutorial-example.gif" alt="tiled tutorial example gif">
+<div class="video-wrapper">
+  <video class="video" autoplay loop muted playsinline>
+    <source src="/assets/videos/phaser/tilemap/tiled-tutorial-example.mp4" type="video/mp4">
+  </video>
 </div>
 
 And a little more tweaking and bam, it's a basic map.
@@ -45,8 +48,6 @@ That's all fine and good but we have yet to do anything on the web, what is this
 var game = new Phaser.Game(400, 400, Phaser.CANVAS, 'tutorial-2', config);
 {% endhighlight %}
 
-<br>
-
 Now that we have the game map a little larger, let's load in the actual tilemap. First, let's preload the tilemapping `.json` file and the actual asset (as seen above.. the tileset of 9 blocks), within our `preload()` function.
 
 {% highlight javascript %}
@@ -56,8 +57,6 @@ game.load.tilemap('tutorial-2-tilemap', 'tilemap/2-tilemap-tutorial.json', null,
 // preload tile asset for tilemap
 game.load.image('tiles', 'tilemap/tileset-blocks-1.png');
 {% endhighlight %}
-
-<br>
 
 If you don't have the `.json` file yet, you can export the file from the Tiled application. **<sup>*</sup>Please note, the .json does have a relative path to the asset being used, so that might have to change depending on your file structure and how you have things.**
 
@@ -105,8 +104,6 @@ Below is the `.json` file that I exported, I am including it here to show you a 
 
 **Note:** `"name" : "tutorial-2_layer"` and `"name" : "tutorial-2-tilemap_image"` make sure these match up with the below code name setting.
 
-<br>
-
 Now that we have everything preloading, let's "load" them within our `create()` function and actually use and implement them!
 
 {% highlight javascript %}
@@ -119,8 +116,6 @@ map.addTilesetImage('tutorial-2-tilemap_image', 'tiles');
 // create laye for said tileset and map now!
 layer = map.createLayer('tutorial-2_layer');
 {% endhighlight %}
-
-<br>
 
 Also notice the setting of the `map` and `layer` variables. Please make sure to add global variables right before or after the `config` variable we set.
 
@@ -139,7 +134,10 @@ If everything worked... you should see a painted map that you created!
 ### What's Next?
 Wow.. that is great, but you can't see the entire map?! Why?!!1 Well, that is because we have a canvas that is only 400px by 400px and the tilemap is 800px by 800px (25 tiles each tile is 32px, like we set up in the new map image above), my <a href="{{ "/phaser/camera-move.html" | relative_url }}">next tutorial will show you how to move the map with our keyboard arrows</a>! Yay!
 
+### View Files on Github
+<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/2-tilemap" class="btn btn-default">Github Folder</a>
+
 ### Download Source Files
 If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/tilemap-tutorial_blog.calebnance.com.zip" class="btn btn-default" download>Download source files</a>
 
-Please keep in mind, you must run these files within a local server environment, such as <a href="https://www.mamp.info" target="_blank" rel="noopener">MAMP</a> (because of cross origin requests) or I just noticed you can open it up in Firefox.. will not work in Chrome unless within a local server environment... the more you know -_-
+***Please keep in mind,*** you must run these files within a local server environment, such as <a href="https://www.mamp.info" target="_blank" rel="noopener">MAMP</a> (because of cross origin requests) or I just noticed you can open it up in Firefox.. will not work in Chrome unless within a local server environment... the more you know -_-

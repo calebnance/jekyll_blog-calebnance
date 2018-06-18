@@ -15,6 +15,7 @@
   ExpiresByType application/xhtml+xml "access 1 month"
   ExpiresByType application/x-shockwave-flash "access 1 month"
   ExpiresByType image/x-icon "access 1 month"
+  ExpiresByType video/mp4 "access 1 month"
   ExpiresDefault "access 1 month"
 </IfModule>
 # END EXPIRES

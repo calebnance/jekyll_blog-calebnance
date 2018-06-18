@@ -1,0 +1,18 @@
+.video-wrapper {
+  text-align: center;
+}
+
+.video {
+  background-color: $grey-color-2;
+  border: 1px solid $grey-color-3;
+  border-radius: 4px;
+  box-shadow: $drop-shadow;
+  height: auto;
+  margin-bottom: 32px;
+  max-width: 100%;
+  padding: 4px;
+
+  @media (min-width: $sm) {
+    padding: 8px;
+  }
+}

@@ -1,5 +1,5 @@
 {% if page.comments != false %}
-  <div class="show-comments">Load Comments</div>
+  <div class="show-comments">Load <span class="disqus-comment-count" data-disqus-url="{{ page.url | absolute_url }}">0 Comments</span></div>
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {

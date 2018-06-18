@@ -1,0 +1,17 @@
+---
+---
+[
+  {% for post in site.posts %}
+    {% unless post.redirect_to %}
+    {% unless post.nosearch %}
+    {
+      "title"    : "{{ post.title | strip_html | escape }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "category" : "{{ post.categories }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "date"     : "{{ post.date }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endunless %}
+    {% endunless %}
+  {% endfor %}
+]

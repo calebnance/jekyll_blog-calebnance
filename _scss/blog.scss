@@ -16,6 +16,14 @@ a:focus {
   color: $blue-color-dark;
 }
 
+p,
+ul,
+ol,
+pre {
+  line-height: 24px;
+  margin-bottom: $space2;
+}
+
 .container ul {
   padding-left: $space2;
 }
@@ -78,5 +86,18 @@ h4 {
   }
   h4 {
     font-size: $h4-lg;
+  }
+}
+
+// dry margin
+@media (min-width: $sm) {
+  .mr8-sm {
+    margin-right: 8px;
+  }
+}
+
+@media (min-width: $md) {
+  .mr16-md {
+    margin-right: 16px;
   }
 }
