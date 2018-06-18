@@ -134,7 +134,10 @@ If everything worked... you should see a painted map that you created!
 ### What's Next?
 Wow.. that is great, but you can't see the entire map?! Why?!!1 Well, that is because we have a canvas that is only 400px by 400px and the tilemap is 800px by 800px (25 tiles each tile is 32px, like we set up in the new map image above), my <a href="{{ "/phaser/camera-move.html" | relative_url }}">next tutorial will show you how to move the map with our keyboard arrows</a>! Yay!
 
+### View Files on Github
+<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/2-tilemap" class="btn btn-default">Github Folder</a>
+
 ### Download Source Files
 If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/tilemap-tutorial_blog.calebnance.com.zip" class="btn btn-default" download>Download source files</a>
 
-Please keep in mind, you must run these files within a local server environment, such as <a href="https://www.mamp.info" target="_blank" rel="noopener">MAMP</a> (because of cross origin requests) or I just noticed you can open it up in Firefox.. will not work in Chrome unless within a local server environment... the more you know -_-
+***Please keep in mind,*** you must run these files within a local server environment, such as <a href="https://www.mamp.info" target="_blank" rel="noopener">MAMP</a> (because of cross origin requests) or I just noticed you can open it up in Firefox.. will not work in Chrome unless within a local server environment... the more you know -_-

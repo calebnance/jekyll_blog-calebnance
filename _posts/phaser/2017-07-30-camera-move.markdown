@@ -55,3 +55,6 @@ That's it for this tutorial! Check out my next tutorial, <a href="{{ "/phaser/ad
 
 ### Download Source Files
 If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/camera-move-tutorial_blog.calebnance.com.zip" class="btn btn-default" download>Download source files</a>
+
+### View Files on Github
+<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/3-camera-move" class="btn btn-default">Github Folder</a>

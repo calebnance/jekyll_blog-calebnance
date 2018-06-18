@@ -26,3 +26,6 @@ The next blog post I will be talking about taking into account **touch events on
 
 ### Download Source Files
 If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/sprite-visual-debug-tutorial_blog.calebnance.com.zip" class="btn btn-default" download>Download source files</a>
+
+### View Files on Github
+<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/8-sprite-visual-debug" class="btn btn-default">Github Folder</a>

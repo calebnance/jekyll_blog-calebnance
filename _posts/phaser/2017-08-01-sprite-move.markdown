@@ -48,3 +48,6 @@ Boom! That is all she wrote, we now have a sprite that moves around the painted 
 
 ### Download Source Files
 If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/sprite-move-tutorial_blog.calebnance.com.zip" class="btn btn-default" download>Download source files</a>
+
+### View Files on Github
+<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/5-sprite-move" class="btn btn-default">Github Folder</a>

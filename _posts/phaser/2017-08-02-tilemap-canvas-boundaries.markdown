@@ -28,3 +28,6 @@ So <a href="{{ "/phaser/sprite-change.html" | relative_url }}">my next post</a>,
 
 ### Download Source Files
 If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/tilemap-canvas-boundaries-tutorial_blog.calebnance.com.zip" class="btn btn-default" download>Download source files</a>
+
+### View Files on Github
+<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/6-tilemap-boundaries" class="btn btn-default">Github Folder</a>

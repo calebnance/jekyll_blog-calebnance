@@ -103,3 +103,6 @@ That's about it for this tutorial, take a look at the live demo below and you ca
 
 ### Download Source Files
 If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/sprite-move-face-tracking-tutorial_blog.calebnance.com.zip" class="btn btn-default" download>Download source files</a>
+
+### View Files on Github
+<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/10-sprite-move-face-tracking" class="btn btn-default">Github Folder</a>
