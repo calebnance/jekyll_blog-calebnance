@@ -32,10 +32,13 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
+
+# only turn this on when production ready
+# minify_html: false
 
 exclude:
   - Gemfile
