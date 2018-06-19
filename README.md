@@ -50,14 +50,15 @@ Below are the plugins and gems I've used:
 
 **Serve Locally**  
 `$ jekyll serve --incremental`  
-`$ bundle exec jekyll serve --incremental`  
-`$ bundle exec jekyll serve --livereload`
+`$ jekyll serve --livereload`
 
 **Build Locally**  
 `$ jekyll build`  
-`$ bundle exec jekyll build`  
-`$ bundle exec jekyll build --watch`
+`$ jekyll build --watch`
 
 **Build for Production**  
+
+***remember to comment out minify_html in config.xml***
 `$ JEKYLL_ENV=production jekyll build`  
-`$ JEKYLL_ENV=production bundle exec jekyll build`  
+
+prepend `exec jekyll` as needed
