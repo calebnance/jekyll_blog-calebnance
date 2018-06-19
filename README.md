@@ -59,4 +59,5 @@ Below are the plugins and gems I've used:
 `$ bundle exec jekyll build --watch`
 
 **Build for Production**  
+`$ JEKYLL_ENV=production jekyll build`  
 `$ JEKYLL_ENV=production bundle exec jekyll build`  
