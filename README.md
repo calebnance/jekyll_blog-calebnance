@@ -51,10 +51,12 @@ Below are the plugins and gems I've used:
 **Serve Locally**  
 `$ jekyll serve --incremental`  
 `$ bundle exec jekyll serve --incremental`  
+`$ bundle exec jekyll serve --livereload`
 
 **Build Locally**  
 `$ jekyll build`  
 `$ bundle exec jekyll build`  
+`$ bundle exec jekyll build --watch`
 
 **Build for Production**  
 `$ JEKYLL_ENV=production bundle exec jekyll build`  
