@@ -76,7 +76,6 @@ layout: default
           {% if sameTagCount >= minCommonTags %}
             <li>
               <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-              {{ commonTags }}
             </li>
             {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
             {% if maxRelatedCounter >= maxRelated %}
