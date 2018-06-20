@@ -24,7 +24,7 @@ disqus:
 
 sass:
   sass_dir: _scss
-  style: :compressed
+  style: compressed
 
 # gem install kramdown rouge
 markdown: kramdown
