@@ -13,7 +13,7 @@ The below regular expression only accepts numbers and letters. It will replace t
 
 {% highlight php %}
 <?php
-  $string = ' this is all..';
+  $string = ' this is all...';
   $new_string = preg_replace('/[^A-Za-z0-9]/', '_', $string);
 
   echo $new_string;

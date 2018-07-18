@@ -41,7 +41,7 @@ So above you see the variable, `$csv_fields`, and it hasn't been declared. This 
 ?>
 {% endhighlight %}
 
-Now we want to actually have the data into the variable `$csv_fields`.. Next does just that.  
+Now we want to actually have the data into the variable `$csv_fields`... Next does just that.  
 
 {% highlight php %}
 <?php

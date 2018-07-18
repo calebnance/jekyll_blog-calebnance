@@ -42,7 +42,7 @@ We now have a new sprite! But what is that second line?! `sprite.animations.fram
 * Frame 2 = Bottom Left Block
 * Frame 3 = Bottom Right Block
 
-We are so close to being done, we have to do one more thing.. accounting for *user interaction* and updating our sprite to reflect that interaction. Let's head on over to the `update()` function. Our `if` statement should now look like this:
+We are so close to being done, we have to do one more thing... accounting for *user interaction* and updating our sprite to reflect that interaction. Let's head on over to the `update()` function. Our `if` statement should now look like this:
 
 {% highlight javascript %}
 // only move one direction at a time
@@ -63,9 +63,9 @@ if (game.input.keyboard.isDown(Phaser.Keyboard.LEFT)) {
 
 What did you notice that changed?! Yep, the `sprite.animations.frame` references. This is mapping the new frame depending on which direction we are going! Perfect, now we have a character that faces the direction it is moving, done.
 
-Up next.. <a href="{{ "/phaser/sprite-visual-debug.html" | relative_url }}">a sprite debugging helper</a>.
+Up next... <a href="{{ "/phaser/sprite-visual-debug.html" | relative_url }}">a sprite debugging helper</a>.
 
-### Demo the thing..
+### Demo the thing...
 <a href="{{ "/tutorial/phaser/sprite-change.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
 
 ### Download Source Files

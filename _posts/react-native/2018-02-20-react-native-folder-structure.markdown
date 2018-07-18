@@ -7,7 +7,7 @@ comments: true
 categories: react-native
 tags: code howto javascript react-native react
 ---
-Welcome back, did you get the fresh react native app running on your physical device like I asked in my <a href="{{ "/react-native/getting-started-with-react-native-expo-sdk-25.html" | relative_url }}">last blog post</a>?! If not, then you are here for other reasons, either way.. great!
+Welcome back, did you get the fresh react native app running on your physical device like I asked in my <a href="{{ "/react-native/getting-started-with-react-native-expo-sdk-25.html" | relative_url }}">last blog post</a>?! If not, then you are here for other reasons, either way... great!
 
 As this is a fresh install, I wanted to first share my folder structure and slowly talk about each section in upcoming posts. Below is my current react native project structure from root directory:
 

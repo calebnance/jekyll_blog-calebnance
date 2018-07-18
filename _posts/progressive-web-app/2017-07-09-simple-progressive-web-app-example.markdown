@@ -117,7 +117,7 @@ Do all of these above things right, reload the page and you should be good to go
 ## Is my PWA working?
 * * *
 
-Now let's check to see if things are actually offline accessible.. first let's open up a Chrome browser. Next, we can go 2 different ways to check, and luckily, I'll show you both of them!  
+Now let's check to see if things are actually offline accessible... first let's open up a Chrome browser. Next, we can go 2 different ways to check, and luckily, I'll show you both of them!  
 
 Option 1: **Dev Console**
 * Open up your dev console in Chrome.
@@ -169,7 +169,7 @@ I ran into the service worker registering but never hitting that `.ready()` stat
 Paths in scope should only be used if you have a full understanding of what is going on. Please keep in mind the service worker needs access to your entire app.
 
 #### naming of the service worker file
-At one point, I thought that this mattered.. it **does not** matter what you name your service worker file, just as long as you update the file name in the register call as well.
+At one point, I thought that this mattered... it **does not** matter what you name your service worker file, just as long as you update the file name in the register call as well.
 
 #### manifest referenced in head
 Please remember to add the meta tag for reference of the `manifest.json` file and the path to that file is correct. Running the Google Lighthouse plugin will give you a step-by-step list of things that are wrong with your manifest file, if there are any.

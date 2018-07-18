@@ -96,9 +96,9 @@ event.data.forEach(function(rect) {
 </div>
 
 
-That's about it for this tutorial, take a look at the live demo below and you can also download all of the files for tutorial.. have fun!
+That's about it for this tutorial, take a look at the live demo below and you can also download all of the files for tutorial... have fun!
 
-### Demo the thing..
+### Demo the thing...
 <a href="{{ "/tutorial/phaser/sprite-move-face-tracking.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
 
 ### Download Source Files

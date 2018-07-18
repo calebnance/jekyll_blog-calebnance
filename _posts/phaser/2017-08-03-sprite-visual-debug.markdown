@@ -21,7 +21,7 @@ So that's it, super simple. Please remember to change the sprite variable to wha
 
 The next blog post I will be talking about taking into account **touch events on mobile devices**. This is one solution I want to explore, to help make it easy for users to play the game from a mobile device, <a href="{{ "/phaser/sprite-touch-move.html" | relative_url }}">Sprite Touch Move</a>.
 
-### Demo the thing..
+### Demo the thing...
 <a href="{{ "/tutorial/phaser/sprite-visual-debug.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
 
 ### Download Source Files

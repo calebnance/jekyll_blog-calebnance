@@ -19,11 +19,11 @@ game.physics.enable(sprite, Phaser.Physics.ARCADE);
 sprite.body.collideWorldBounds = true;
 {% endhighlight %}
 
-That's really it, super simple. We set our game physics on our sprite (SS Goku) and then tell the sprite to respect our canvas map boundaries and bounce off.. (ARCADE setting).
+That's really it, super simple. We set our game physics on our sprite (SS Goku) and then tell the sprite to respect our canvas map boundaries and bounce off... (ARCADE setting).
 
 So <a href="{{ "/phaser/sprite-change.html" | relative_url }}">my next post</a>, we will talk about updating our sprite's image depending on which direction it is moving (* looks left, looks right *) whoa.
 
-### Demo the thing..
+### Demo the thing...
 <a href="{{ "/tutorial/phaser/tilemap-canvas-boundaries.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
 
 ### Download Source Files

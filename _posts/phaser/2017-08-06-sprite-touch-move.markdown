@@ -53,7 +53,7 @@ That should do it! Take a look at the demo below or download the source files fo
 
 Check out my next blog post in this series, <a href="{{ "/phaser/sprite-move-face-tracking.html" | relative_url }}">sprite move with face tracking</a>.
 
-### Demo the thing..
+### Demo the thing...
 <a href="{{ "/tutorial/phaser/sprite-touch-move.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
 
 ### Download Source Files
