@@ -26,4 +26,4 @@ This line sets the page to scale to the actual dimensions of the screen size of 
 
 Now you are fully responsive on your webpage, these are two easy steps, but also the biggest!  
 
-**Scaffolding** is next, understanding it and implementing it properly.. [Understanding Scaffolding](/css/using-twitter-bootstrap-understanding-scaffolding.html).
+**Scaffolding** is next, understanding it and implementing it properly... [Understanding Scaffolding](/css/using-twitter-bootstrap-understanding-scaffolding.html).

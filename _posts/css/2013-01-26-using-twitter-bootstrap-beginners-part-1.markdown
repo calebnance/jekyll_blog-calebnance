@@ -69,4 +69,4 @@ BAM! You are done, you have now created your first Bootstrap page!
 
 If you noticed the use of the .min (minified) version of the file, that is because the file is small and will load a lot faster, and should be used on all production servers, if you need to edit the files, use the files without the .min. Just an FF for you.
 
-But we are no where near finished, there is so much more that can be done with Bootstrap. There is still the responsive layout css file to include, a meta tag for the viewpoint, etc.. So that your site looks good on different screen sizes, take a look at the next article, [Using Twitter Bootstrap - Responsive Layouts](/css/using-twitter-bootstrap-responsive-layouts.html).
+But we are no where near finished, there is so much more that can be done with Bootstrap. There is still the responsive layout css file to include, a meta tag for the viewpoint, etc... So that your site looks good on different screen sizes, take a look at the next article, [Using Twitter Bootstrap - Responsive Layouts](/css/using-twitter-bootstrap-responsive-layouts.html).

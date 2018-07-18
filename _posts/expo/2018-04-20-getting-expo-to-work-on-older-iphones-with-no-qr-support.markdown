@@ -7,7 +7,7 @@ comments: true
 categories: expo
 tags: code development javascript react-native expo
 ---
-Today I received two old iPhones from my dad, an iPhone 5c and 4s. I had mentioned to my parents I was testing my react native expo app on more physical devices, so they sent them my way since they were just sitting in a drawer. So of course the first thing I did was download the [Expo Client](https://itunes.apple.com/us/app/expo-client/id982107779) app and boom.. the issue appeared!
+Today I received two old iPhones from my dad, an iPhone 5c and 4s. I had mentioned to my parents I was testing my react native expo app on more physical devices, so they sent them my way since they were just sitting in a drawer. So of course the first thing I did was download the [Expo Client](https://itunes.apple.com/us/app/expo-client/id982107779) app and boom... the issue appeared!
 
 #### The Issue
 What is the issue you ask? It is a couple of things that compile together:
@@ -19,7 +19,7 @@ What is the issue you ask? It is a couple of things that compile together:
 
 #### My Solution
 
-After I downloaded a 3rd party QR code scanner, to see if it would read the Expo path and open the app (hot link).. that was very much so wishful thinking. Then I remembered in the iOS Notes app, it adds "hot links / hyperlinks" when you type a path, so I was like maybe that will work... it did! I felt like a genius and archaic at the same time. It has to be easier than this.. it honestly is for newer phones, but for old phones and old iOSs, this works great!
+After I downloaded a 3rd party QR code scanner, to see if it would read the Expo path and open the app (hot link)... that was very much so wishful thinking. Then I remembered in the iOS Notes app, it adds "hot links / hyperlinks" when you type a path, so I was like maybe that will work... it did! I felt like a genius and archaic at the same time. It has to be easier than this... it honestly is for newer phones, but for old phones and old iOSs, this works great!
 
 *Example of Expo Client App and creating a hot link in the iOS Notes app*
 <div class="img-wrapper">

@@ -15,12 +15,12 @@ I was waiting around 300 seconds for each new build (larger structural change) a
 
 Then I dug a little deeper and wonder if it were a ruby versioning thing, maybe parsing got better with a newer version. No, not noticeably that much different, but I updated anyway.
 
-I kept seeing more and more results/answers mentioning the removal of the minification of html (i'm using [octopress/minify-html](https://github.com/octopress/minify-html)) when working locally. I felt, this couldn't be the root issue.. I was wrong, it was. In their documentation they have a flag you can add to your `_config.yml` file to turn this off:
+I kept seeing more and more results/answers mentioning the removal of the minification of html (i'm using [octopress/minify-html](https://github.com/octopress/minify-html)) when working locally. I felt, this couldn't be the root issue... I was wrong, it was. In their documentation they have a flag you can add to your `_config.yml` file to turn this off:
 
 {% highlight javascript %}
 minify_html: false
 {% endhighlight %}
 
-Boom, that did it, my current local builds/live reloads are around 2 seconds... 2. Why have I been so lazy and okay with this **system** i had in place. Took me maybe 30 minutes to trace it down, and now i get 298 seconds back on each article change.. lolz.
+Boom, that did it, my current local builds/live reloads are around 2 seconds... 2. Why have I been so lazy and okay with this **system** i had in place. Took me maybe 30 minutes to trace it down, and now i get 298 seconds back on each article change... lolz.
 
 Please keep in mind I don't really have a solution for flagging this to play nicely whenever I do run the production build: `JEKYLL_ENV=production jekyll build`, but I am fine with how much time this saves. To have to remember to turn this minification back on for production builds, is a drop in the bucket. love.

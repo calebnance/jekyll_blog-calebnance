@@ -21,7 +21,7 @@ There are three "main" screens it is for, a regular desktop computer screen, a t
 
 The framework is built with "default" styles, from button styles to "built in" functions for a tabbing layout. There are a lot of things that come standard on **Twitter Bootstrap**, and it is very easy to implement even some of the more difficult things.  
 
-I love one of the slogans that Twitter Bootstrap uses, "By nerds, for nerds".. I may not be the best designer out there, but this stuff looks clean! It is really a great **front end UI** (user interface) and makes my job a lot easier, I can worry more about the functionality than the layout and look now.  
+I love one of the slogans that Twitter Bootstrap uses, "By nerds, for nerds"... I may not be the best designer out there, but this stuff looks clean! It is really a great **front end UI** (user interface) and makes my job a lot easier, I can worry more about the functionality than the layout and look now.  
 <br>
 
 #### What Are Other Responsive Layout Frameworks?
