@@ -29,82 +29,30 @@
       <li class="nav-item{% if page.url == "/tag/html/" %} active{% endif %}">
         <a class="nav-link" href="/tag/html/">html{% if page.url == "/tag/html/" %}<span class="sr-only">(current)</span>{% endif %}</a>
       </li>
+      <li class="nav-item{% if page.url == "/tag/css/" %} active{% endif %}">
+        <a class="nav-link" href="/tag/css/">css{% if page.url == "/tag/css/" %}<span class="sr-only">(current)</span>{% endif %}</a>
+      </li>
+      <li class="nav-item{% if page.url == "/tag/mysql/" %} active{% endif %}">
+        <a class="nav-link" href="/tag/mysql/">mysql{% if page.url == "/tag/mysql/" %}<span class="sr-only">(current)</span>{% endif %}</a>
+      </li>
+      <li class="nav-item{% if page.url == "/search.html" %} active{% endif %}">
+        <a class="nav-link" href="/search.html">search{% if page.url == "/search.html" %}<span class="sr-only">(current)</span>{% endif %}</a>
+      </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-
-    <div class="collapse navbar-collapse" id="nav-collapse">
-      <ul class="nav navbar-nav">
-        <li class="dropdown" class="active">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">javascript <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li {% if page.url contains "/react-native/" %}class="active"{% endif %}>
-              <a href="/tag/react-native/">react native {% if page.url contains "/react-native/" %}<span class="sr-only">(current)</span>{% endif %}</a>
-            </li>
-            <li {% if page.url contains "/javascript/" %}class="active"{% endif %}>
-              <a href="/tag/javascript/">javascript {% if page.url contains "/javascript/" %}<span class="sr-only">(current)</span>{% endif %}</a>
-            </li>
-            <li {% if page.url contains "/jquery/" %}class="active"{% endif %}>
-              <a href="/tag/jquery/">jquery {% if page.url contains "/jquery/" %}<span class="sr-only">(current)</span>{% endif %}</a>
-            </li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">php <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li {% if page.url contains "/php/" %}class="active"{% endif %}>
-              <a href="/tag/php/">php {% if page.url contains "/php/" %}<span class="sr-only">(current)</span>{% endif %}</a>
-            </li>
-            <li {% if page.url contains "/laravel/" %}class="active"{% endif %}>
-              <a href="/tag/laravel/">laravel {% if page.url contains "/laravel/" %}<span class="sr-only">(current)</span>{% endif %}</a>
-            </li>
-            <li {% if page.url contains "/joomla/" %}class="active"{% endif %}>
-              <a href="/tag/joomla/">joomla {% if page.url contains "/joomla/" %}<span class="sr-only">(current)</span>{% endif %}</a>
-            </li>
-          </ul>
-        </li>
-        <li {% if page.url contains "/html/" %}class="active"{% endif %}>
-          <a href="/tag/html/">html {% if page.url contains "/html/" %}<span class="sr-only">(current)</span>{% endif %}</a>
-        </li>
-        <li {% if page.url contains "/css/" %}class="active"{% endif %}>
-          <a href="/tag/css/">css {% if page.url contains "/css/" %}<span class="sr-only">(current)</span>{% endif %}</a>
-        </li>
-        <li {% if page.url contains "/mysql/" %}class="active"{% endif %}>
-          <a href="/tag/mysql/">mysql {% if page.url contains "/mysql/" %}<span class="sr-only">(current)</span>{% endif %}</a>
-        </li>
-        <li {% if page.url contains "/search.html" %}class="active"{% endif %}>
-          <a href="/search.html">search {% if page.url contains "/search.html" %}<span class="sr-only">(current)</span>{% endif %}</a>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">social <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li>
-              <a href="https://codepen.io/calebnance">Codepen</a>
-            </li>
-            <li>
-              <a href="https://github.com/calebnance">Github</a>
-            </li>
-            <li>
-              <a href="https://calebnance.com">Personal Website</a>
-            </li>
-            <li>
-              <a href="https://stackoverflow.com/users/1308719/caleb-nance">Stackoverflow</a>
-            </li>
-            <li>
-              <a href="https://teamtreehouse.com/calebnance">Treehouse</a>
-            </li>
-            <li>
-              <a href="https://twitter.com/calebnance">Twitter</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="socialDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          social
+        </a>
+        <div class="dropdown-menu dropdown-menu-right text-right" aria-labelledby="socialDropdown">
+          <a class="dropdown-item" href="https://codepen.io/calebnance">Codepen</a>
+          <a class="dropdown-item" href="https://github.com/calebnance">Github</a>
+          <a class="dropdown-item" href="https://twitter.com/calebnance">Twitter</a>
+          <a class="dropdown-item" href="https://calebnance.com">Personal Website</a>
+          <a class="dropdown-item" href="https://stackoverflow.com/users/1308719/caleb-nance">Stackoverflow</a>
+          <a class="dropdown-item" href="https://teamtreehouse.com/calebnance">Treehouse</a>
+        </div>
+      </li>
+    </ul>
   </div>
 </nav>
