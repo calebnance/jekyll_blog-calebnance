@@ -8,9 +8,9 @@ comments: true
 categories: jquery
 tags: tutorial json ajax twitter bootstrap mysql howto javascript jquery
 ---
-Today I want to write about using **Ajax to get the source data for Twitter Bootstrap's Typeahead** instead of a static json list. I was on stackoverflow last night and saw a guy asking how to do it and I've done it before so thought I'd write a step by step tutorial on how to do just that! Here we go..
+Today I want to write about using **Ajax to get the source data for Twitter Bootstrap's Typeahead** instead of a static json list. I was on stackoverflow last night and saw a guy asking how to do it and I've done it before so thought I'd write a step by step tutorial on how to do just that! Here we go...
 
-First I'll show you what the form will look like.. with the css/js includes that you need for this to work.
+First I'll show you what the form will look like... with the css/js includes that you need for this to work.
 
 **index.php**
 {% highlight html %}

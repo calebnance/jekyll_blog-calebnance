@@ -24,7 +24,7 @@ Here is the simplest call for mousetrap, just a key stroke and it fires off a jQ
 </script>
 {% endhighlight %}
 
-Let's say you have a form where your users can edit and you want to add a CTL + S command like most computer applications.. Here is how that would be done.
+Let's say you have a form where your users can edit and you want to add a CTL + S command like most computer applications... Here is how that would be done.
 
 {% highlight JavaScript %}
 <script type="text/javascript">

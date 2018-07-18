@@ -23,7 +23,7 @@ This is also how you can get rid of the **hash tag showing up in the url** whene
 </script>
 {% endhighlight %}
 
-And of course Internet Explorer (IE) does not like this way, so for people who want it to work on IE (I am sadly one of those people), we need to add just a few more lines. Check if event.preventDefault is set, and if not (it's IE), so let's use something it likes..  
+And of course Internet Explorer (IE) does not like this way, so for people who want it to work on IE (I am sadly one of those people), we need to add just a few more lines. Check if event.preventDefault is set, and if not (it's IE), so let's use something it likes...  
 
 {% highlight javascript %}
 <script type="text/javascript">

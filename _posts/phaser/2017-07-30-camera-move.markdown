@@ -20,7 +20,7 @@ game.world.setBounds(0, 0, 800, 800);
 cursors = game.input.keyboard.createCursorKeys();
 {% endhighlight %}
 
-The first line is setting our world boundaries. Since our tilemap that we created in <a href="{{ "/phaser/tilemap.html" | relative_url }}">tutorial 2</a> is 800px by 800px, that is what we will set as our last two arguments passed. The first two are the x and y of the starting top left corner of the paint, so we want these to be `0, 0,`. Explore changing these numbers up and see how it effects the start position and how far past the painted canvas it will go.. (you'll see the grey background if it's more than 800px).
+The first line is setting our world boundaries. Since our tilemap that we created in <a href="{{ "/phaser/tilemap.html" | relative_url }}">tutorial 2</a> is 800px by 800px, that is what we will set as our last two arguments passed. The first two are the x and y of the starting top left corner of the paint, so we want these to be `0, 0,`. Explore changing these numbers up and see how it effects the start position and how far past the painted canvas it will go... (you'll see the grey background if it's more than 800px).
 
 The next line is pretty self explanatory, we want the game to know and listen for/accept keyboard events.
 
@@ -50,7 +50,7 @@ Our next if/else statement is handling which direction the camera should go depe
 
 That's it for this tutorial! Check out my next tutorial, <a href="{{ "/phaser/adding-a-sprite.html" | relative_url }}">Adding a Sprite</a>.
 
-### Demo the thing..
+### Demo the thing...
 <a href="{{ "/tutorial/phaser/camera-move.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
 
 ### Download Source Files

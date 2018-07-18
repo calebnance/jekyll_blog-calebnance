@@ -27,7 +27,7 @@ Now let's take a look at the actual tilemap creator. Here are the settings I cre
   <img class="img" src="/assets/img/phaser/tilemap/tiled-new-map-example.png" alt="tiled app settings">
 </div>
 
-Import the tileset shown above and you will be able to create tilemaps as easy as shown below! This tool really is great.. and free!
+Import the tileset shown above and you will be able to create tilemaps as easy as shown below! This tool really is great... and free!
 
 <div class="video-wrapper">
   <video class="video" autoplay loop muted playsinline>
@@ -41,14 +41,14 @@ And a little more tweaking and bam, it's a basic map.
   <img class="img" src="/assets/img/phaser/tilemap/tiled-full-map-painted.png" alt="tiled full map">
 </div>
 
-That's all fine and good but we have yet to do anything on the web, what is this post even about? Let's do that right now! Below you will see that my new game init is a little bit bigger (double the size from the <a href="{{ "/phaser/simple-canvas-start.html" | relative_url }}">last tutorial</a>) 400px by 400px. Again, if you don't know where the code below goes.. please go back to <a href="{{ "/phaser/simple-canvas-start.html" | relative_url }}">tutorial 1</a>.
+That's all fine and good but we have yet to do anything on the web, what is this post even about? Let's do that right now! Below you will see that my new game init is a little bit bigger (double the size from the <a href="{{ "/phaser/simple-canvas-start.html" | relative_url }}">last tutorial</a>) 400px by 400px. Again, if you don't know where the code below goes... please go back to <a href="{{ "/phaser/simple-canvas-start.html" | relative_url }}">tutorial 1</a>.
 
 {% highlight javascript %}
 // create game
 var game = new Phaser.Game(400, 400, Phaser.CANVAS, 'tutorial-2', config);
 {% endhighlight %}
 
-Now that we have the game map a little larger, let's load in the actual tilemap. First, let's preload the tilemapping `.json` file and the actual asset (as seen above.. the tileset of 9 blocks), within our `preload()` function.
+Now that we have the game map a little larger, let's load in the actual tilemap. First, let's preload the tilemapping `.json` file and the actual asset (as seen above... the tileset of 9 blocks), within our `preload()` function.
 
 {% highlight javascript %}
 // preload tilemap
@@ -128,11 +128,11 @@ var layer;
 ### Did it work?
 If everything worked... you should see a painted map that you created!
 
-### Demo the thing..
+### Demo the thing...
 <a href="{{ "/tutorial/phaser/tilemap.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
 
 ### What's Next?
-Wow.. that is great, but you can't see the entire map?! Why?!!1 Well, that is because we have a canvas that is only 400px by 400px and the tilemap is 800px by 800px (25 tiles each tile is 32px, like we set up in the new map image above), my <a href="{{ "/phaser/camera-move.html" | relative_url }}">next tutorial will show you how to move the map with our keyboard arrows</a>! Yay!
+Wow... that is great, but you can't see the entire map?! Why?!!1 Well, that is because we have a canvas that is only 400px by 400px and the tilemap is 800px by 800px (25 tiles each tile is 32px, like we set up in the new map image above), my <a href="{{ "/phaser/camera-move.html" | relative_url }}">next tutorial will show you how to move the map with our keyboard arrows</a>! Yay!
 
 ### View Files on Github
 <a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/2-tilemap" class="btn btn-default">Github Folder</a>
@@ -140,4 +140,4 @@ Wow.. that is great, but you can't see the entire map?! Why?!!1 Well, that is be
 ### Download Source Files
 If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/tilemap-tutorial_blog.calebnance.com.zip" class="btn btn-default" download>Download source files</a>
 
-***Please keep in mind,*** you must run these files within a local server environment, such as <a href="https://www.mamp.info" target="_blank" rel="noopener">MAMP</a> (because of cross origin requests) or I just noticed you can open it up in Firefox.. will not work in Chrome unless within a local server environment... the more you know -_-
+***Please keep in mind,*** you must run these files within a local server environment, such as <a href="https://www.mamp.info" target="_blank" rel="noopener">MAMP</a> (because of cross origin requests) or I just noticed you can open it up in Firefox... will not work in Chrome unless within a local server environment... the more you know -_-

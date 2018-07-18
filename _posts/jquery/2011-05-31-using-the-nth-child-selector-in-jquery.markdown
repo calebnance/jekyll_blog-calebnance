@@ -9,7 +9,7 @@ tags: code howto jquery help
 ---
 This is a very useful function and can be used with a lot of things. I have recently used it with an image gallery I was doing.  
 
-I wanted to put some special effects on the first image of a gallery (making it fade in as soon as the page loaded). So you can use it for those kinds of things (images) or just simple text edits or additions. The possibilities are endless with jQuery, half the battle is just knowing what is out there..  
+I wanted to put some special effects on the first image of a gallery (making it fade in as soon as the page loaded). So you can use it for those kinds of things (images) or just simple text edits or additions. The possibilities are endless with jQuery, half the battle is just knowing what is out there...  
 
 I explain it with an example of a very simple way of using it.  
 

@@ -41,9 +41,9 @@ So if you are following along; our first `if` statement for the left arrow movem
 
 Boom! That is all she wrote, we now have a sprite that moves around the painted canvas and our camera follows it!
 
-*But wait?! our sprite goes off the canvas... where he go??* Tune in next time, kids.. or just <a href="{{ "/phaser/tilemap-canvas-boundaries.html" | relative_url }}">go to my next blog post</a> for setting boundaries.. whatever.
+*But wait?! our sprite goes off the canvas... where he go??* Tune in next time, kids... or just <a href="{{ "/phaser/tilemap-canvas-boundaries.html" | relative_url }}">go to my next blog post</a> for setting boundaries... whatever.
 
-### Demo the thing..
+### Demo the thing...
 <a href="{{ "/tutorial/phaser/sprite-move.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
 
 ### Download Source Files

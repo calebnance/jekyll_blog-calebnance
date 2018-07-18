@@ -29,7 +29,7 @@ That's all there is to it! Now let's add the sprite to our canvas within our `cr
 sprite = game.add.sprite(game.camera.width / 2, game.camera.height / 2, 'goku-single');
 {% endhighlight %}
 
-What this does is wherever the camera is set on the painted map, we want to paint the sprite to the exact middle of said camera center. View the demo below and use the keyboard arrows to move around. As you can see, the sprite stays in place..
+What this does is wherever the camera is set on the painted map, we want to paint the sprite to the exact middle of said camera center. View the demo below and use the keyboard arrows to move around. As you can see, the sprite stays in place...
 
 **Also note,** our global variables are now as follows:
 {% highlight javascript %}
@@ -39,7 +39,7 @@ var map, layer, cursors, sprite;
 
 Our <a href="{{ "/phaser/sprite-move.html" | relative_url }}">next tutorial</a> will switch focus from moving the camera only, to following our sprite as it moves along the map!
 
-### Demo the thing..
+### Demo the thing...
 <a href="{{ "/tutorial/phaser/adding-a-sprite.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
 
 ### Download Source Files
