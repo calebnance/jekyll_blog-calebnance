@@ -3,6 +3,7 @@
 .post {
   h1.post-title {
     border-bottom: 1px solid $grey-color-light;
+    margin-top: $space2;
     padding-bottom: $space1;
   }
 
@@ -73,14 +74,31 @@
 
 // post details
 .post-details {
-  margin-top: 38px;
+  margin-top: $space1;
+
+  @media (min-width: $sm) {
+    margin-top: 61px;
+  }
+
+  @media (min-width: $md) {
+    margin-top: 71px;
+  }
+
+  @media (min-width: $lg) {
+    margin-top: 37px;
+  }
 }
 
 .post-dates {
-  border-bottom: 1px solid $grey-color-light;
-  margin-bottom: $space1;
-  padding-bottom: $space-half;
-  text-align: right;
+  font-size: $legal-xs;
+
+  @media (min-width: $sm) {
+    border-bottom: 1px solid $grey-color-light;
+    font-size: $legal-sm;
+    margin-bottom: $space1;
+    padding-bottom: $space-half;
+    text-align: right;
+  }
 }
 
 .post-dates span {

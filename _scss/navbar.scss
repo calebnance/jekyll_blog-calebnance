@@ -1,43 +1,24 @@
 .navbar {
-  border: none;
-  border-radius: 0;
-  margin-bottom: $space1;
+  margin-bottom: $space2;
 }
 
-.navbar-default {
+.navbar-dark.bg-dark {
   background-color: $nav-black;
+}
 
-  .navbar-brand {
+.dropdown-menu {
+  background-color: $nav-black;
+  border-radius: 0;
+}
+
+.dropdown-item {
+  color: $tx-white;
+
+  &:focus,
+  &:hover,
+  &.active,
+  &:active {
+    background-color: $black;
     color: $tx-white;
-
-    &:hover {
-      color: $tx-white;
-      text-decoration: underline;
-    }
   }
-
-  .navbar-nav > li > a {
-    color: $nav-white;
-    &:hover,
-    &:focus {
-      color: #fff;
-    }
-  }
-
-  .navbar-nav > .open > a {
-    background-color: $nav-grey;
-    color: $nav-white;
-    &:hover,
-    &:focus {
-      background-color: $nav-grey;
-      color: $nav-white;
-    }
-  }
-
-  .dropdown-menu>.active>a,
-  .dropdown-menu>.active>a:hover,
-  .dropdown-menu>.active>a:focus {
-    background-color: $nav-black;
-  }
-
 }
