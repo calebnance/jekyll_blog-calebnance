@@ -3,9 +3,11 @@
 Originally my blog was a Joomla 1.5 website, I've recently converted it to [Jekyll](https://github.com/jekyll). I took into account almost all pages; I was able to redirect or re-create the original urls for posts/categories with ease. I am so impressed with Jekyll and wanted to share my findings here. I'll probably write some blog posts about them as well.  
 
 ### [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) Score
+
 <p align="left">
-  <img src="lighthouse-score.png?raw=true" width="600" />
+  <img src="lighthouse-score.png?raw=true" width="800" />
 </p>
+
 - Performance: **99/100**
 - Progressive Web App: **100/100**
 - Accessibility: **100/100**
