@@ -1,14 +1,17 @@
 .home {
   h1.page-heading {
     border-bottom: 1px solid $grey-color-light;
+    margin-top: $space2;
     padding-bottom: $space1;
   }
+
   .post-block {
     h2 {
       margin-bottom: $space3;
       margin-top: $space-half;
     }
   }
+
   .rss-subscribe {
     border-bottom: 1px solid $grey-color-light;
     border-top: 1px solid $grey-color-light;

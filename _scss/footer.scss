@@ -1,3 +1,10 @@
 .site-footer {
+  font-size: $legal-xs;
   margin: $space2 0;
+  text-align: center;
+
+  @media (min-width: $sm) {
+    font-size: $legal-sm;
+    text-align: left;
+  }
 }
