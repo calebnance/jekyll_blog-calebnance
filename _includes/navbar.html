@@ -6,34 +6,34 @@
 
   <div class="collapse navbar-collapse" id="navbarBlog">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item dropdown{% if page.url == "/tag/react-native/" or page.url == "/tag/javascript/" or page.url == "/tag/jquery/" %} active{% endif %}">
+      <li class="nav-item dropdown{% if page.url contains "/react-native/" or page.url contains "/javascript/" or page.url contains "/jquery/" %} active{% endif %}">
         <a class="nav-link dropdown-toggle" href="#" id="javascriptDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           javascript
         </a>
         <div class="dropdown-menu" aria-labelledby="javascriptDropdown">
-          <a class="dropdown-item{% if page.url == "/tag/react-native/" %} active{% endif %}" href="/tag/react-native/">react native{% if page.url == "/tag/react-native/" %}<span class="sr-only">(current)</span>{% endif %}</a>
-          <a class="dropdown-item{% if page.url == "/tag/javascript/" %} active{% endif %}" href="/tag/javascript/">javascript{% if page.url == "/tag/javascript/" %}<span class="sr-only">(current)</span>{% endif %}</a>
-          <a class="dropdown-item{% if page.url == "/tag/jquery/" %} active{% endif %}" href="/tag/jquery/">jquery{% if page.url == "/tag/jquery/" %}<span class="sr-only">(current)</span>{% endif %}</a>
+          <a class="dropdown-item{% if page.url contains "/react-native/" %} active{% endif %}" href="/tag/react-native/">react native{% if page.url contains "/react-native/" %}<span class="sr-only">(current)</span>{% endif %}</a>
+          <a class="dropdown-item{% if page.url contains "/javascript/" %} active{% endif %}" href="/tag/javascript/">javascript{% if page.url contains "/javascript/" %}<span class="sr-only">(current)</span>{% endif %}</a>
+          <a class="dropdown-item{% if page.url contains "/jquery/" %} active{% endif %}" href="/tag/jquery/">jquery{% if page.url contains "/jquery/" %}<span class="sr-only">(current)</span>{% endif %}</a>
         </div>
       </li>
-      <li class="nav-item dropdown{% if page.url == "/tag/php/" or page.url == "/tag/laravel/" or page.url == "/tag/joomla/" %} active{% endif %}">
+      <li class="nav-item dropdown{% if page.url contains "/php/" or page.url contains "/laravel/" or page.url contains "/joomla/" %} active{% endif %}">
         <a class="nav-link dropdown-toggle" href="#" id="phpDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           php
         </a>
         <div class="dropdown-menu" aria-labelledby="phpDropdown">
-          <a class="dropdown-item{% if page.url == "/tag/php/" %} active{% endif %}" href="/tag/php/">php{% if page.url == "/tag/php/" %}<span class="sr-only">(current)</span>{% endif %}</a>
-          <a class="dropdown-item{% if page.url == "/tag/laravel/" %} active{% endif %}" href="/tag/laravel/">laravel{% if page.url == "/tag/laravel/" %}<span class="sr-only">(current)</span>{% endif %}</a>
-          <a class="dropdown-item{% if page.url == "/tag/joomla/" %} active{% endif %}" href="/tag/joomla/">joomla{% if page.url == "/tag/joomla/" %}<span class="sr-only">(current)</span>{% endif %}</a>
+          <a class="dropdown-item{% if page.url contains "/php/" %} active{% endif %}" href="/tag/php/">php{% if page.url contains "/php/" %}<span class="sr-only">(current)</span>{% endif %}</a>
+          <a class="dropdown-item{% if page.url contains "/laravel/" %} active{% endif %}" href="/tag/laravel/">laravel{% if page.url contains "/laravel/" %}<span class="sr-only">(current)</span>{% endif %}</a>
+          <a class="dropdown-item{% if page.url contains "/joomla/" %} active{% endif %}" href="/tag/joomla/">joomla{% if page.url contains "/joomla/" %}<span class="sr-only">(current)</span>{% endif %}</a>
         </div>
       </li>
-      <li class="nav-item{% if page.url == "/tag/html/" %} active{% endif %}">
-        <a class="nav-link" href="/tag/html/">html{% if page.url == "/tag/html/" %}<span class="sr-only">(current)</span>{% endif %}</a>
+      <li class="nav-item{% if page.url contains "/html/" %} active{% endif %}">
+        <a class="nav-link" href="/tag/html/">html{% if page.url contains "/html/" %}<span class="sr-only">(current)</span>{% endif %}</a>
       </li>
-      <li class="nav-item{% if page.url == "/tag/css/" %} active{% endif %}">
-        <a class="nav-link" href="/tag/css/">css{% if page.url == "/tag/css/" %}<span class="sr-only">(current)</span>{% endif %}</a>
+      <li class="nav-item{% if page.url contains "/css/" %} active{% endif %}">
+        <a class="nav-link" href="/tag/css/">css{% if page.url contains "/css/" %}<span class="sr-only">(current)</span>{% endif %}</a>
       </li>
-      <li class="nav-item{% if page.url == "/tag/mysql/" %} active{% endif %}">
-        <a class="nav-link" href="/tag/mysql/">mysql{% if page.url == "/tag/mysql/" %}<span class="sr-only">(current)</span>{% endif %}</a>
+      <li class="nav-item{% if page.url contains "/mysql/" %} active{% endif %}">
+        <a class="nav-link" href="/tag/mysql/">mysql{% if page.url contains "/mysql/" %}<span class="sr-only">(current)</span>{% endif %}</a>
       </li>
       <li class="nav-item{% if page.url == "/search.html" %} active{% endif %}">
         <a class="nav-link" href="/search.html">search{% if page.url == "/search.html" %}<span class="sr-only">(current)</span>{% endif %}</a>
