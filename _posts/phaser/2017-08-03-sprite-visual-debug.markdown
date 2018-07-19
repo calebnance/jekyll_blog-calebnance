@@ -22,10 +22,10 @@ So that's it, super simple. Please remember to change the sprite variable to wha
 The next blog post I will be talking about taking into account **touch events on mobile devices**. This is one solution I want to explore, to help make it easy for users to play the game from a mobile device, <a href="{{ "/phaser/sprite-touch-move.html" | relative_url }}">Sprite Touch Move</a>.
 
 ### Demo the thing...
-<a href="{{ "/tutorial/phaser/sprite-visual-debug.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
+<a href="{{ "/tutorial/phaser/sprite-visual-debug.html" | relative_url }}" class="btn btn-outline-dark" target="_blank" rel="nofollow">Open Demo</a>  
 
 ### Download Source Files
-If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/sprite-visual-debug-tutorial_blog.calebnance.com.zip" class="btn btn-default" download>Download source files</a>
+If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/sprite-visual-debug-tutorial_blog.calebnance.com.zip" class="btn btn-outline-dark" download>Download source files</a>
 
 ### View Files on Github
-<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/8-sprite-visual-debug" class="btn btn-default">Github Folder</a>
+<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/8-sprite-visual-debug" class="btn btn-outline-dark">Github Folder</a>

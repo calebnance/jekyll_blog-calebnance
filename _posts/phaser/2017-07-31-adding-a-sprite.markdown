@@ -40,10 +40,10 @@ var map, layer, cursors, sprite;
 Our <a href="{{ "/phaser/sprite-move.html" | relative_url }}">next tutorial</a> will switch focus from moving the camera only, to following our sprite as it moves along the map!
 
 ### Demo the thing...
-<a href="{{ "/tutorial/phaser/adding-a-sprite.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
+<a href="{{ "/tutorial/phaser/adding-a-sprite.html" | relative_url }}" class="btn btn-outline-dark" target="_blank" rel="nofollow">Open Demo</a>  
 
 ### Download Source Files
-If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/adding-a-sprite-tutorial_blog.calebnance.com.zip" class="btn btn-default" download>Download source files</a>
+If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/adding-a-sprite-tutorial_blog.calebnance.com.zip" class="btn btn-outline-dark" download>Download source files</a>
 
 ### View Files on Github
-<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/4-sprite" class="btn btn-default">Github Folder</a>
+<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/4-sprite" class="btn btn-outline-dark">Github Folder</a>

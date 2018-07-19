@@ -24,10 +24,10 @@ That's really it, super simple. We set our game physics on our sprite (SS Goku) 
 So <a href="{{ "/phaser/sprite-change.html" | relative_url }}">my next post</a>, we will talk about updating our sprite's image depending on which direction it is moving (* looks left, looks right *) whoa.
 
 ### Demo the thing...
-<a href="{{ "/tutorial/phaser/tilemap-canvas-boundaries.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
+<a href="{{ "/tutorial/phaser/tilemap-canvas-boundaries.html" | relative_url }}" class="btn btn-outline-dark" target="_blank" rel="nofollow">Open Demo</a>  
 
 ### Download Source Files
-If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/tilemap-canvas-boundaries-tutorial_blog.calebnance.com.zip" class="btn btn-default" download>Download source files</a>
+If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/tilemap-canvas-boundaries-tutorial_blog.calebnance.com.zip" class="btn btn-outline-dark" download>Download source files</a>
 
 ### View Files on Github
-<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/6-tilemap-boundaries" class="btn btn-default">Github Folder</a>
+<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/6-tilemap-boundaries" class="btn btn-outline-dark">Github Folder</a>

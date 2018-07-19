@@ -54,10 +54,10 @@ That should do it! Take a look at the demo below or download the source files fo
 Check out my next blog post in this series, <a href="{{ "/phaser/sprite-move-face-tracking.html" | relative_url }}">sprite move with face tracking</a>.
 
 ### Demo the thing...
-<a href="{{ "/tutorial/phaser/sprite-touch-move.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
+<a href="{{ "/tutorial/phaser/sprite-touch-move.html" | relative_url }}" class="btn btn-outline-dark" target="_blank" rel="nofollow">Open Demo</a>  
 
 ### Download Source Files
-If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/sprite-touch-move-tutorial_blog.calebnance.com.zip" class="btn btn-default" download>Download source files</a>
+If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/sprite-touch-move-tutorial_blog.calebnance.com.zip" class="btn btn-outline-dark" download>Download source files</a>
 
 ### View Files on Github
-<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/9-sprite-touch-move" class="btn btn-default">Github Folder</a>
+<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/9-sprite-touch-move" class="btn btn-outline-dark">Github Folder</a>

@@ -18,9 +18,9 @@ It basically looks at the div's or images you have in a list (all with the same 
 #### How To Implement
 Like I said, it is very easy to get this working on your site. I had it up and running in about 5 minutes, and tweaking it to make  it even display better doesn't take much more time either.  
 
-You first need to have jQuery v1.4.0< - the most recent version at this posting is <a href="https://code.jquery.com/jquery-1.9.1.min.js" class="btn btn-default" target="_blank" rel="noopener">jQuery v1.9.1</a>
+You first need to have jQuery v1.4.0< - the most recent version at this posting is <a href="https://code.jquery.com/jquery-1.9.1.min.js" class="btn btn-outline-dark" target="_blank" rel="noopener">jQuery v1.9.1</a>
 
-Then you need to download <a href="https://github.com/desandro/masonry" class="btn btn-default" target="_blank" rel="noopener">Masonry</a>
+Then you need to download <a href="https://github.com/desandro/masonry" class="btn btn-outline-dark" target="_blank" rel="noopener">Masonry</a>
 
 We are ready to code... The following is the simplest example to get this to work on your site.  
 

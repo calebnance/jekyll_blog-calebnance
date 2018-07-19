@@ -43,9 +43,9 @@ The full animations list (fx) of all the effects you can set the slide show to d
 
 #### First You Need To Download
 
-The latest <a href="https://jquery.com/download/" class="btn btn-default" target="_blank" rel="noopener">jQuery Version</a>  
+The latest <a href="https://jquery.com/download/" class="btn btn-outline-dark" target="_blank" rel="noopener">jQuery Version</a>  
 
-Then the latest <a href="http://jquery.malsup.com/cycle/download.html" class="btn btn-default" target="_blank" rel="noopener">jQuery Cycle v.1</a> javascript file.  
+Then the latest <a href="http://jquery.malsup.com/cycle/download.html" class="btn btn-outline-dark" target="_blank" rel="noopener">jQuery Cycle v.1</a> javascript file.  
 **(Include this file after you include the latest jQuery file)**  
 
 #### Getting It To Work

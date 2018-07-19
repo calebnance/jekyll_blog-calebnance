@@ -99,10 +99,10 @@ event.data.forEach(function(rect) {
 That's about it for this tutorial, take a look at the live demo below and you can also download all of the files for tutorial... have fun!
 
 ### Demo the thing...
-<a href="{{ "/tutorial/phaser/sprite-move-face-tracking.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
+<a href="{{ "/tutorial/phaser/sprite-move-face-tracking.html" | relative_url }}" class="btn btn-outline-dark" target="_blank" rel="nofollow">Open Demo</a>  
 
 ### Download Source Files
-If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/sprite-move-face-tracking-tutorial_blog.calebnance.com.zip" class="btn btn-default" download>Download source files</a>
+If you would like the source files for this tutorial: <a href="/assets/downloads/phaser/sprite-move-face-tracking-tutorial_blog.calebnance.com.zip" class="btn btn-outline-dark" download>Download source files</a>
 
 ### View Files on Github
-<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/10-sprite-move-face-tracking" class="btn btn-default">Github Folder</a>
+<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/10-sprite-move-face-tracking" class="btn btn-outline-dark">Github Folder</a>

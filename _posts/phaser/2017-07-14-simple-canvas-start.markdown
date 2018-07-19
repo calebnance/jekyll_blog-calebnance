@@ -86,7 +86,7 @@ Now let's talk about the above js. There is a lot there and a lot that we aren't
 
 First, if you run this file, what it should produce on screen is a 200px by 200px grey (#787878) canvas block. If you don't see that, open your dev console and make sure everything is connected properly.  
 
-Here is this tutorial demoed live: <a href="{{ "/tutorial/phaser/simple-canvas-start.html" | relative_url }}" class="btn btn-default" target="_blank" rel="nofollow">Open Demo</a>  
+Here is this tutorial demoed live: <a href="{{ "/tutorial/phaser/simple-canvas-start.html" | relative_url }}" class="btn btn-outline-dark" target="_blank" rel="nofollow">Open Demo</a>  
 
 {% highlight javascript %}
 var game = new Phaser.Game(200, 200, Phaser.CANVAS, 'tutorial-1', config);
@@ -97,4 +97,4 @@ Here is a portion of the above js file, this is where we are initiating the <a h
 Hopefully all is well! Everything else in the js file should be self explanatory. <a href="{{ "/phaser/tilemap.html" | relative_url }}">The next tutorial in this series is tilemapping</a>.
 
 ### View Files on Github
-<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/1-simple-canvas-start" class="btn btn-default">Github Folder</a>
+<a href="https://github.com/calebnance/blog-calebnance_phaser-tutorials/tree/master/1-simple-canvas-start" class="btn btn-outline-dark">Github Folder</a>

@@ -9,9 +9,9 @@ tags: javascript jquery html howto
 ---
 Today I want to talk about this new (super small) jQuery Library, Mousetrap. It allows you to **add keyboard shortcuts to your website**!
 
-First you want to download <a href="https://github.com/ccampbell/mousetrap" class="btn btn-default" target="_blank" rel="noopener">mousetrap.min.js</a>
+First you want to download <a href="https://github.com/ccampbell/mousetrap" class="btn btn-outline-dark" target="_blank" rel="noopener">mousetrap.min.js</a>
 
-Also, it is dependent on the jQuery library <a href="https://jquery.com/download/" class="btn btn-default" target="_blank" rel="noopener">Download jQuery</a>
+Also, it is dependent on the jQuery library <a href="https://jquery.com/download/" class="btn btn-outline-dark" target="_blank" rel="noopener">Download jQuery</a>
 
 Here is the simplest call for mousetrap, just a key stroke and it fires off a jQuery function or alert.
 
