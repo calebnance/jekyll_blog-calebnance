@@ -38,6 +38,13 @@ pre {
   word-wrap: break-word;
 }
 
+code.highlighter-rouge {
+  background-color: $grey-color-2;
+  border-radius: 4px;
+  font-size: 90%;
+  padding: 2px 4px;
+}
+
 .container ul {
   padding-left: $space2;
 }

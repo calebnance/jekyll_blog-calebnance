@@ -3,11 +3,12 @@
 }
 
 .navbar-dark.bg-dark {
-  background-color: $nav-black;
+  background-color: $nav-black!important;
 }
 
 .dropdown-menu {
   background-color: $nav-black;
+  border: 0;
   border-radius: 0;
 }
 
