@@ -64,6 +64,7 @@ Below are the plugins and gems I've used:
 **Build for Production**  
 
 ***remember to comment out minify_html in config.xml***
+
 `$ JEKYLL_ENV=production jekyll build`  
 
 prepend `exec jekyll` as needed
