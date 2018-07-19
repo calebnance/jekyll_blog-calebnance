@@ -1,8 +1,11 @@
 var cacheName = 'cn-blog';
 
+const offlineUrl = 'offline.html';
+
 var filesToCache = [
   '/',
   '/index.html',
+  offlineUrl,
   'https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css',
   '/assets/css/main.css',
   'https://code.jquery.com/jquery-3.3.1.slim.min.js',
@@ -37,9 +40,27 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', event => {
-  event.respondWith(
-    caches.match(event.request, {ignoreSearch:true}).then(response => {
-      return response || fetch(event.request);
-    })
-  );
+  // request.mode = navigate isn't supported in all browsers
+  // so include a check for Accept: text/html header.
+  if (event.request.mode === 'navigate' || (event.request.method === 'GET' && event.request.headers.get('accept').includes('text/html'))) {
+    event.respondWith(
+      fetch(event.request.url).catch(error => {
+        // return the offline page
+        return caches.match(offlineUrl);
+      })
+    );
+  } else {
+    // respond with everything else if we can
+    event.respondWith(
+      caches.match(event.request).then(function (response) {
+        return response || fetch(event.request);
+      })
+    );
+  }
+
+  // event.respondWith(
+  //   caches.match(event.request, {ignoreSearch:true}).then(response => {
+  //     return response || fetch(event.request);
+  //   })
+  // );
 });
