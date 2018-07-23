@@ -25,8 +25,8 @@ ul {
 }
 
 pre {
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
+  background-color: $grey-color-2;
+  border: 1px solid $grey-color-3;
   border-radius: 4px;
   color: #333;
   display: block;
@@ -39,8 +39,9 @@ pre {
 }
 
 code.highlighter-rouge {
-  background-color: $grey-color-2;
+  background-color: $grey-color-3;
   border-radius: 4px;
+  color: $blue-color-dark;
   font-size: 90%;
   padding: 2px 4px;
 }
