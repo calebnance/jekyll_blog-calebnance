@@ -8,13 +8,8 @@
   <meta property="article:author" content="Caleb Nance" />
   <meta name="robots" content="index, follow" />
 
-  {% if jekyll.environment == 'production' %}
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://s3.amazonaws.com/calebnance/blog/css/main.css">
-  {% else %}
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  {% endif %}
+  {% include head_style.html %}
+  
   <style>#results-container a {font-size: 20px;line-height: 32px;}</style>
 
   {% if jekyll.environment == 'production' and site.google_analytics %}
