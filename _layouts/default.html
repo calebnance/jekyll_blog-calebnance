@@ -6,7 +6,9 @@
     {% include navbar.html %}
 
     <div class="container">
-      {{ content }}
+      <main>
+        {{ content }}
+      </main>
     </div>
 
     <div class="container">
@@ -14,7 +16,7 @@
     </div>
 
     {% include footer_script.html %}
-    
+
     <script id="dsq-count-scr" src="//blogcalebnancecom.disqus.com/count.js" async></script>
     <script>
       if('serviceWorker' in navigator) {

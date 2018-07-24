@@ -63,8 +63,14 @@
 
 // breadcrumb
 .breadcrumb {
+  background-color: $grey-color-2;
+
   @media (max-width: $sm) {
     display: block;
+  }
+
+  .breadcrumb-item.active {
+    color: $blue-color-dark;
   }
 }
 
