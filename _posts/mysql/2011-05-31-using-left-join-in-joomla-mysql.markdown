@@ -67,10 +67,10 @@ The result will be in an object oriented list like this:
 {% highlight php %}
 stdClass Object(
   [id] => 1
-  [first_name] => caleb
-  [last_name] => nance
+  [first_name] => 'caleb'
+  [last_name] => 'nance'
   [access] = > 1
-  [username] => sldr2223
+  [username] => 'JoomlaFTW'
 )
 {% endhighlight %}
 
