@@ -38,7 +38,7 @@ plugins:
   - jekyll-redirect-from
 
 # only turn this on when production ready
-# minify_html: false
+minify_html: false
 
 exclude:
   - Gemfile
