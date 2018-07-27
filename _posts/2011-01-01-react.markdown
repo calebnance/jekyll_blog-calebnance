@@ -1,0 +1,8 @@
+---
+layout:  post
+title:   "react Redirect"
+date:    2011-01-01 10:10:13 -0500
+excerpt: redirect to all react posts' new home
+redirect_to:
+  - /tag/react/
+---
