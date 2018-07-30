@@ -11,8 +11,8 @@ Today I wanted to share a really fun side project I did as part of a surprise bi
 
 It involves four toolings total.
 
-* the php micro-framework: [Lumen](https://lumen.laravel.com)
 * the local server environment: [MAMP](https://www.mamp.info/en/)
+* the php micro-framework: [Lumen](https://lumen.laravel.com)
 * SMS API: [Twilio](https://www.twilio.com/)
 * service for tunneling to your localhost webhook: [ngrok](https://ngrok.com/)
 
