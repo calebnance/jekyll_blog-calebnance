@@ -189,4 +189,4 @@ constructor(props) {
 
 [![Edit React :: Input Validation for Zip Code](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/6x909zp3w?autoresize=1&hidenavigation=1&view=preview)
 
-<iframe src="https://codesandbox.io/embed/6x909zp3w?autoresize=1&hidenavigation=1&view=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe title="example of input validation code with codesandbox.io" src="https://codesandbox.io/embed/6x909zp3w?autoresize=1&hidenavigation=1&view=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
