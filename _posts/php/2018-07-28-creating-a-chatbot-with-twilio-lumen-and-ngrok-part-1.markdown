@@ -24,7 +24,7 @@ And at the end of this tutorial series, you'll have all the knowledge to create 
 
 ### Setting Up Our Local Environment
 
-If you don't have MAMP installed on your machine, I suggest you take a break and [download it](https://www.mamp.info/en/downloads/) now. Once your [localhost](http://localhost/) is up and running, we can now install Lumen.
+If you don't have MAMP installed on your machine, I suggest you take a break and [download it](https://www.mamp.info/en/downloads/) now and read my article on <a href="{{ "/php/setting-up-a-local-server-environment-with-mamp.html" | relative_url }}">project environment setup</a>. Once your [localhost](http://localhost/) is up and running, we can now install Lumen.
 
 ***NOTE:*** At the time of writing this article, Lumen 5.6 requires PHP >= 7.1.3.
 
