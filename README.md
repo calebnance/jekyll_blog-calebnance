@@ -11,7 +11,7 @@ Originally my blog was a Joomla 1.5 website, I've recently converted it to [Jeky
 - Performance: **99/100**
 - Progressive Web App: **100/100**
 - Accessibility: **100/100**
-- Best Practices: **93/100**
+- Best Practices: **100/100**
 - SEO: **100/100**
 
 ### View This Code To See Examples Of:
