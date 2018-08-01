@@ -26,8 +26,64 @@ And at the end of this tutorial series, you'll have all the knowledge to create 
 
 If you don't have MAMP installed on your machine, I suggest you take a break and [download it](https://www.mamp.info/en/downloads/) now. Once your [localhost](http://localhost/) is up and running, we can now install Lumen.
 
-***NOTE:*** Lumen requires PHP >= 7.1.3.
+***NOTE:*** At the time of writing this article, Lumen 5.6 requires PHP >= 7.1.3.
 
 ### Setting Up Lumen
 
+Head over to Lumen's docs on [installing Lumen](https://lumen.laravel.com/docs/5.6/installation). Once it's installed, and you navigate to the lumen site in your favorite browser, you should see something like this: `Lumen (5.6.3) (Laravel Components 5.6.*)` we can move to the next section.
+
 ### Routing and Creating Our Logic Controller
+
+First we need to create a route we are going to use for the Twilio webhook, let's call it logic. So head over to the file: `/routes/web.php` within our new Lumen site and edit the base route and add a new route as shown below:
+
+{% highlight php %}
+<?php
+$router->get('/', function () use ($router) {
+  // empty homepage
+  return '';
+});
+
+$router->post('logic', ['uses' => 'LogicController@base']);
+{% endhighlight %}
+
+Cool cool, now we have emptied the http://yoursite/ route and created a http://yoursite/logic route (that accepts only POST methods) that points to our non-existent **LogicController**. Let's change that, head over to `/app/Http/Controllers/` directory and create the following file named: **LogicController.php**.
+
+{% highlight php %}
+<?php
+namespace App\Http\Controllers;
+use Illuminate\Http\Request;
+
+class LogicController extends Controller {
+    public function __construct() {
+
+    }
+
+    public function base(Request $request) {
+
+      return 'we got here!';
+    }
+}
+{% endhighlight %}
+
+Now if you navigate to http://yoursite/logic, you should see a simple message: ***we got here!***
+
+### Adding Twilio Support to Lumen/Laravel
+
+Next step is relatively straight forward, and very well documented here on Twilio's site: [TWILIO SMS PHP QUICKSTART](https://www.twilio.com/docs/sms/quickstart/php)
+
+But high level, go to the site's root within your command line and install the Twilio SDK by running:
+{% highlight conf %}
+composer require twilio/sdk
+{% endhighlight %}
+
+After that, we can use it within our LogicController by updating the top of the file with two new lines:
+
+{% highlight php %}
+<?php
+namespace App\Http\Controllers;
+use Illuminate\Http\Request;
+use Twilio\Rest\Client;
+use Twilio\Twiml;
+
+class LogicController extends Controller {
+{% endhighlight %}
