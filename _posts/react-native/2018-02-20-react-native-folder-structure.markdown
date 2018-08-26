@@ -45,4 +45,4 @@ And it keeps you from having to go down the rabbit hole of directory structure r
 import { deepReference } from '../../../../config/styles';
 {% endhighlight %}
 
-Things to think about at least, I hope this helps! My next post will cover component usage and implementation.
+Things to think about at least, I hope this helped!
