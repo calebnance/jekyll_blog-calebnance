@@ -35,7 +35,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
-# only turn this on when production ready
+# only turn this off when production ready
 minify_html: false
 
 exclude:
