@@ -14,14 +14,19 @@ First off, if you have not heard of Google's [Lighthouse](https://developers.goo
 I will break them down into sections:
 
 * [Images & SVGs](#images-svgs)
+* [CSS & Javascript](#css-javascript)
 * [Server Side](#server-side)
 
 ## Images / SVGs {#images-svgs}
 
-***
+* * *
+
+## CSS & Javascript {#css-javascript}
+
+* * *
 
 ## Server Side {#server-side}
 
-***
+* * *
 
 This post was mainly in response to this [Twitter Post](https://twitter.com/chriscoyier/status/1030488369199906816) from [Chris Coyier](https://twitter.com/chriscoyier). I hope it helped!
