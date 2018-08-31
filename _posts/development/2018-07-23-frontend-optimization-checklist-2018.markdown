@@ -15,13 +15,30 @@ I will break them down into sections:
 
 * [Images & SVGs](#images-svgs)
 * [CSS & Javascript](#css-javascript)
+* [Video](#video)
 * [Server Side](#server-side)
 
 ## Images / SVGs {#images-svgs}
 
 ***
 
+***Use SVGs*** -
+
+***Optimize SVGs*** - [svgomg](https://jakearchibald.github.io/svgomg/)
+
+***Resizing image*** - Always make sure the image you are serving up is cropped / sized down to the smallest size it will ever display as. With the responsive approach and max-widths of markup containers, this can sometimes be overlooked.
+
+***Image Compression*** - [TinyPNG](https://tinypng.com) Mac users swear by [imageoptim](https://imageoptim.com/mac)
+
 ## CSS & Javascript {#css-javascript}
+
+***
+
+***PurgeCSS*** -
+
+***Minification*** -
+
+## Video {#video}
 
 ***
 
