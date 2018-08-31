@@ -38,6 +38,10 @@ I will break them down into sections:
 
 ***Minification*** -
 
+***GZip*** -
+
+[Difference between Minification and GZipping](https://css-tricks.com/the-difference-between-minification-and-gzipping/)
+
 ## Video {#video}
 
 ***
@@ -48,7 +52,7 @@ I will break them down into sections:
 
 ***HTTP/2*** - Wherever you are serving up your files on the server, make sure they are using the faster HTTP/2 protocol instead of the HTTP/1.1 protocol. To test if you are, run Lighthouse on the desired site.
 
-On apache servers, the use of the modules for file serving/caching: **mod_expires** and **mod_deflate**
+On apache servers, the use of the modules for file serving/expiration/caching: **mod_headers**, **mod_expires** and **mod_deflate**
 Take a look at my `.htaccess` file on [github](https://github.com/calebnance/jekyll_blog-calebnance/blob/master/.htaccess) for help.
 
 ***
