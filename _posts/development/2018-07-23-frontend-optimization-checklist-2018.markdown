@@ -26,9 +26,24 @@ I will break things down into sections:
 ***Use of Inline SVGs*** - If you are not using SVGs for icons/logos/pretty much anything other than an actual photo, you should start doing so. Inline SVG is taking things a step further, instead of referencing a SVG in an `<img>`, inline it! This cuts down on so many asset requests on your page, for example:
 
 {% highlight html %}
-<body>
-  <img src="/extra/http/request.png">
-</body>
+<!-- 3 extra requests -->
+<img src="/extra/request/blue-circle.png">
+<img src="/extra/request/yellow-circle.png">
+<img src="/extra/request/red-circle.png">
+{% endhighlight %}
+
+
+{% highlight html %}
+<!-- 0 extra requests -->
+<svg height="100" width="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="blue" />
+</svg>
+<svg height="100" width="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="yellow" />
+</svg>
+<svg height="100" width="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+</svg>
 {% endhighlight %}
 
 ***Optimize SVGs*** - [svgomg](https://jakearchibald.github.io/svgomg/)
