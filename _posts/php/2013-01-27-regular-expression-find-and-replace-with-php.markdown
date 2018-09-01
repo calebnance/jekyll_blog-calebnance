@@ -24,7 +24,7 @@ The below regular expression only accepts numbers and letters. It will replace t
 
 To take it a bit further, look at the next few lines. I started to see if there were characters not wanted in the string that were side by side, we would get the replace characters next to each other. To remedy this, we can have the **str_replace** function that looks for double and triple replace characters beside one another, and replace it with the single replace character (lines 1 & 2).  
 
-{% highlight PHP %}
+{% highlight php %}
 <?php
   $new_string = str_replace('__', '_', $new_string);
   $new_string = str_replace('___', '_', $new_string);

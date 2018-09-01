@@ -23,7 +23,13 @@ I will break things down into sections:
 
 ***
 
-***Use of Inline SVGs*** - 
+***Use of Inline SVGs*** - If you are not using SVGs for icons/logos/pretty much anything other than an actual photo, you should start doing so. Inline SVG is taking things a step further, instead of referencing a SVG in an `<img>`, inline it! This cuts down on so many asset requests on your page, for example:
+
+{% highlight html %}
+<body>
+  <img src="/extra/http/request.png">
+</body>
+{% endhighlight %}
 
 ***Optimize SVGs*** - [svgomg](https://jakearchibald.github.io/svgomg/)
 
