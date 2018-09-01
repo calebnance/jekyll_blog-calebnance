@@ -11,18 +11,19 @@ Today I wanted to write down a collective list of things you can do on the front
 
 First off, if you have not heard of Google's [Lighthouse](https://developers.google.com/web/tools/lighthouse/) plugin yet, head on over and [download it](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk). This will help you understand where your website needs improvement.
 
-I will break them down into sections:
+I will break things down into sections:
 
-* [Images & SVGs](#images-svgs)
+* [SVGs & Images](#svgs-images)
 * [CSS & Javascript](#css-javascript)
+* [Fonts](#fonts)
 * [Video](#video)
 * [Server Side](#server-side)
 
-## Images / SVGs {#images-svgs}
+## SVGs & Images {#svgs-images}
 
 ***
 
-***Use SVGs*** -
+***Use of Inline SVGs*** - 
 
 ***Optimize SVGs*** - [svgomg](https://jakearchibald.github.io/svgomg/)
 
@@ -41,6 +42,10 @@ I will break them down into sections:
 ***GZip*** -
 
 [Difference between Minification and GZipping](https://css-tricks.com/the-difference-between-minification-and-gzipping/)
+
+## Fonts {#fonts}
+
+***
 
 ## Video {#video}
 
