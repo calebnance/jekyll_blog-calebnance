@@ -10,6 +10,7 @@ tags: html css responsive bootstrap howto
 We will now talk about including the **responsive css file of bootstrap**, this is a pretty easy step, but still a good reminder of the things you need to add to make it all work.  
 
 #### Adding bootstrap-responsive.css
+
 This line will go right under the **bootstrap.min.css** file:  
 
 {% highlight html %}
