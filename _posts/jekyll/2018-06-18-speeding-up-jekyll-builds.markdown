@@ -5,7 +5,7 @@ date: 2018-06-18 21:15:12 -0500
 excerpt: speeding up your jekyll build with this quick tutorial
 comments: true
 categories: jekyll
-tags: code development jekyll howto tutorial
+tags: code development optimization tutorial howto jekyll
 ---
 Last night I started to get annoyed with how long I was having to wait for Jekyll to rebuild my blog. It's been a gradual thing here in the past couple months, as I started to add more articles... it would get slower. So I decided to get to the bottom of it. Finally.
 

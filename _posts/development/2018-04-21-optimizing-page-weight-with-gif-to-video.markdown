@@ -5,7 +5,7 @@ date: 2018-04-21 20:19:11 -0500
 excerpt: help with transforming your gifs to videos
 comments: true
 categories: development
-tags: code development optimization tooling command-line
+tags: code development optimization tutorial tooling
 ---
 Today I read this article on [Replace Animated GIFs with Video](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/), so having a couple gifs on this blog, I was intrigued and decided to follow along.
 
