@@ -26,4 +26,6 @@ Let's breakdown the above command:
 
 ### Setting up Twilio
 
-dash
+<div class="img-wrapper">
+  <img class="img" src="/assets/img/chatbot/twilio-dashboard.png" alt="twilio dashboard example">
+</div>
