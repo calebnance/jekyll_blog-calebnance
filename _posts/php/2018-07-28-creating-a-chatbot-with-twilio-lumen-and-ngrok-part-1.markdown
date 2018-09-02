@@ -89,3 +89,5 @@ class LogicController extends Controller {
 {% endhighlight %}
 
 That's it for this article, but next we will talk about the use of tunneling our local application with .ngrok and buying a Twilio number to send and receive text from. Go ahead and [download .ngrok](https://ngrok.com/download) ;-)
+
+For the next steps, head on over to <a href="{{ "/php/creating-a-chatbot-with-twilio-lumen-and-ngrok-part-2.html" | relative_url }}">Chatbot tutorial Part 2</a>.
