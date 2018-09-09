@@ -6,7 +6,7 @@ updated: 2013-02-12 11:01:24 -0500
 excerpt: Joomla 2.5 access to article title within template
 comments: true
 categories: joomla-2.5
-tags: php joomla joomla25 code howto
+tags: php code howto joomla joomla25
 ---
 
 Today I had to get the title for an article in Joomla 2.5 for my template, I was having to display the title somewhere else, so here is some php code that will do just that!
