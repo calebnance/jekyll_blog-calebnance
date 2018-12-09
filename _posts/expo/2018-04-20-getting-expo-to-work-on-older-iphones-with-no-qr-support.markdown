@@ -5,7 +5,7 @@ date: 2018-04-20 10:15:31 -0500
 excerpt: getting expo to work on older iphones with no qr support
 comments: true
 categories: expo
-tags: code development javascript react-native expo
+tags: code development javascript react-native react expo
 ---
 Today I received two old iPhones from my dad, an iPhone 5c and 4s. I had mentioned to my parents I was testing my react native expo app on more physical devices, so they sent them my way since they were just sitting in a drawer. So of course the first thing I did was download the [Expo Client](https://itunes.apple.com/us/app/expo-client/id982107779) app and boom... the issue appeared!
 

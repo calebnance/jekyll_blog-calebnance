@@ -7,7 +7,7 @@ comments: true
 categories: react-native
 tags: code howto javascript react-native react
 ---
-I have recently been into and using/learning [React Native](https://facebook.github.io/react-native/). It's kind of amazing. I have been wanting to create this native app for a while now and using React Native has started to make this dream a reality. In the past, I've messed with xCode, cocoa, [ionic](https://ionicframework.com/), and [appcelerator](https://www.appcelerator.com) to name a few... haha.. but React Native has stuck with me.  
+I have recently been into and using/learning [React Native](https://facebook.github.io/react-native/). It's kind of amazing. I have been wanting to create this native app for a while now and using React Native has started to make this dream a reality. In the past, I've messed with xCode, cocoa, [ionic](https://ionicframework.com/), and [appcelerator](https://www.appcelerator.com) to name a few... haha... but React Native has stuck with me.  
 
 I started using/playing with React Native in October of last year (2017), since then I've learned a lot. I wanted to take a few blog posts and share my findings. I want to focus on installation and SDK upgrading learnings first, and that is what this blog post will be about.  
 
