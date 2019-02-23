@@ -42,29 +42,32 @@ Below are the plugins and gems I've used:
 ### Requirements
 * Brew
   * [Install Brew](https://brew.sh/)
-  * `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+  * `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 * Ruby
-  * `$ brew install ruby`
+  * `brew install ruby`
 
 ### Jekyll Commands
 **Install Bundler and Jekyll Gems**
-`$ gem install jekyll bundler`
+`gem install jekyll bundler`
 
 **Bundle**  
-`$ bundle install`  
+`bundle install`  
 
 **Serve Locally**  
-`$ jekyll serve --incremental`  
-`$ jekyll serve --livereload`
+`jekyll serve --incremental`  
+`jekyll serve --livereload`
 
 **Build Locally**  
-`$ jekyll build`  
-`$ jekyll build --watch`
+`jekyll build`  
+`jekyll build --watch`
+
+**Update Jekyll**
+`bundle update jekyll`
 
 **Build for Production**  
 
 ***remember to comment out minify_html in config.xml***
 
-`$ JEKYLL_ENV=production jekyll build`  
+`JEKYLL_ENV=production jekyll build`  
 
 prepend `exec jekyll` as needed
