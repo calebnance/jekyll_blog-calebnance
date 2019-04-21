@@ -15,4 +15,17 @@
   @media (min-width: $sm) {
     padding: 8px;
   }
+
+
+  &.vid-mw {
+    max-width: 80%;
+    
+    @media (min-width: $sm) {
+      max-width: 220px;
+    }
+
+    @media (min-width: $md) {
+      max-width: 420px;
+    }
+  }
 }
