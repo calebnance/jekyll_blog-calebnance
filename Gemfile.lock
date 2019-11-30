@@ -94,8 +94,5 @@ DEPENDENCIES
   octopress-minify-html
   tzinfo-data
 
-RUBY VERSION
-   ruby 2.3.3p222
-
 BUNDLED WITH
-   1.16.2
+   2.0.1
