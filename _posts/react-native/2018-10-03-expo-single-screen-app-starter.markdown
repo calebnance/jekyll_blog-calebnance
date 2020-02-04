@@ -2,12 +2,13 @@
 layout: post
 title: "Expo Single Screen App Starter"
 date: 2018-10-03 20:30:18 -0500
-updated: 2019-04-21 11:10:20 -0500
+updated: 2019-12-21 11:10:20 -0500
 excerpt: expo single screen app starter, react native
 comments: true
 categories: react-native
 tags: code howto javascript react-native react expo
 ---
+
 Today I wanted to tell you all about the expo project I created to help you jump start a quick 1 screen app.
 
 This is a perfect project for a game app, or any app idea that only really needs one main screen. I got the idea from a game app actually, [click here](https://github.com/calebnance/expo-single-screen-starter#demo-and-release-notes) to see the side by side of this code repo and the game.
@@ -16,7 +17,7 @@ This is a perfect project for a game app, or any app idea that only really needs
 
 ### Out of the box
 
-- Expo SDK ~~31~~ 32 (will upgrade to latest SDK as released)
+- Expo SDK Latest
 - Airbnb Eslint and Prettier
 - Simple Jest testing
 

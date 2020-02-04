@@ -2,24 +2,27 @@
 layout: post
 title: "Expo Multi Screen App Starter"
 date: 2018-10-10 21:12:48 -0500
-updated: 2019-04-21 12:10:20 -0500
+updated: 2019-12-21 12:10:20 -0500
 excerpt: expo multi screen app starter, react native
 comments: true
 categories: react-native
 tags: code howto javascript react-native react expo
 ---
+
 To continue from my last post, I wanted to share with you a more robust multi screen expo app starter.
 
 <a href="https://github.com/calebnance/expo-multi-screen-starter" class="btn btn-outline-dark">View Project on Github</a>
 
 ### Out of the box
 
-- Expo SDK ~~31~~ 32 (will upgrade to latest SDK as released)
-- [React Navigation v.3](https://reactnavigation.org/docs/en/getting-started.html)
+- Expo SDK Latest
+- [React Navigation v4](https://reactnavigation.org/docs/en/getting-started.html)
+- Light/Dark Theme
 - Prettier &amp; Airbnb Eslint
 - Simple Jest testing
 
 #### Other notable examples
+
 - Dynamic route transitions (**Mode:** regular & modal)
 - SVG usage
 - Utility checker for the notch: iPhoneX, iPhoneXs, iPhoneXr, iPhoneXs Max
