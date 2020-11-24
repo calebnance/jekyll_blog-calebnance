@@ -50,6 +50,8 @@ Below are the plugins and gems I've used:
   - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - Ruby
   - `brew install ruby`
+- Update **.zprofile** (macOS Catalina)
+  - with: `export PATH="/usr/local/opt/ruby/bin:$PATH"`
 
 ### Jekyll Commands
 
