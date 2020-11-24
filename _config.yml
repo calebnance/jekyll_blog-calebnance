@@ -5,7 +5,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Blog | Caleb Nance | Web Development"
 
-description: javascript, php, and all things code explained by Caleb Nance
+description: javascript, php, react, and all things code explained by Caleb Nance
 
 # the subpath of your site, e.g. /blog
 baseurl: ""
