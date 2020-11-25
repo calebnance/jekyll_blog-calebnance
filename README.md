@@ -2,28 +2,7 @@
 
 Originally my blog was a Joomla 1.5 website, I've recently converted it to [Jekyll](https://github.com/jekyll). I took into account almost all pages; I was able to redirect or re-create the original urls for posts/categories with ease. I am so impressed with Jekyll and wanted to share my findings here. I'll probably write some blog posts about them as well.
 
-### [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) Score
-
-#### 11/2020
-
-<p align="left">
-  <img src="lighthouse-score_2020-11-24.jpg?raw=true" width="800" />
-</p>
-
-- Performance: **100/100**
-- Progressive Web App: **100/100**
-- Accessibility: **100/100**
-- Best Practices: **100/100**
-- SEO: **100/100**
-
-#### 07/2018
-
-<p align="left">
-  <img src="lighthouse-score_2018-07-31.jpg?raw=true" width="800" />
-</p>
-
-
-### View This Code To See Examples Of:
+## View This Code To See Examples Of:
 
 - Environment handling builds
 - Templating with Jekyll
@@ -39,7 +18,27 @@ Originally my blog was a Joomla 1.5 website, I've recently converted it to [Jeky
 - Posted and Updated date support
 - Progressive Web App
 
-### Plugins & Gems
+## [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) Score
+
+### 11/2020 report
+
+<p align="left">
+  <img src="lighthouse-score_2020-11-24.jpg?raw=true" width="800" />
+</p>
+
+- Performance: **100/100**
+- Progressive Web App: **100/100**
+- Accessibility: **100/100**
+- Best Practices: **100/100**
+- SEO: **100/100**
+
+### 07/2018 report
+
+<p align="left">
+  <img src="lighthouse-score_2018-07-31.jpg?raw=true" width="800" />
+</p>
+
+## Plugins & Gems
 
 Below are the plugins and gems I've used:
 
@@ -47,12 +46,9 @@ Below are the plugins and gems I've used:
 - [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)
 - [jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from)
 - [octopress-minify-html](https://github.com/octopress/minify-html)
+- **Syntax Highlighter:** [Rouge](https://github.com/jneen/rouge)
 
-### Syntax Highlighter
-
-- [Rouge](https://github.com/jneen/rouge)
-
-### Requirements
+## Requirements
 
 - Brew
   - [Install Brew](https://brew.sh/)
@@ -62,10 +58,11 @@ Below are the plugins and gems I've used:
 - Update **.zprofile** (macOS Catalina)
   - with: `export PATH="/usr/local/opt/ruby/bin:$PATH"`
 
-### Jekyll Commands
+## Jekyll Commands
 
 **Install Bundler and Jekyll Gems**
-`gem install jekyll bundler`
+
+- `gem install jekyll bundler`
 
 **Bundle**
 
@@ -90,8 +87,7 @@ Below are the plugins and gems I've used:
 
 **_remember to comment out minify_html in config.xml_**
 
-`JEKYLL_ENV=production jekyll build`
+- `JEKYLL_ENV=production jekyll build`
+- `JEKYLL_ENV=production bundle exec jekyll build`
 
-`JEKYLL_ENV=production bundle exec jekyll build`
-
-prepend `exec jekyll` as needed
+***prepend `exec jekyll` as needed***
