@@ -10,6 +10,12 @@
   "splash_pages": null,
   "icons": [
     {
+      "src": "/assets/img/app/maskable_icon.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
       "src": "/assets/img/app/cn-blog-app-72.png",
       "sizes": "72x72",
       "type": "image/png"
