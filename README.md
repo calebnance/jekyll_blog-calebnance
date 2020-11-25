@@ -4,15 +4,24 @@ Originally my blog was a Joomla 1.5 website, I've recently converted it to [Jeky
 
 ### [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) Score
 
+#### 11/2020
+
 <p align="left">
-  <img src="lighthouse-score.png?raw=true" width="800" />
+  <img src="lighthouse-score_2020-11-24.jpg?raw=true" width="800" />
 </p>
 
-- Performance: **99/100**
+- Performance: **100/100**
 - Progressive Web App: **100/100**
 - Accessibility: **100/100**
 - Best Practices: **100/100**
 - SEO: **100/100**
+
+#### 07/2018
+
+<p align="left">
+  <img src="lighthouse-score_2018-07-31.jpg?raw=true" width="800" />
+</p>
+
 
 ### View This Code To See Examples Of:
 
