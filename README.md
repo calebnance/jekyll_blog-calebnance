@@ -58,20 +58,24 @@ Below are the plugins and gems I've used:
 **Install Bundler and Jekyll Gems**
 `gem install jekyll bundler`
 
-**Bundle**  
-`bundle install`
+**Bundle**
 
-**Serve Locally**  
-`jekyll serve --incremental`  
-`bundle exec jekyll serve --incremental`  
-`jekyll serve --livereload`
+- `bundle install`
 
-**Build Locally**  
-`jekyll build`  
-`jekyll build --watch`
+**Serve Locally**
+
+- `jekyll serve --incremental`
+- `bundle exec jekyll serve --incremental`
+- `jekyll serve --livereload`
+
+**Build Locally**
+
+- `jekyll build`
+- `jekyll build --watch`
 
 **Update Jekyll**
-`bundle update jekyll`
+
+- `bundle update jekyll`
 
 **Build for Production**
 
