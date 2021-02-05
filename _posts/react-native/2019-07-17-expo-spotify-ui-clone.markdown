@@ -2,6 +2,7 @@
 layout: post
 title: "Expo Spotify UI Clone"
 date: 2019-07-17 11:12:48 -0500
+updated: 2021-01-26 12:45:13 -0500
 excerpt: spotify ui clone with react native and expo
 comments: true
 categories: react-native
@@ -12,14 +13,14 @@ Today I wanted to talk about my UI Clone of the native Spotify app I created and
 
 ### Notable Features
 
-- Running on the latest Expo SDK (39)
+- Running on the latest Expo SDK 40
 - One code base that output to: iOS, Android and PWA (Progressive Web App)
 - React Navigation ([v4](https://reactnavigation.org/docs/4.x/getting-started))
 - Prettier/Linting
   - run: `yarn lint` for CLI output
   - helpers in code editor
 - Global Styles (reusable styles across the app)
-  - uses 8pt system (but can [easily be changed](https://github.com/calebnance/expo-spotify/blob/master/src/constants/globalStyles.js))
+  - uses 8pt system (but [can easily be changed](https://github.com/calebnance/expo-spotify/blob/master/src/constants/globalStyles.js#L4))
   - simple Design System starter
 - Example SVG usage
 - Example PropTypes usage
