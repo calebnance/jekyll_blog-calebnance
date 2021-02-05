@@ -21,6 +21,32 @@
   }
 }
 
+// iphone/ipad table specs
+table.mobile-specs {
+  margin: 16px 0;
+  width: 100%;
+
+  thead {
+    border-bottom: 1px solid $grey-color-light;
+  }
+
+  tr {
+    &:nth-child(even) {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  th,
+  td {
+    padding: 4px 2px;
+    text-align: center;
+
+    &:nth-child(1) {
+      text-align: left;
+    }
+  }
+}
+
 // highlight wrapper
 .highlight-wrapper {
   position: relative;
