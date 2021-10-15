@@ -64,6 +64,11 @@ Below are the plugins and gems I've used:
 
 - `gem install jekyll bundler`
 
+- bundle add jekyll-sitemap
+- bundle add jekyll-redirect-from
+- gem install kramdown rouge
+- bundle add webrick
+
 **Bundle**
 
 - `bundle install`
@@ -90,4 +95,4 @@ Below are the plugins and gems I've used:
 - `JEKYLL_ENV=production jekyll build`
 - `JEKYLL_ENV=production bundle exec jekyll build`
 
-***prepend `exec jekyll` as needed***
+**_prepend `exec jekyll` as needed_**
