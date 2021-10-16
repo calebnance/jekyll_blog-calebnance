@@ -2,6 +2,7 @@
 layout: post
 title: "iPhone and iPad Pixel Sizes Guide: Complete List"
 date: 2020-11-05 20:19:11 -0500
+updated: 2021-10-15 18:01:24 -0500
 excerpt: an ultimate list of iPhone and iPad screen sizes in pixels.
 comments: true
 categories: development
@@ -23,49 +24,61 @@ Below is a collective list of iPhone / iPad screen sizes. I find this break-down
   </thead>
   <tbody>
     <tr>
-      <td>12 Pro Max</td>
+      <td>13 Pro Max</td>
       <td>926</td>
       <td>428</td>
       <td>X</td>
     </tr>
     <tr>
-      <td>12 & 12 Max</td>
+      <td>13 Pro</td>
+      <td>2532</td>
+      <td>1170</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>13 Pro Max, 12 Pro Max</td>
+      <td>926</td>
+      <td>428</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>13 Pro, 12 & 12 Max</td>
       <td>844</td>
       <td>390</td>
       <td>X</td>
     </tr>
     <tr>
-      <td>12 Mini, 11 Pro, X, Xs</td>
+      <td>12 Mini, 11 Pro, X, & Xs</td>
       <td>812</td>
       <td>375</td>
       <td>X</td>
     </tr>
     <tr>
-      <td>11 Pro Max, 11, Xs Max, Xr</td>
+      <td>11 Pro Max, 11, Xs Max, & Xr</td>
       <td>896</td>
       <td>414</td>
       <td>X</td>
     </tr>
     <tr>
-      <td>8+, 7+, 6+, 6s+</td>
+      <td>8+, 7+, 6+, & 6s+</td>
       <td>736</td>
       <td>414</td>
       <td></td>
     </tr>
     <tr>
-      <td>8, 7, 6, 6s</td>
+      <td>8, 7, 6, & 6s</td>
       <td>667</td>
       <td>375</td>
       <td></td>
     </tr>
     <tr>
-      <td>SE, 5, 5s, 5c</td>
+      <td>SE, 5, 5s, & 5c</td>
       <td>568</td>
       <td>320</td>
       <td></td>
     </tr>
     <tr>
-      <td>4, 4s, 3G, 3GS, 2G</td>
+      <td>4, 4s, 3G, 3GS, & 2G</td>
       <td>480</td>
       <td>320</td>
       <td></td>
