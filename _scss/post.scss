@@ -90,13 +90,27 @@ table.mobile-specs {
 // breadcrumb
 .breadcrumb {
   background-color: $grey-color-2;
+  padding: 0;
 
   @media (max-width: $sm) {
     display: block;
   }
+  
+  .breadcrumb-item {
+    align-items: center;
+    height: 48px;
+  }
 
   .breadcrumb-item.active {
     color: $blue-color-dark;
+  }
+  
+  a {
+    align-items: center;
+    display: flex;
+    min-height: 48px;
+    min-width: 48px;
+    padding: 8px;
   }
 }
 
