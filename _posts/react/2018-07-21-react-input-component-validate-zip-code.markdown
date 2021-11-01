@@ -23,7 +23,7 @@ The full example of the code is all the way at the bottom, but first I wanted to
 
 Below is the boilerplate Input component and how to implement it:
 
-{% highlight javascript %}
+{% highlight jsx %}
 import React, { Component } from "react";
 
 // component
@@ -80,7 +80,7 @@ export default Input;
 
 Next we want to take a look at the input handling functions:
 
-{% highlight javascript %}
+{% highlight jsx %}
 handleZipcodeInputKeyDown = e => {
   // this is called as soon as we get input from the user
   // we don't want to allow them the access to input past 5 digits
@@ -135,7 +135,7 @@ Forcing the numeric keyboard on input focus with these lines:
 
 *Notice:* **inputmode, pattern & type** props passed to our component.
 
-{% highlight javascript %}
+{% highlight jsx %}
 // put at the top of our App.js file
 import Input from "./input";
 
@@ -156,7 +156,7 @@ import Input from "./input";
 
 Include the helper utility for local storage and an example of setting it (on zip code submit).
 
-{% highlight javascript %}
+{% highlight jsx %}
 // put at the top of our App.js file
 import { localDataGet, localDataSet, localDataDelete } from "./utilities";
 
@@ -169,7 +169,7 @@ handleZipcodeSubmit = () => {
 
 ## Local Storage Load In
 Then within our constructor we want to add before the initial state
-{% highlight javascript %}
+{% highlight jsx %}
 constructor(props) {
   super(props);
 
