@@ -3,7 +3,6 @@ layout: post
 title: "Using Twitter Bootstrap - Adding More Custom Icons - How To"
 date: 2013-01-27 21:26:39 -0500
 excerpt: Adding more custom icons to glyphicons bootstrap twitter
-comments: true
 categories: css
 tags: bootstrap html css howto
 ---

@@ -3,12 +3,11 @@ layout: post
 title: "React Navigation V6 Multi Modal Transition Setup"
 date: 2021-10-31 10:12:48 -0500
 excerpt: react navigation v6 transition setup
-comments: true
 categories: react-native
 tags: code howto javascript react-native react react-navigation
 ---
 
-Today I wanted share a quick snippet for **React Navigation V6*, how to setup a multi-modal transition structure with the use of their [Group API](https://reactnavigation.org/docs/group/).
+Today I wanted share a quick snippet for **React Navigation V6**, how to setup a multi-modal transition structure with the use of their [Group API](https://reactnavigation.org/docs/group/).
 
 Let's say you wanted 2 (or more) modal types, one group of modals that opened in full screen and another group that opened in the Presentation mode.
 

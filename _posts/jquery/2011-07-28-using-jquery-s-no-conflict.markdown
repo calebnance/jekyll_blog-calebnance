@@ -3,7 +3,6 @@ layout: post
 title: "Using jQuery's No Conflict"
 date: 2011-07-28 01:01:52 -0500
 excerpt: Why should I use no conflict with jquery
-comments: true
 categories: jquery
 tags: jquery code howto
 ---

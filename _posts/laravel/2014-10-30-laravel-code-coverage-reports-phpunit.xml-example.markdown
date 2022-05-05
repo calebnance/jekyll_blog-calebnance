@@ -3,7 +3,6 @@ layout: post
 title: "Laravel Code Coverage Reports phpunit.xml Example"
 date: 2014-10-30 09:04:21 -0500
 excerpt: Laravel PHPUnit testing code coverage generation help xml
-comments: true
 categories: laravel
 tags: laravel php unit-test xml
 ---

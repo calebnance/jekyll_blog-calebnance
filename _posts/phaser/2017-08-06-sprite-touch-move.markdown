@@ -3,7 +3,6 @@ layout: post
 title: "Sprite Touch Move - RPG Tutorial 9"
 date: 2017-08-06 20:20:20 -0500
 excerpt: Phaser how to make the sprite move with touch on mobile, creating a RPG Tutorial 9
-comments: true
 categories: phaser
 tags: phaser tutorial code howto javascript
 ---

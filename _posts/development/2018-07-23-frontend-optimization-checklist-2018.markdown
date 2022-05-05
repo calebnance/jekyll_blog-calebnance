@@ -3,7 +3,6 @@ layout: post
 title: "Frontend Optimization Checklist 2018"
 date: 2018-07-23 22:19:11 -0500
 excerpt: a checklist to make your website faster
-comments: true
 categories: development
 tags: code development optimization tutorial frontend
 ---

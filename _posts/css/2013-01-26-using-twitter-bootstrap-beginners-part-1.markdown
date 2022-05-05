@@ -3,7 +3,6 @@ layout: post
 title: "Using Twitter Bootstrap - Beginners Part 1"
 date: 2013-01-26 02:19:14 -0500
 excerpt: Twitter Bootstrap for beginners part 1, step by step tutorial
-comments: true
 categories: css
 tags: css bootstrap jquery html howto code
 ---

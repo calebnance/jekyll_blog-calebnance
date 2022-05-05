@@ -3,7 +3,6 @@ layout: post
 title: "Google Maps V.3 Multiple Markers With Infowindow How To"
 date: 2011-12-15 13:24:23 -0500
 excerpt: how to add multiple markers and infowindows within google maps
-comments: true
 categories: javascript
 tags: javascript google maps code howto
 ---

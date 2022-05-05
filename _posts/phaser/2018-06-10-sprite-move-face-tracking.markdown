@@ -3,7 +3,6 @@ layout: post
 title: "Sprite Move Face Tracking - RPG Tutorial 10"
 date: 2018-06-10 22:22:22 -0500
 excerpt: Phaser how to make the sprite move with face tracking, creating a RPG Tutorial 10
-comments: true
 categories: phaser
 tags: phaser tutorial code howto javascript
 ---

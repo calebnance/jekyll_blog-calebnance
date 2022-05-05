@@ -3,7 +3,6 @@ layout: post
 title: "How to stop event actions from firing on an element with jQuery"
 date: 2013-08-08 01:25:22 -0500
 excerpt: Stopping the browser default events from firing with javascript
-comments: true
 categories: jquery
 tags: javascript jquery code howto
 ---

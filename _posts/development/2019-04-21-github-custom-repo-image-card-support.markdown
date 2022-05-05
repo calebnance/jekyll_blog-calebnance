@@ -3,7 +3,6 @@ layout: post
 title: "Github's Custom Repo Image Card Support"
 date: 2019-04-21 14:19:11 -0500
 excerpt: github now supports custom Open Graph images for repositories
-comments: true
 categories: development
 tags: code development github repo repository og image
 ---

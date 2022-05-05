@@ -17,9 +17,6 @@ permalink: /:categories/:title.html
 
 google_analytics: UA-23590872-1
 
-disqus:
-  shortname: blogcalebnancecom
-
 sass:
   sass_dir: _scss
   style: compressed

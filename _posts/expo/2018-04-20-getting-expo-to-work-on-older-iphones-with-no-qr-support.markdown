@@ -3,7 +3,6 @@ layout: post
 title: "Getting Expo to work on older iPhones with no QR support"
 date: 2018-04-20 10:15:31 -0500
 excerpt: getting expo to work on older iphones with no qr support
-comments: true
 categories: expo
 tags: code development javascript react-native react expo
 ---

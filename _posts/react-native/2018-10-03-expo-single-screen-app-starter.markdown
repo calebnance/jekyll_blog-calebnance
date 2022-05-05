@@ -4,7 +4,6 @@ title: "Expo Single Screen App Starter"
 date: 2018-10-03 20:30:18 -0500
 updated: 2019-12-21 11:10:20 -0500
 excerpt: expo single screen app starter, react native
-comments: true
 categories: react-native
 tags: code howto javascript react-native react expo
 ---

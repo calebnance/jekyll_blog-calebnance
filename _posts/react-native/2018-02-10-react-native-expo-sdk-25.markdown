@@ -3,7 +3,6 @@ layout: post
 title: "React Native and Expo SDK 25.0"
 date: 2018-02-10 11:25:22 -0500
 excerpt: react native and expo sdk 25 installation and creating app on macOS
-comments: true
 categories: react-native
 tags: code howto javascript react-native react
 ---

@@ -3,7 +3,6 @@ layout: post
 title: "Regular Expression Find And Replace With PHP"
 date: 2013-01-27 21:07:18 -0500
 excerpt: How to find and replace characters within a string with php
-comments: true
 categories: php
 tags: php regex code howto
 ---

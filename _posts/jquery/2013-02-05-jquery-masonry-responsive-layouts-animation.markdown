@@ -3,7 +3,6 @@ layout: post
 title: "jQuery Masonry - Responsive Layouts Animation"
 date: 2013-02-05 10:22:12 -0500
 excerpt: How to implement jquery masonry easy step by step
-comments: true
 categories: jquery
 tags: javascript jquery responsive layouts howto
 ---

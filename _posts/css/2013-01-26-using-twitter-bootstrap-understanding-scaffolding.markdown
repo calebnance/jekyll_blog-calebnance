@@ -3,7 +3,6 @@ layout: post
 title: "Using Twitter Bootstrap - Understanding Scaffolding"
 date: 2013-01-26 03:18:29 -0500
 excerpt: Twitter Bootstrap and scaffolding classes
-comments: true
 categories: css
 tags: bootstrap html css howto
 ---

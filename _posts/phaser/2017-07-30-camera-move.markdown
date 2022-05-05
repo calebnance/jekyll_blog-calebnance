@@ -3,7 +3,6 @@ layout: post
 title: "Camera Move - RPG Tutorial 3"
 date: 2017-07-30 20:25:28 -0500
 excerpt: Phaser how to move the camera around the map, creating a RPG Tutorial 3
-comments: true
 categories: phaser
 tags: phaser tutorial code howto javascript
 ---

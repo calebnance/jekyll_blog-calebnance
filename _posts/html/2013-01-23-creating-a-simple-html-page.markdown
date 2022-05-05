@@ -3,7 +3,6 @@ layout: post
 title: "Creating A Simple HTML Page"
 date: 2013-01-23 02:16:09 -0500
 excerpt: Creating a very basic html page
-comments: true
 categories: html
 tags: html css howto
 ---

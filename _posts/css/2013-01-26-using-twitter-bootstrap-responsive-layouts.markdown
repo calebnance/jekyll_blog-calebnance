@@ -3,7 +3,6 @@ layout: post
 title: "Using Twitter Bootstrap - Responsive Layouts"
 date: 2013-01-26 02:49:21 -0500
 excerpt: Responsive css file of bootstrap easy step how to make it work
-comments: true
 categories: css
 tags: html css responsive bootstrap howto
 ---

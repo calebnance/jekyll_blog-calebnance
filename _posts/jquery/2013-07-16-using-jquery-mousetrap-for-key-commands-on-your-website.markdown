@@ -3,7 +3,6 @@ layout: post
 title: "Using jQuery Mousetrap for Key Commands on Your Website"
 date: 2013-07-16 11:41:33 -0500
 excerpt: Library, Mousetrap. It allows you to add keyboard shortcuts to your website
-comments: true
 categories: jquery
 tags: javascript jquery html howto
 ---

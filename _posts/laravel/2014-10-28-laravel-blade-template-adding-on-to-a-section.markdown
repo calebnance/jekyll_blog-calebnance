@@ -3,7 +3,6 @@ layout: post
 title: "Laravel Blade Template - Adding On To A Section"
 date: 2014-10-28 12:20:24 -0500
 excerpt: Laravel add onto a section within blade template, without overriding
-comments: true
 categories: laravel
 tags: laravel php unit-test xml
 ---

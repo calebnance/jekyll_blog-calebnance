@@ -3,7 +3,6 @@ layout: post
 title: "Using CSS Variables with SCSS Variables"
 date: 2021-01-16 17:10:01 -0500
 excerpt: new syntax when using scss variables to populate css variables
-comments: true
 categories: css
 tags: css scss howto code
 ---

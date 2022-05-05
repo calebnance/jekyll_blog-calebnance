@@ -3,7 +3,6 @@ layout: post
 title: "Tilemap Canvas Boundaries - RPG Tutorial 6"
 date: 2017-08-02 19:52:59 -0500
 excerpt: Phaser tilemap canvas boundaries fix, creating a RPG Tutorial 6
-comments: true
 categories: phaser
 tags: phaser tutorial code howto javascript
 ---

@@ -3,7 +3,6 @@ layout: post
 title: "Selecting Individual Values In A Database With MySql (DISTINCT) In Joomla"
 date: 2011-10-06 20:37:12 -0500
 excerpt: How easy it is to use distinct within mysql inside of joomla
-comments: true
 categories: mysql
 tags: mysql php howto joomla code
 ---

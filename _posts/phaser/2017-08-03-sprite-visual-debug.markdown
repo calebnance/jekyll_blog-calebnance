@@ -3,7 +3,6 @@ layout: post
 title: "Sprite Visual Debug - RPG Tutorial 8"
 date: 2017-08-03 16:35:11 -0500
 excerpt: Phaser sprite visual debug, creating a RPG Tutorial 8
-comments: true
 categories: phaser
 tags: phaser tutorial code howto javascript
 ---

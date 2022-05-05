@@ -4,7 +4,6 @@ title: "iPhone and iPad Pixel Sizes Guide: Complete List"
 date: 2020-11-05 20:19:11 -0500
 updated: 2021-10-15 18:01:24 -0500
 excerpt: an ultimate list of iPhone and iPad screen sizes in pixels.
-comments: true
 categories: development
 tags: code development iphone ipad pixels react-native
 ---

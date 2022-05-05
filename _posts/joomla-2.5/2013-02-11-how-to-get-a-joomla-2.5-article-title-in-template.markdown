@@ -4,7 +4,6 @@ title: "How To Get A Joomla 2.5 Article Title In Template"
 date: 2013-02-11 10:11:12 -0500
 updated: 2013-02-12 11:01:24 -0500
 excerpt: Joomla 2.5 access to article title within template
-comments: true
 categories: joomla-2.5
 tags: php code howto joomla joomla25
 ---

@@ -3,7 +3,6 @@ layout: post
 title: "Sprite Change - RPG Tutorial 7"
 date: 2017-08-02 19:55:59 -0500
 excerpt: Phaser sprite change, creating a RPG Tutorial 7
-comments: true
 categories: phaser
 tags: phaser tutorial code howto javascript
 ---

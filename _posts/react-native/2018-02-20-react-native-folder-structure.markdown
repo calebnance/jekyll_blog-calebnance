@@ -3,7 +3,6 @@ layout: post
 title: "React Native Project Folder Structure"
 date: 2018-02-20 19:10:58 -0500
 excerpt: react native folder structure directory project app
-comments: true
 categories: react-native
 tags: code howto javascript react-native react
 ---

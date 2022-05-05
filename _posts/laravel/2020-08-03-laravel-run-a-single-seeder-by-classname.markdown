@@ -3,7 +3,6 @@ layout: post
 title: "Laravel - Run a Single Seeder by classname"
 date: 2020-08-03 10:20:24 -0500
 excerpt: running a single seeder in Laravel from classname
-comments: true
 categories: laravel
 tags: laravel php seeder seed
 ---

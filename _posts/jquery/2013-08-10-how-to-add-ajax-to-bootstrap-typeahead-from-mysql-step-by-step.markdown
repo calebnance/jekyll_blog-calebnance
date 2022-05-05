@@ -4,7 +4,6 @@ title: "How to add ajax to Bootstrap Typeahead From MySQL - Step by Step"
 date: 2013-08-10 08:50:33 -0500
 updated: 2017-02-12 18:45:13 -0500
 excerpt: Today I want to write about using Ajax to get the source data for Twitter Bootstrap's Typeahead
-comments: true
 categories: jquery
 tags: tutorial json ajax twitter bootstrap mysql howto javascript jquery
 ---

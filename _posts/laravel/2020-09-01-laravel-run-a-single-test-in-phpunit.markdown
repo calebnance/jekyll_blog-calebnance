@@ -3,7 +3,6 @@ layout: post
 title: "Laravel - Run a Single Test in PHPUnit"
 date: 2020-09-03 08:20:24 -0500
 excerpt: running a single test in Laravel with PHPUnit
-comments: true
 categories: laravel
 tags: laravel php unit-test seeder
 ---

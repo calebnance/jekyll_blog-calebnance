@@ -3,7 +3,6 @@ layout: post
 title: "jQuery Cycle - v.1.x"
 date: 2011-05-26 01:25:22 -0500
 excerpt: jquery cycle is a very useful plugin, that allows for image slide shows with effects
-comments: true
 categories: jquery
 tags: code howto javascript jquery
 ---

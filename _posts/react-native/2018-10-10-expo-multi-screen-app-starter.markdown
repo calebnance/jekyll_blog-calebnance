@@ -4,7 +4,6 @@ title: "Expo Multi Screen App Starter"
 date: 2018-10-10 21:12:48 -0500
 updated: 2021-01-26 11:45:13 -0500
 excerpt: expo multi screen app starter, react native
-comments: true
 categories: react-native
 tags: code howto javascript react-native react expo
 ---

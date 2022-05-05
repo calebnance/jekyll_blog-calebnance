@@ -3,7 +3,6 @@ layout: post
 title: "Optimizing page weight with gif to video"
 date: 2018-04-21 20:19:11 -0500
 excerpt: help with transforming your gifs to videos
-comments: true
 categories: development
 tags: code development optimization tutorial tooling
 ---

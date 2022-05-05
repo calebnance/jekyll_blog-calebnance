@@ -3,7 +3,6 @@ layout: post
 title: "HTML OnFocus Clear Input Box How To"
 date: 2011-10-06 20:03:14 -0500
 excerpt: Onfocus and onblur events within an input html element
-comments: true
 categories: html
 tags: html javascript howto
 ---

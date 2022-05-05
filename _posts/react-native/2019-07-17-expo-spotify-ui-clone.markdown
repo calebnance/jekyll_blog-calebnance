@@ -4,7 +4,6 @@ title: "Expo Spotify UI Clone"
 date: 2019-07-17 11:12:48 -0500
 updated: 2021-01-26 12:45:13 -0500
 excerpt: spotify ui clone with react native and expo
-comments: true
 categories: react-native
 tags: code howto javascript react-native react expo
 ---

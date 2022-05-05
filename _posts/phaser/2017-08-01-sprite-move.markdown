@@ -3,7 +3,6 @@ layout: post
 title: "Sprite Move - RPG Tutorial 5"
 date: 2017-08-01 21:12:19 -0500
 excerpt: Phaser how to make the sprite move and camera follows it, creating a RPG Tutorial 5
-comments: true
 categories: phaser
 tags: phaser tutorial code howto javascript
 ---

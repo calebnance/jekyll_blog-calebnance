@@ -3,7 +3,6 @@ layout: post
 title: "How To Add A HTML Anchor Link To Your Website"
 date: 2011-10-06 20:07:04 -0500
 excerpt: Adding anchors to your website with html and id
-comments: true
 categories: html
 tags: html css howto
 ---

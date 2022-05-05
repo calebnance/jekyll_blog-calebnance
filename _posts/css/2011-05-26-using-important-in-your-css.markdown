@@ -3,7 +3,6 @@ layout: post
 title: "Using !Important In Your CSS"
 date: 2011-05-26 17:11:31 -0500
 excerpt: Important within your css files how to
-comments: true
 categories: css
 tags: css howto code
 ---

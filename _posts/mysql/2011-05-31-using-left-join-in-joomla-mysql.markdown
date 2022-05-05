@@ -3,7 +3,6 @@ layout: post
 title: "Using Left Join In Joomla (MySQL)"
 date: 2011-05-31 11:15:51 -0500
 excerpt: Joomla mysql query, using left join how to with php
-comments: true
 categories: mysql
 tags: mysql php howto joomla code
 ---

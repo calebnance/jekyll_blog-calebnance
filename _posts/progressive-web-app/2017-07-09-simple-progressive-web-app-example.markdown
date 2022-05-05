@@ -4,7 +4,6 @@ title: "Simple Progressive Web App Example"
 date: 2017-07-08 17:49:18 -0500
 updated: 2018-04-22 21:10:20 -0500
 excerpt: How to add support for a Progressive Web App
-comments: true
 categories: progressive-web-app
 tags: progressive-web-app code howto javascript google
 ---

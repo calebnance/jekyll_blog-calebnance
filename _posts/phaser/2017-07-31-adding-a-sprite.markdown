@@ -3,7 +3,6 @@ layout: post
 title: "Adding a Sprite - RPG Tutorial 4"
 date: 2017-07-31 18:05:18 -0500
 excerpt: Phaser how to add a sprite, creating a RPG Tutorial 4
-comments: true
 categories: phaser
 tags: phaser tutorial code howto javascript
 ---

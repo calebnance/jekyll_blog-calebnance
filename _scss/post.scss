@@ -67,26 +67,6 @@ table.mobile-specs {
   }
 }
 
-// disqus comments
-.show-comments {
-  background-color: $bg-color;
-  border: 1px solid $grey-color-light;
-  cursor: pointer;
-  margin-top: $space2;
-  padding: $space2;
-  text-align: center;
-}
-
-.show-comments:hover {
-  background-color: $blue-color;
-  border-color: $blue-color-dark;
-  color: $tx-white;
-}
-
-#disqus_thread {
-  margin-bottom: $space2;
-}
-
 // breadcrumb
 .breadcrumb {
   background-color: $grey-color-2;

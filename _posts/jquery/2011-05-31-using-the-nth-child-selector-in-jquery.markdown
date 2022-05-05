@@ -3,7 +3,6 @@ layout: post
 title: "Using The :nth-child() Selector In jQuery"
 date: 2011-05-31 11:11:23 -0500
 excerpt: Using the nth child selector in jquery
-comments: true
 categories: jquery
 tags: code howto jquery help
 ---

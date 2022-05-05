@@ -3,7 +3,6 @@ layout: post
 title: "What Are Responsive Layouts?"
 date: 2013-01-25 15:36:19 -0500
 excerpt: Explaining what responsive websites are, and how to account for them
-comments: true
 categories: css
 tags: css bootstrap jquery html howto code
 ---

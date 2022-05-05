@@ -3,7 +3,6 @@ layout: post
 title: "React Input Component Validate Zip Code"
 date: 2018-07-21 18:25:22 -0500
 excerpt: react component for validation of zip code input example
-comments: true
 categories: react
 tags: code react howto javascript input html5
 ---

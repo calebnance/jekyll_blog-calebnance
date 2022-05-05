@@ -3,7 +3,6 @@ layout: post
 title: "Creating A CSV File In PHP"
 date: 2011-12-09 12:15:19 -0500
 excerpt: Using php language to create an csv file from scratch
-comments: true
 categories: php
 tags: php csv code howto
 ---

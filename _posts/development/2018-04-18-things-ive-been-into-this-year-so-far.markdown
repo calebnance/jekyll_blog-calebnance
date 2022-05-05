@@ -3,7 +3,6 @@ layout: post
 title: "Things I've been into this year, so far..."
 date: 2018-04-18 11:45:42 -0500
 excerpt: things i've been into this year, so far...
-comments: true
 categories: development
 tags: code development javascript react-native expo
 ---

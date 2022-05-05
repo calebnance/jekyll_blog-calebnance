@@ -3,7 +3,6 @@ layout: post
 title: "Setting Up A Local Server Environment with MAMP"
 date: 2018-07-22 21:42:32 -0500
 excerpt: local development environment to run sites like Laravel, Lumen, Wordpress, Joomla
-comments: true
 categories: php
 tags: code howto php mamp lumen laravel
 ---

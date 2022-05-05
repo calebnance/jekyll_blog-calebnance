@@ -3,7 +3,6 @@ layout: post
 title: "HTML Code For Checking If the Browser Is Internet Explorer"
 date: 2011-10-06 20:00:01 -0500
 excerpt: Internet Explorer browser specific checkers with html comment code
-comments: true
 categories: html
 tags: html browser howto
 ---

@@ -3,7 +3,6 @@ layout: post
 title: "Saving A Multi-Select Field in a Custom Joomla 3.X Component"
 date: 2014-03-20 21:54:34 -0500
 excerpt: Joomla 3.x multi-select field in a custom component
-comments: true
 categories: joomla-3.0
 tags: php code howto joomla joomla3
 ---

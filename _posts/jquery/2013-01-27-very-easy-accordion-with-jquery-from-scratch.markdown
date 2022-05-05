@@ -3,7 +3,6 @@ layout: post
 title: "Very Easy Accordion With jQuery From Scratch"
 date: 2013-01-27 17:07:22 -0500
 excerpt: Super simple accordion using jquery
-comments: true
 categories: jquery
 tags: javascript jquery html howto
 ---

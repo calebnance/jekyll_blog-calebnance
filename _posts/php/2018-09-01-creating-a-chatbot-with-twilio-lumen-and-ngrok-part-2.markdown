@@ -3,7 +3,6 @@ layout: post
 title: "Creating A Chatbot with Twilio - Part 2"
 date: 2018-09-01 21:25:02 -0500
 excerpt: creating a chatbot with twilio, lumen, mamp and ngrok
-comments: true
 categories: php
 tags: code howto php mamp lumen laravel
 ---

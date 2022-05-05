@@ -3,7 +3,6 @@ layout: post
 title: "How To Have A Fixed Div On Footer Of Website"
 date: 2013-01-26 23:56:19 -0500
 excerpt: Fixed footer div on website with css
-comments: true
 categories: css
 tags: html css howto
 ---

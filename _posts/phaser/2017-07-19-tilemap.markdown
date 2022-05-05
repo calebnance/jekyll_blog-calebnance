@@ -4,7 +4,6 @@ title: "Tilemap - RPG Tutorial 2"
 date: 2017-07-19 23:55:28 -0500
 updated: 2018-04-22 21:10:20 -0500
 excerpt: Phaser how to tilemap easily, creating a RPG Tutorial 2
-comments: true
 categories: phaser
 tags: phaser tutorial code howto javascript
 ---
