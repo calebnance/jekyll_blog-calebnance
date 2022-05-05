@@ -72,9 +72,9 @@ table.mobile-specs {
   background-color: $grey-color-2;
   padding: 0;
 
-  @media (max-width: $sm) {
-    display: block;
-  }
+  // @media (max-width: $sm) {
+  //   display: block;
+  // }
   
   .breadcrumb-item {
     align-items: center;
@@ -88,8 +88,8 @@ table.mobile-specs {
   a {
     align-items: center;
     display: flex;
-    min-height: 48px;
-    min-width: 48px;
+    // min-height: 48px;
+    // min-width: 48px;
     padding: 8px;
   }
 }

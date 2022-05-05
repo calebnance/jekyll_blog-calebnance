@@ -50,6 +50,12 @@ code.highlighter-rouge {
   padding-left: $space2;
 }
 
+.page-heading {
+  border-bottom: 1px solid $grey-color-light;
+  margin-top: $space2;
+  padding-bottom: $space1;
+}
+
 h1 {
   font-size: $h1-xs;
 }

@@ -2,20 +2,40 @@
 layout: default
 ---
 <div class="home">
-  <h1 class="page-heading">A tech blog that gets to the point</h1>
   {{ content }}
-  {% for post in site.posts %}
+  
+  <h1 class="page-heading">Latest posts</h1>
+  {% for post in site.posts limit:4 %}
     {% unless post.redirect_to %}
       {% unless post.nofeature %}
-      <div class="post-block">
-        <div class="post-data">
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> |
-          <span class="post-cat"><a href="/tag/{{ post.categories }}/">{{ post.categories }}</a></span>
+        <div class="post-block">
+          <div class="post-data">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> |
+            <span class="post-cat"><a href="/tag/{{ post.categories }}/">{{ post.categories }}</a></span>
+          </div>
+          <h2>
+            <a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a>
+          </h2>
         </div>
-        <h2>
-          <a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </div>
+      {% endunless %}
+    {% endunless %}
+  {% endfor %}
+  
+  <div class="spacer4"></div>
+
+  <h2 class="page-heading">Recent posts</h2>
+  {% for post in site.posts offset:4 limit:10 %}
+    {% unless post.redirect_to %}
+      {% unless post.nofeature %}
+        <div class="post-block">
+          <div class="post-data">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> |
+            <span class="post-cat"><a href="/tag/{{ post.categories }}/">{{ post.categories }}</a></span>
+          </div>
+          <h2>
+            <a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a>
+          </h2>
+        </div>
       {% endunless %}
     {% endunless %}
   {% endfor %}

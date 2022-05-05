@@ -77,6 +77,11 @@ $space4: $space1 * 4;
 $space-half: $space1 / 2;
 $space-quarter: $space1 / 4;
 
+.spacer4 {
+  height: $space4;
+  width: 100%;
+}
+
 // /* sm */
 // @media (min-width: $sm) {
 //
@@ -92,4 +97,4 @@ $space-quarter: $space1 / 4;
 //
 // }
 
-@import "master"
+@import "base"
