@@ -4,7 +4,7 @@ title: "Centering A Website With CSS"
 date: 2011-05-26 17:10:01 -0500
 excerpt: Easiest way to center a div or image on a website with css
 categories: css
-tags: css html howto code
+tags: css html code
 ---
 I just have been doing a lot of website layouts lately at work and thought I would go over some very basic but important stuff when it comes to CSS. I will be showing you how to center a website using only CSS to do so.  
 

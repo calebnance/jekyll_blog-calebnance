@@ -58,8 +58,8 @@ layout: default
     <aside class="related">
       <h3 class="related-heading">Related Posts</h3>
       <ul class="related-posts">
-        {% assign maxRelated = 10 %}
-        {% assign minCommonTags = 4 %}
+        {% assign maxRelated = 8 %}
+        {% assign minCommonTags = 2 %}
         {% assign maxRelatedCounter = 0 %}
         {% for post in site.posts %}
           {% assign sameTagCount = 0 %}
